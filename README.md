@@ -1,22 +1,67 @@
 # convo-intel: call-center conversation intelligence
 
-A small, production-minded microservice that analyses **every** telecom support conversation,
-live and after the call:
+[![CI](https://github.com/Taniaa-p/call-center-conversation-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/Taniaa-p/call-center-conversation-intelligence/actions/workflows/ci.yml)
 
-* **Analysis**: concise summary, multi-label call reasons, customer sentiment trajectory
-  (start → end, shift turns), resolution status, churn-risk flag + score.
-* **Live follow-up actions**: updated as the conversation flows (every customer turn, plus
-  agent turns that sound like a commitment), with an add / update / close lifecycle.
-* **QA scoring** against a YAML checklist (greeting, identity verification, empathy, correct
-  disclosure, no prohibited promises, proper closure): **quoted evidence for every score**,
-  compliance violations, roll-ups to agent and team.
-* **Explainability and reliability**: evidence-first prompts, a grounding validator that checks
-  every quote, abstain options, a human-review queue, an online LLM judge on a sample of calls,
-  PII redaction before any LLM call, model fallback chain, and an audit trail of prompt, model and
-  config versions.
+**QA teams hear about 2% of calls. This service analyses 100% of them, live, and backs every score with a quoted turn that code has checked.**
 
-> Architecture: [docs/architecture.png](docs/architecture.png) + sequence diagram for one live turn in [docs/architecture.md](docs/architecture.md) · Revised build plan and
-> the 15 risks fixed: [docs/PLAN.md](docs/PLAN.md) · Eval report: [docs/eval_report.md](docs/eval_report.md)
+A FastAPI + arq + Postgres microservice for a telecom contact center. For each call or chat it produces a summary,
+multi-label call reasons, the customer's sentiment from start to end, resolution status, a churn-risk flag, and
+**follow-up actions that update live on every turn**. It scores the agent against a **YAML-configurable QA checklist**
+with quoted evidence, flags compliance violations, and rolls results up to agents and teams.
+
+![Live call: fast-path flags, live follow-up actions and rolling summary as the conversation streams in](docs/screenshots/live_call.png)
+
+## At a glance
+
+Held-out split (20 synthetic calls never used for tuning; planted, code-verified answers). Full tables: [docs/eval_report.md](docs/eval_report.md).
+
+| | Result |
+|---|---|
+| QA checklist accuracy (6 items) | **99.2%** |
+| Compliance violations: recall / precision | **90.9% / 100%** (regex alone catches only 33% of prohibited promises) |
+| Evidence quotes found verbatim in the cited turn | **861 / 861** (dev + held-out) |
+| Live follow-up actions found | **100%** (15 calls replayed turn by turn) |
+| Live action update latency | **p50 1.6 s, p95 2.2 s**; fast path 0.09 ms per turn |
+| Cost per call | **≈ $0.002** (vs ≈ $0.04+ for a big model on every turn) |
+| PII redacted before any LLM call | **100%** of planted values, including card numbers read aloud |
+| Weakest, stated plainly | resolution status 75% (65% dev), churn recall 71%: see [§6](#6-evals-and-system-health) |
+
+## What makes it different
+
+1. **Evidence before verdicts, verified by code.** The model must quote turns *before* it scores; a grounding validator
+   checks every quote. Anything unverified is kept out of the score and sent to a human review queue.
+   "N/A" and "insufficient evidence" are valid answers.
+2. **Two speeds, so live is cheap.** A free millisecond fast path (sentiment + policy regex) runs on every turn; a small
+   LLM updates actions on customer turns and agent commitments, one ordered consumer per call that batches turns under load. The careful
+   analysis runs once, at the end of the call.
+3. **Measured, not claimed.** Dev and held-out splits, a regression gate in CI that has caught three real regressions
+   (a model switch, a PII fix, a prompt change that was then rejected), and a blind LLM judge experiment: a judge that
+   sees the system's answer caught 0 of 22 errors, a blind one caught 7 of 10.
+4. **Privacy by design.** Typed placeholders (`[PHONE_1]`) replace PII before storage, logs or any LLM call; spoken
+   card digits are caught; raw values live in a separate vault table with a TTL.
+5. **Runs without an API key.** LLM answers are cached and committed, so the demo, the evals and CI all run offline.
+
+| Overview | Call detail: every verdict with its quoted, verified turn |
+|---|---|
+| ![Overview](docs/screenshots/overview.png) | ![Call evidence (dark mode)](docs/screenshots/call_evidence.png) |
+| **Agents & teams: shrunk scores and what to coach** | **Architecture** |
+| ![Agents and teams](docs/screenshots/agents.png) | ![Architecture](docs/architecture.png) |
+
+## Reviewer's map
+
+| Brief / rubric | Where it is |
+|---|---|
+| Summary, reasons, sentiment start→end, resolution, churn | [final_analysis.py](app/pipeline/final_analysis.py), [fast_path.py](app/pipeline/fast_path.py) |
+| Follow-up actions live on every interaction | [live_actions.py](app/pipeline/live_actions.py), WebSocket [live.py](app/api/live.py) |
+| Configurable QA checklist, quoted evidence, violations | [qa_checklist.yaml](config/qa_checklist.yaml), [qa_scoring.py](app/pipeline/qa_scoring.py), [grounding.py](app/pipeline/grounding.py) |
+| Agent and team roll-ups | SQL views in [schema.sql](app/db/schema.sql), `/agents`, `/teams` |
+| Explainability and reliability | [§5 Design decisions](#5-design-decisions), [llm.py](app/llm.py) (schema retry, fallback chain, cache), review queue, [judge.py](app/pipeline/judge.py) |
+| Architecture diagram | [docs/architecture.png](docs/architecture.png), live-turn sequence in [docs/architecture.md](docs/architecture.md) |
+| Problem background | [§1](#1-problem-background) |
+| Production scale | [§8](#8-production-scale-considerations): cost at 10k concurrent calls, backpressure, privacy, multi-tenancy |
+| Evals, checkpoints, monitoring | [§6](#6-evals-and-system-health), [evals/](evals/), [ops/alerts.yml](ops/alerts.yml), `/monitoring/*`, CI |
+| Additional exploration | [§7](#7-additional-exploration): PII regex vs GLiNER, sentiment, model size, LLM judge, Hinglish |
+| Dataset | 69 synthetic calls with code-verified labels + 15 real calls from the HF telecom corpus ([§6](#6-evals-and-system-health)) |
 
 ---
 
@@ -71,7 +116,6 @@ Live replays and pasted transcripts are stored as demo runs: kept out of roll-up
 (`data/cache`), so `make demo`, `make eval`, the regression gate and the live replay of `syn_001`–`syn_015`
 and `syn_051`–`syn_065` all run offline. *Analyse a transcript* and other calls need `GEMINI_API_KEY`.
 
-![Dashboard: live call](docs/dashboard_live.png)
 
 Optional: set `API_KEY` in `.env` to require `X-API-Key` on REST and `?api_key=` on the WebSocket
 (the dashboard has a key field). Per-client config: send `tenant_id` (example tenant: `acme_telecom`,
@@ -130,6 +174,10 @@ Live WebSocket protocol (`/ws/calls/{call_id}?agent_id=..&team_id=..`):
 ```
 
 ## 4. How it works
+
+![Architecture](docs/architecture.png)
+
+The numbers are the processing order; the sequence of one live turn is in [docs/architecture.md](docs/architecture.md).
 
 ```
 turn ─► normalize ─► PII redact ─┬─► fast path (every turn, ms): sentiment + policy regex ─► push
@@ -488,7 +536,7 @@ evals/          run_evals.py, test_regression.py, experiments.py, baseline.json,
 tests/          unit tests (no network)
 dashboard/      React (Vite) → dist/ served at /ui (overview, live call, calls, analyse, agents & teams, review, monitoring)
 scripts/        seed.py, live_replay.py
-docs/           architecture.png (+ .html source), sequence_live_turn.png, architecture.md, PLAN.md, eval_report.md, dashboard_live.png
+docs/           architecture.png (+ .html source), sequence_live_turn.png, architecture.md, PLAN.md, eval_report.md, screenshots/
 ops/            prometheus.yml (scrape config) + alerts.yml (8 alert rules)
 .github/        CI: lint, unit tests, offline dev eval + regression gate, dashboard build
 ```

@@ -7,9 +7,4 @@ node_modules/
 pgdata/
 docs/*.pdf
 .run/
-study/
 
-# personal notes, kept local
-CLAUDE.md
-PROGRESS.md
-docs/STUDY_GUIDE.md
