@@ -1,8 +1,8 @@
-# convo-intel: call-center conversation intelligence
+# Convo-Intel: call-center conversation intelligence
 
 [![CI](https://github.com/Taniaa-p/call-center-conversation-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/Taniaa-p/call-center-conversation-intelligence/actions/workflows/ci.yml)
 
-**QA teams hear about 2% of calls. This service analyses 100% of them, live, and backs every score with a quoted turn that code has checked.**
+**QA teams typically review only a small fraction of calls. This service analyzes every call in real time and backs each score with evidence directly from the conversation.**
 
 A FastAPI + arq + Postgres microservice for a telecom contact center. For each call or chat it produces a summary,
 multi-label call reasons, the customer's sentiment from start to end, resolution status, a churn-risk flag, and
