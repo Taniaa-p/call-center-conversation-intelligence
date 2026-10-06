@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_008",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-29T09:55:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?\nCustomer: I am so frustrated! My internet connection has been dropping every ten minutes for the last two days. This is completely unacceptable.\nAgent: I am very sorry to hear that you are experiencing these drops in connection. I know how disruptive that is to your day.\nCustomer: It is. I work from home and I can't even finish a single Zoom call without getting kicked out.\nAgent: I understand. Before we look into your account, could you please provide your account number and date of birth for verification?\nCustomer: Yes, my account number is 63873226 and my date of birth is 19/08/1974.\nAgent: Thank you, Mr. Mehta. I see your address is 83 Park Street. Is that correct?\nCustomer: Yes, that is correct. My name is Vivek Mehta and my phone number is 95973 14843.\nAgent: Thank you for that information. I have run a diagnostic on your line and it looks like there is a signal instability in your area. I will raise a network ticket to have our engineers investigate the local exchange.\nCustomer: Will that actually fix it? I just want it to work properly again.\nAgent: The ticket will ensure the engineers can pinpoint the exact fault and resolve it. You should see an improvement in stability shortly.\nCustomer: Okay, that sounds like a plan. I appreciate you taking care of this so quickly.\nAgent: You are very welcome. Is there anything else I can assist you with today? I have raised the ticket and the engineers will be working on it now. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?",
+   "ts": "2026-09-29T09:55:07+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am so frustrated! My internet connection has been dropping every ten minutes for the last two days. This is completely unacceptable.",
+   "ts": "2026-09-29T09:55:30+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you are experiencing these drops in connection. I know how disruptive that is to your day.",
+   "ts": "2026-09-29T09:55:54+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It is. I work from home and I can't even finish a single Zoom call without getting kicked out.",
+   "ts": "2026-09-29T09:56:14+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I understand. Before we look into your account, could you please provide your account number and date of birth for verification?",
+   "ts": "2026-09-29T09:56:25+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yes, my account number is 63873226 and my date of birth is 19/08/1974.",
+   "ts": "2026-09-29T09:56:37+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Mehta. I see your address is 83 Park Street. Is that correct?",
+   "ts": "2026-09-29T09:56:49+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Yes, that is correct. My name is Vivek Mehta and my phone number is 95973 14843.",
+   "ts": "2026-09-29T09:57:02+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Thank you for that information. I have run a diagnostic on your line and it looks like there is a signal instability in your area. I will raise a network ticket to have our engineers investigate the local exchange.",
+   "ts": "2026-09-29T09:57:08+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Will that actually fix it? I just want it to work properly again.",
+   "ts": "2026-09-29T09:57:33+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "The ticket will ensure the engineers can pinpoint the exact fault and resolve it. You should see an improvement in stability shortly.",
+   "ts": "2026-09-29T09:57:51+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Okay, that sounds like a plan. I appreciate you taking care of this so quickly.",
+   "ts": "2026-09-29T09:58:04+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? I have raised the ticket and the engineers will be working on it now. Goodbye!",
+   "ts": "2026-09-29T09:58:22+00:00"
+  }
+ ]
+}

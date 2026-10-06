@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_042",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-01T11:36:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Ravi. How can I help you today?\nCustomer: Hi Ravi, I'm calling because my internet connection has been dropping constantly for the last three days. It's incredibly frustrating.\nAgent: I am sorry to hear that you are experiencing these connectivity issues. I can certainly look into this for you.\nCustomer: I just want this fixed or I'm leaving.\nAgent: I understand. Before we dive into the account details, could you please provide your account number and full name?\nCustomer: My name is Sneha Nair and my account number is 24040355.\nAgent: Thank you, Ms. Nair. I'm checking the network status in your area. It seems there is some instability in the local exchange, but I cannot see any specific outage reported yet.\nCustomer: Instability? I can't work from home. This is unacceptable. I'm thinking about switching to another provider who actually provides a stable connection.\nAgent: I would hate to see you go. Let me try to reset the connection from my end, but I'm not sure if that will solve the root cause.\nCustomer: I've already tried restarting the router three times. I'm tired of this. Just cancel my service entirely.\nAgent: I can start the cancellation process for you, but I'll need to verify your email address on file to proceed.\nCustomer: It's sneha.78@examplemail.com and my phone number is 97228 17163.\nAgent: Thank you. I have noted your request to cancel the account. I will pass this to the retention team for processing.\nCustomer: This is a joke. You haven't fixed the network and now you're just passing me to another team. I am absolutely disgusted with this service!\nAgent: I apologize for the frustration. Is there anything else I can assist you with today? I've noted the cancellation request and the network issue. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Ravi. How can I help you today?",
+   "ts": "2026-10-01T11:36:21+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Ravi, I'm calling because my internet connection has been dropping constantly for the last three days. It's incredibly frustrating.",
+   "ts": "2026-10-01T11:36:35+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing these connectivity issues. I can certainly look into this for you.",
+   "ts": "2026-10-01T11:36:43+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "I just want this fixed or I'm leaving.",
+   "ts": "2026-10-01T11:37:04+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I understand. Before we dive into the account details, could you please provide your account number and full name?",
+   "ts": "2026-10-01T11:37:25+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "My name is Sneha Nair and my account number is 24040355.",
+   "ts": "2026-10-01T11:37:38+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Nair. I'm checking the network status in your area. It seems there is some instability in the local exchange, but I cannot see any specific outage reported yet.",
+   "ts": "2026-10-01T11:37:58+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Instability? I can't work from home. This is unacceptable. I'm thinking about switching to another provider who actually provides a stable connection.",
+   "ts": "2026-10-01T11:38:08+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I would hate to see you go. Let me try to reset the connection from my end, but I'm not sure if that will solve the root cause.",
+   "ts": "2026-10-01T11:38:25+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I've already tried restarting the router three times. I'm tired of this. Just cancel my service entirely.",
+   "ts": "2026-10-01T11:38:34+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I can start the cancellation process for you, but I'll need to verify your email address on file to proceed.",
+   "ts": "2026-10-01T11:38:42+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "It's sneha.78@examplemail.com and my phone number is 97228 17163.",
+   "ts": "2026-10-01T11:39:07+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Thank you. I have noted your request to cancel the account. I will pass this to the retention team for processing.",
+   "ts": "2026-10-01T11:39:14+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "This is a joke. You haven't fixed the network and now you're just passing me to another team. I am absolutely disgusted with this service!",
+   "ts": "2026-10-01T11:39:33+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "I apologize for the frustration. Is there anything else I can assist you with today? I've noted the cancellation request and the network issue. Goodbye.",
+   "ts": "2026-10-01T11:39:57+00:00"
+  }
+ ]
+}

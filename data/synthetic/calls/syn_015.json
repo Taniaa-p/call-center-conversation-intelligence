@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_015",
+ "agent_id": "agent_02",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "hinglish",
+ "started_at": "2026-10-03T17:45:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "Hi, mera bill bahut zyada aaya hai and my phone is not working properly. Bahut frustration ho raha hai!",
+   "timestamp": "2026-10-03T17:45:36+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Welcome to Nimbus Telecom. I am Meera. How can I help you today?",
+   "timestamp": "2026-10-03T17:46:44+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Mera bill wrong hai, please check karo. Also, my device is lagginggingging",
+   "timestamp": "2026-10-03T17:48:27+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I need your account number to check the details. Please provide it.",
+   "timestamp": "2026-10-03T17:49:35+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "My account number is 50937131. My name is Karan Johnson, phone 97750 30454, and DOB is 26/01/1981.",
+   "timestamp": "2026-10-03T17:51:11+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Account verified. I see a charge for a premium service you did not activate. I will raise a refund request for this wrong charge.",
+   "timestamp": "2026-10-03T17:52:02+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Thank you, but please jaldi karo. I need the money back soon.",
+   "timestamp": "2026-10-03T17:53:18+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "The refund is subject to approval and will take 7-10 business days to reflect in your account.",
+   "timestamp": "2026-10-03T17:54:00+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Theek hai. And what about my phone? Screen freeze ho raha hai constantly.",
+   "timestamp": "2026-10-03T17:55:56+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I will book a device check for you at our nearest center. Please confirm your address: 230 Station Road.",
+   "timestamp": "2026-10-03T17:57:11+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Yes, that is correct. Address sahi hai. Thank you so much Meera, you helped me a lot! 😊",
+   "timestamp": "2026-10-03T17:59:09+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else I can help you with? I have raised the refund request and booked your device check. Goodbye!",
+   "timestamp": "2026-10-03T18:00:29+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "Hi, mera bill bahut zyada aaya hai and my phone is not working properly. Bahut frustration ho raha hai!",
+   "ts": "2026-10-03T17:45:36+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Welcome to Nimbus Telecom. I am Meera. How can I help you today?",
+   "ts": "2026-10-03T17:46:44+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "Mera bill wrong hai, please check karo. Also, my device is lagginggingging",
+   "ts": "2026-10-03T17:48:27+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I need your account number to check the details. Please provide it.",
+   "ts": "2026-10-03T17:49:35+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "My account number is 50937131. My name is Karan Johnson, phone 97750 30454, and DOB is 26/01/1981.",
+   "ts": "2026-10-03T17:51:11+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Account verified. I see a charge for a premium service you did not activate. I will raise a refund request for this wrong charge.",
+   "ts": "2026-10-03T17:52:02+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Thank you, but please jaldi karo. I need the money back soon.",
+   "ts": "2026-10-03T17:53:18+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "The refund is subject to approval and will take 7-10 business days to reflect in your account.",
+   "ts": "2026-10-03T17:54:00+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Theek hai. And what about my phone? Screen freeze ho raha hai constantly.",
+   "ts": "2026-10-03T17:55:56+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I will book a device check for you at our nearest center. Please confirm your address: 230 Station Road.",
+   "ts": "2026-10-03T17:57:11+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Yes, that is correct. Address sahi hai. Thank you so much Meera, you helped me a lot! 😊",
+   "ts": "2026-10-03T17:59:09+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with? I have raised the refund request and booked your device check. Goodbye!",
+   "ts": "2026-10-03T18:00:29+00:00"
+  }
+ ]
+}

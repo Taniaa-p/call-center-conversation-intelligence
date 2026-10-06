@@ -1,0 +1,177 @@
+{
+ "call_id": "syn_034",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-09-27T15:56:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Sana. How can I help you today?",
+   "timestamp": "2026-09-27T15:57:13+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "hi, i have a problem with my bill. i was charged twice for the same service last month and its really annoying",
+   "timestamp": "2026-09-27T15:58:42+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I need your account number to access the details.",
+   "timestamp": "2026-09-27T16:00:04+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "it is 41433295. my name is Vivek Brown",
+   "timestamp": "2026-09-27T16:00:23+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you. Please provide your phone number and email for the record.",
+   "timestamp": "2026-09-27T16:01:09+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "phone is 92859 63349 and email is vivek.68@examplemail.com",
+   "timestamp": "2026-09-27T16:02:00+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I see the duplicate charge of $15.00 on your statement.",
+   "timestamp": "2026-09-27T16:03:40+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "yeah, so can you just fix it now? i dont want to pay for something i didnt use",
+   "timestamp": "2026-09-27T16:05:16+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I will raise a refund request for the wrong charge now.",
+   "timestamp": "2026-09-27T16:06:56+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "great, so i'll get my money back today?",
+   "timestamp": "2026-09-27T16:07:37+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "The refund is subject to approval and will take 7-10 business days to process.",
+   "timestamp": "2026-09-27T16:08:08+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "what?? 10 days?? this is ridiculous. you guys messed up and now i have to wait weeks for my own money 😡",
+   "timestamp": "2026-09-27T16:10:00+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "That is the standard procedure.",
+   "timestamp": "2026-09-27T16:10:59+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "this is terrible service. i am so frustrated with how you're handling this!!",
+   "timestamp": "2026-09-27T16:11:49+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else I can help you with? I have submitted the request and you will be notified via email. Goodbye.",
+   "timestamp": "2026-09-27T16:13:39+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Sana. How can I help you today?",
+   "ts": "2026-09-27T15:57:13+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "hi, i have a problem with my bill. i was charged twice for the same service last month and its really annoying",
+   "ts": "2026-09-27T15:58:42+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I need your account number to access the details.",
+   "ts": "2026-09-27T16:00:04+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "it is 41433295. my name is Vivek Brown",
+   "ts": "2026-09-27T16:00:23+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. Please provide your phone number and email for the record.",
+   "ts": "2026-09-27T16:01:09+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "phone is 92859 63349 and email is vivek.68@examplemail.com",
+   "ts": "2026-09-27T16:02:00+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I see the duplicate charge of $15.00 on your statement.",
+   "ts": "2026-09-27T16:03:40+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "yeah, so can you just fix it now? i dont want to pay for something i didnt use",
+   "ts": "2026-09-27T16:05:16+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I will raise a refund request for the wrong charge now.",
+   "ts": "2026-09-27T16:06:56+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "great, so i'll get my money back today?",
+   "ts": "2026-09-27T16:07:37+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "The refund is subject to approval and will take 7-10 business days to process.",
+   "ts": "2026-09-27T16:08:08+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "what?? 10 days?? this is ridiculous. you guys messed up and now i have to wait weeks for my own money 😡",
+   "ts": "2026-09-27T16:10:00+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "That is the standard procedure.",
+   "ts": "2026-09-27T16:10:59+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "this is terrible service. i am so frustrated with how you're handling this!!",
+   "ts": "2026-09-27T16:11:49+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with? I have submitted the request and you will be notified via email. Goodbye.",
+   "ts": "2026-09-27T16:13:39+00:00"
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+{"text": "{\n  \"rolling_summary\": \"Customer [PERSON_2] is reporting persistent connection drops. The agent has initiated the verification process by requesting the customer's account number and date of birth, which the customer has now provided.\",\n  \"deltas\": []\n}", "input_tokens": 612, "output_tokens": 57}

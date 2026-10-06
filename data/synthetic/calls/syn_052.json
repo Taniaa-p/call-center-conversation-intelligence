@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_052",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-03T12:04:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Nisha. How can I help you today?\nCustomer: Hi Nisha, I'm Rohan Iyer. I've been having some really frustrating issues with my network coverage in my home area and my phone is acting up too.\nAgent: I am sorry to hear that you are experiencing these issues, Mr. Iyer. I know how frustrating it is when your service is unreliable.\nCustomer: Exactly. My phone number is 96707 41655. I just can't get a signal up there and the screen on my device is flickering constantly.\nAgent: Let me check the network status for your area. One moment please.\nCustomer: I've already called three times this month. This is getting ridiculous.\nAgent: I see there is some intermittent signal loss in your neighborhood. I will raise a network ticket to have our engineers investigate the local tower.\nCustomer: A ticket? I just want it fixed now. And what about my flickering screen?\nAgent: For the device issue, I can book a device check at our nearest service center for you.\nCustomer: I have to go to a store? I can't believe this. I'm paying for a service that doesn't work and I'm using a phone that's broken!\nAgent: I understand your frustration, but these are the standard procedures for these issues.\nCustomer: Standard procedures are not enough! This is completely unacceptable. I want to speak to your supervisor immediately.\nAgent: I can certainly arrange that for you. Please hold while I transfer you to my manager.\nCustomer: Just do it now. I'm absolutely fed up with this.\nAgent: Before I transfer you, is there anything else I can help you with? I have raised the network ticket and booked the device check. Goodbye for now.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Nisha. How can I help you today?",
+   "ts": "2026-10-03T12:04:22+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Nisha, I'm Rohan Iyer. I've been having some really frustrating issues with my network coverage in my home area and my phone is acting up too.",
+   "ts": "2026-10-03T12:04:32+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing these issues, Mr. Iyer. I know how frustrating it is when your service is unreliable.",
+   "ts": "2026-10-03T12:04:42+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Exactly. My phone number is 96707 41655. I just can't get a signal up there and the screen on my device is flickering constantly.",
+   "ts": "2026-10-03T12:05:06+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Let me check the network status for your area. One moment please.",
+   "ts": "2026-10-03T12:05:16+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "I've already called three times this month. This is getting ridiculous.",
+   "ts": "2026-10-03T12:05:21+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I see there is some intermittent signal loss in your neighborhood. I will raise a network ticket to have our engineers investigate the local tower.",
+   "ts": "2026-10-03T12:05:31+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "A ticket? I just want it fixed now. And what about my flickering screen?",
+   "ts": "2026-10-03T12:05:49+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "For the device issue, I can book a device check at our nearest service center for you.",
+   "ts": "2026-10-03T12:06:05+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I have to go to a store? I can't believe this. I'm paying for a service that doesn't work and I'm using a phone that's broken!",
+   "ts": "2026-10-03T12:06:20+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I understand your frustration, but these are the standard procedures for these issues.",
+   "ts": "2026-10-03T12:06:33+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Standard procedures are not enough! This is completely unacceptable. I want to speak to your supervisor immediately.",
+   "ts": "2026-10-03T12:06:45+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "I can certainly arrange that for you. Please hold while I transfer you to my manager.",
+   "ts": "2026-10-03T12:07:03+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "Just do it now. I'm absolutely fed up with this.",
+   "ts": "2026-10-03T12:07:26+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "Before I transfer you, is there anything else I can help you with? I have raised the network ticket and booked the device check. Goodbye for now.",
+   "ts": "2026-10-03T12:07:43+00:00"
+  }
+ ]
+}

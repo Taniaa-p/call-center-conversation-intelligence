@@ -1,0 +1,55 @@
+# Prometheus alerting rules for convo-intel. Load with `rule_files: [alerts.yml]` in prometheus.yml.
+# Every expression uses metrics exported by app/metrics.py (API :8000/metrics, worker :9101/metrics).
+groups:
+  - name: convo-intel
+    rules:
+      - alert: LiveUpdateSlow
+        expr: histogram_quantile(0.95, sum(rate(turn_processing_seconds_bucket{path="live"}[10m])) by (le)) > 3
+        for: 10m
+        labels: {severity: warning}
+        annotations: {summary: "Live action updates p95 > 3 s (budget: ~2 s). Check model latency / fallback rate."}
+
+      - alert: FastPathSlow
+        expr: histogram_quantile(0.95, sum(rate(turn_processing_seconds_bucket{path="fast"}[10m])) by (le)) > 0.1
+        for: 10m
+        labels: {severity: warning}
+        annotations: {summary: "Fast path p95 > 100 ms (normally ~3 ms incl. DB write). Check DB."}
+
+      - alert: LLMFallbackRateHigh
+        expr: sum(rate(llm_requests_total{status="fallback"}[15m])) / sum(rate(llm_requests_total{status!="cache_hit"}[15m])) > 0.10
+        for: 15m
+        labels: {severity: warning}
+        annotations: {summary: "> 10% of LLM calls served by fallback models (quota, outage or 5xx bursts)."}
+
+      - alert: LLMErrorRateHigh
+        expr: sum(rate(llm_requests_total{status="error"}[10m])) / sum(rate(llm_requests_total[10m])) > 0.20
+        for: 10m
+        labels: {severity: critical}
+        annotations: {summary: "> 20% of LLM attempts failing."}
+
+      - alert: GroundingFailureRateHigh
+        expr: sum(rate(grounding_checks_total{result="unverified"}[1h])) / sum(rate(grounding_checks_total[1h])) > 0.10
+        for: 30m
+        labels: {severity: warning}
+        annotations: {summary: "> 10% of evidence quotes fail the validator: possible prompt/model regression."}
+
+      - alert: JudgeFaithfulnessLow
+        expr: histogram_quantile(0.5, sum(rate(judge_faithfulness_bucket[6h])) by (le)) < 0.9
+        for: 1h
+        labels: {severity: warning}
+        annotations: {summary: "Median LLM-judge faithfulness of sampled analyses < 0.9."}
+
+      - alert: AnalysisQueueBacklog
+        expr: arq_queue_depth > 200
+        for: 10m
+        labels: {severity: warning}
+        annotations: {summary: "End-of-call queue backlog: scale workers."}
+
+      - alert: PipelineStageFailures
+        expr: sum(increase(pipeline_errors_total[15m])) > 5
+        labels: {severity: warning}
+        annotations: {summary: "Pipeline stages failing (see review_queue reason=analysis_failed)."}
+
+# Business-level alerts are SQL checks (not Prometheus): GET /monitoring/drift returns alert=true when a
+# call reason's share moves > 15 points vs the 7-day baseline; GET /monitoring/review gives the reviewer
+# overturn rate (alert if > 20%).

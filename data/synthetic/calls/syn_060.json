@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_060",
+ "agent_id": "agent_02",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-29T15:59:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Meera. How can I assist you today?\nCustomer: I am extremely frustrated because my internet has been dropping out constantly for the last three days. It is making it impossible to work from home.\nAgent: I am very sorry to hear that you are experiencing these connectivity issues, Emily Reddy. I understand how disruptive that is to your work.\nAgent: To look into this for you, could you please provide your account number and date of birth?\nCustomer: My account number is 38601901 and my phone number is 96309 24082.\nAgent: Thank you for that information. I am checking the network status in your area now.\nCustomer: Please hurry, I have a meeting in an hour and I need a stable connection.\nAgent: I see some signal instability on your line. I am going to raise a network ticket for our technical team to investigate the local node immediately.\nCustomer: Okay, will that fix the drops?\nAgent: The ticket will ensure our engineers prioritize the repair of the signal interference. I cannot guarantee an instant fix, but this is the correct step to resolve the instability.\nCustomer: That sounds like a solid plan, thank you for helping me.\nAgent: You are very welcome. Is there anything else I can help you with today?\nCustomer: No, that is all for now.\nAgent: Perfect. To summarize, I have raised a network ticket for your connection issues, and our team will be working on it. Thank you for your patience, and have a wonderful day.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Meera. How can I assist you today?",
+   "ts": "2026-09-29T15:59:06+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am extremely frustrated because my internet has been dropping out constantly for the last three days. It is making it impossible to work from home.",
+   "ts": "2026-09-29T15:59:19+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you are experiencing these connectivity issues, Emily Reddy. I understand how disruptive that is to your work.",
+   "ts": "2026-09-29T15:59:36+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "To look into this for you, could you please provide your account number and date of birth?",
+   "ts": "2026-09-29T15:59:47+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "My account number is 38601901 and my phone number is 96309 24082.",
+   "ts": "2026-09-29T16:00:05+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you for that information. I am checking the network status in your area now.",
+   "ts": "2026-09-29T16:00:18+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Please hurry, I have a meeting in an hour and I need a stable connection.",
+   "ts": "2026-09-29T16:00:30+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I see some signal instability on your line. I am going to raise a network ticket for our technical team to investigate the local node immediately.",
+   "ts": "2026-09-29T16:00:51+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Okay, will that fix the drops?",
+   "ts": "2026-09-29T16:00:58+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "The ticket will ensure our engineers prioritize the repair of the signal interference. I cannot guarantee an instant fix, but this is the correct step to resolve the instability.",
+   "ts": "2026-09-29T16:01:17+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "That sounds like a solid plan, thank you for helping me.",
+   "ts": "2026-09-29T16:01:26+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can help you with today?",
+   "ts": "2026-09-29T16:01:44+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "No, that is all for now.",
+   "ts": "2026-09-29T16:02:04+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "Perfect. To summarize, I have raised a network ticket for your connection issues, and our team will be working on it. Thank you for your patience, and have a wonderful day.",
+   "ts": "2026-09-29T16:02:12+00:00"
+  }
+ ]
+}

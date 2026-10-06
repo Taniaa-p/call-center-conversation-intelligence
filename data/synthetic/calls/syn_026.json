@@ -1,0 +1,77 @@
+{
+ "call_id": "syn_026",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-01T17:38:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Ravi. How can I help you today?\nCustomer: I am so tired of the constant signal drops in my area. I want to cancel my service immediately.\nAgent: I am very sorry to hear that you have been experiencing these connectivity issues. I understand how frustrating it is when your service isn't working as expected.\nCustomer: It is just unacceptable. I've already looked at other providers and I'm ready to switch.\nAgent: I would like to help you with that request. Before we discuss your account details, could you please provide your account number and full name?\nCustomer: My name is Sneha Das and my account number is 38986082.\nAgent: Thank you, Ms. Das. I have your account open now. To proceed with the cancellation, I need to let you know that there is no early-termination fee for your current plan, and your final bill will arrive in your email within seven business days.\nCustomer: That is a relief. I thought I would be charged extra for leaving.\nAgent: I can certainly process that for you. I will now process the cancellation request for your line 99485 90932.\nCustomer: Thank you, Ravi. I appreciate you making this process quick and easy.\nAgent: You are very welcome. Is there anything else I can assist you with today? Your service will be deactivated shortly, and the final bill will be sent to sneha.41@examplemail.com. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Ravi. How can I help you today?",
+   "ts": "2026-10-01T17:38:06+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am so tired of the constant signal drops in my area. I want to cancel my service immediately.",
+   "ts": "2026-10-01T17:38:16+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you have been experiencing these connectivity issues. I understand how frustrating it is when your service isn't working as expected.",
+   "ts": "2026-10-01T17:38:24+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It is just unacceptable. I've already looked at other providers and I'm ready to switch.",
+   "ts": "2026-10-01T17:38:37+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I would like to help you with that request. Before we discuss your account details, could you please provide your account number and full name?",
+   "ts": "2026-10-01T17:38:48+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "My name is Sneha Das and my account number is 38986082.",
+   "ts": "2026-10-01T17:39:07+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Das. I have your account open now. To proceed with the cancellation, I need to let you know that there is no early-termination fee for your current plan, and your final bill will arrive in your email within seven business days.",
+   "ts": "2026-10-01T17:39:11+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That is a relief. I thought I would be charged extra for leaving.",
+   "ts": "2026-10-01T17:39:16+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I can certainly process that for you. I will now process the cancellation request for your line 99485 90932.",
+   "ts": "2026-10-01T17:39:23+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Thank you, Ravi. I appreciate you making this process quick and easy.",
+   "ts": "2026-10-01T17:39:37+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? Your service will be deactivated shortly, and the final bill will be sent to sneha.41@examplemail.com. Goodbye!",
+   "ts": "2026-10-01T17:39:57+00:00"
+  }
+ ]
+}

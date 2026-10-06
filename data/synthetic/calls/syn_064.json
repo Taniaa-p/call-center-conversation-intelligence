@@ -1,0 +1,83 @@
+{
+ "call_id": "syn_064",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T17:20:00+00:00",
+ "transcript": "Customer: I am so tired of these hidden fees on my bill! I want to cancel my service immediately.\nAgent: Yeah, what's the problem?\nCustomer: The problem is that I'm paying for a plan that doesn't fit my needs and I'm being overcharged. I'm Anjali Das and my number is 98233 80245.\nAgent: I can see why that's frustrating, I'm sorry you've been feeling this way.\nCustomer: I just want to get rid of this account. I'm switching to another provider because this is ridiculous.\nAgent: Before we go through with the cancellation, would you like to see if a cheaper plan fits your needs better? I can switch you to the Basic Plan for 25 dollars a month, starting from the first of next month.\nCustomer: Twenty-five dollars? That's actually much better. I might stay if that's the plan I want.\nAgent: Great. I will process the plan change now and send you a confirmation SMS shortly.\nCustomer: Okay, but what about the cancellation request I made earlier? Do I still need to do that?\nAgent: Since you've decided to stay, I'll log a retention offer on your account to ensure you don't leave. There is no early-termination fee for this change, and your final bill for the current plan will arrive on the 15th of this month.\nCustomer: That sounds fair. I'm actually quite happy with that solution. Thank you for your help.\nAgent: You're very welcome. Is there anything else I can help you with today? I've updated your plan and logged the retention offer. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "I am so tired of these hidden fees on my bill! I want to cancel my service immediately.",
+   "ts": "2026-10-02T17:20:07+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Yeah, what's the problem?",
+   "ts": "2026-10-02T17:20:20+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "The problem is that I'm paying for a plan that doesn't fit my needs and I'm being overcharged. I'm Anjali Das and my number is 98233 80245.",
+   "ts": "2026-10-02T17:20:38+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I can see why that's frustrating, I'm sorry you've been feeling this way.",
+   "ts": "2026-10-02T17:20:56+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "I just want to get rid of this account. I'm switching to another provider because this is ridiculous.",
+   "ts": "2026-10-02T17:21:04+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Before we go through with the cancellation, would you like to see if a cheaper plan fits your needs better? I can switch you to the Basic Plan for 25 dollars a month, starting from the first of next month.",
+   "ts": "2026-10-02T17:21:18+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Twenty-five dollars? That's actually much better. I might stay if that's the plan I want.",
+   "ts": "2026-10-02T17:21:25+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Great. I will process the plan change now and send you a confirmation SMS shortly.",
+   "ts": "2026-10-02T17:21:33+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Okay, but what about the cancellation request I made earlier? Do I still need to do that?",
+   "ts": "2026-10-02T17:21:58+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "Since you've decided to stay, I'll log a retention offer on your account to ensure you don't leave. There is no early-termination fee for this change, and your final bill for the current plan will arrive on the 15th of this month.",
+   "ts": "2026-10-02T17:22:23+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "That sounds fair. I'm actually quite happy with that solution. Thank you for your help.",
+   "ts": "2026-10-02T17:22:46+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "You're very welcome. Is there anything else I can help you with today? I've updated your plan and logged the retention offer. Goodbye!",
+   "ts": "2026-10-02T17:22:56+00:00"
+  }
+ ]
+}

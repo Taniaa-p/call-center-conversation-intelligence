@@ -1,0 +1,166 @@
+{
+ "call_id": "syn_044",
+ "agent_id": "agent_02",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-09-29T17:35:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hi! Thanks for contacting Nimbus Telecom. I'm Meera. How can I help you today? 😊",
+   "timestamp": "2026-09-29T17:36:18+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "I'm so annoyed. My bill is way higher than it should be this month. This is ridiculous!",
+   "timestamp": "2026-09-29T17:37:07+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry to hear that you're frustrated with your bill. I'll do my best to get this sorted for you. Can I start by getting your account number and date of birth please?",
+   "timestamp": "2026-09-29T17:38:08+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Fine. Account number is 11894083 and my DOB is 01/01/1968.",
+   "timestamp": "2026-09-29T17:39:44+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Rohan Iyer. I'm looking at your account now. I see a charge for a premium data package that you didn't request. My apologies for the error.",
+   "timestamp": "2026-09-29T17:40:30+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Exactly! I never signed up for that. If this keeps happening, I'm just going to cancel my service and switch to another provider.",
+   "timestamp": "2026-09-29T17:42:13+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I completely understand. I will raise a refund request for the wrong charge right now to get this corrected.",
+   "timestamp": "2026-09-29T17:43:28+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Just so you know, the credit is subject to approval and usually takes 7-10 business days to appear on your statement.",
+   "timestamp": "2026-09-29T17:45:21+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Okay, that works. I also need to pay the remaining balance now so it doesn't get cut off. Can I do that here?",
+   "timestamp": "2026-09-29T17:46:18+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Yes, you can. Please provide the card details you'd like to use.",
+   "timestamp": "2026-09-29T17:46:43+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "It's four two four six four zero zero eight five nine nine seven nine eight seven two",
+   "timestamp": "2026-09-29T17:48:06+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "My address is 78 Brigade Road and my phone is 92446 85314.",
+   "timestamp": "2026-09-29T17:49:01+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Payment processed successfully! Is there anything else I can help you with today? I've requested the refund for the overcharge, which you'll see in 7-10 business days. Goodbye!",
+   "timestamp": "2026-09-29T17:49:44+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "No, that's all. Thanks for fixing it so quickly, Meera! 😊",
+   "timestamp": "2026-09-29T17:51:25+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hi! Thanks for contacting Nimbus Telecom. I'm Meera. How can I help you today? 😊",
+   "ts": "2026-09-29T17:36:18+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I'm so annoyed. My bill is way higher than it should be this month. This is ridiculous!",
+   "ts": "2026-09-29T17:37:07+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I'm sorry to hear that you're frustrated with your bill. I'll do my best to get this sorted for you. Can I start by getting your account number and date of birth please?",
+   "ts": "2026-09-29T17:38:08+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Fine. Account number is 11894083 and my DOB is 01/01/1968.",
+   "ts": "2026-09-29T17:39:44+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you, Rohan Iyer. I'm looking at your account now. I see a charge for a premium data package that you didn't request. My apologies for the error.",
+   "ts": "2026-09-29T17:40:30+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Exactly! I never signed up for that. If this keeps happening, I'm just going to cancel my service and switch to another provider.",
+   "ts": "2026-09-29T17:42:13+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I completely understand. I will raise a refund request for the wrong charge right now to get this corrected.",
+   "ts": "2026-09-29T17:43:28+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Just so you know, the credit is subject to approval and usually takes 7-10 business days to appear on your statement.",
+   "ts": "2026-09-29T17:45:21+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Okay, that works. I also need to pay the remaining balance now so it doesn't get cut off. Can I do that here?",
+   "ts": "2026-09-29T17:46:18+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "Yes, you can. Please provide the card details you'd like to use.",
+   "ts": "2026-09-29T17:46:43+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "It's four two four six four zero zero eight five nine nine seven nine eight seven two",
+   "ts": "2026-09-29T17:48:06+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "My address is 78 Brigade Road and my phone is 92446 85314.",
+   "ts": "2026-09-29T17:49:01+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Payment processed successfully! Is there anything else I can help you with today? I've requested the refund for the overcharge, which you'll see in 7-10 business days. Goodbye!",
+   "ts": "2026-09-29T17:49:44+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "No, that's all. Thanks for fixing it so quickly, Meera! 😊",
+   "ts": "2026-09-29T17:51:25+00:00"
+  }
+ ]
+}

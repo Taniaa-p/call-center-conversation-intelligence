@@ -1,0 +1,86 @@
+{
+ "regex": {
+  "recall": 0.989,
+  "leaked": 3,
+  "planted": 261,
+  "extra_redactions_per_call": 0.57,
+  "per_type_recall": {
+   "ACCOUNT_NO": 1.0,
+   "ADDRESS": 1.0,
+   "CARD_NUMBER": 1.0,
+   "DATE": 1.0,
+   "EMAIL": 1.0,
+   "PERSON": 0.957,
+   "PHONE": 1.0
+  },
+  "per_split_recall": {
+   "dev": 0.984,
+   "heldout": 1.0
+  },
+  "ms_per_turn_p50": 0.04,
+  "ms_per_turn_p95": 0.08
+ },
+ "gliner_raw": {
+  "recall": 0.897,
+  "leaked": 27,
+  "planted": 261,
+  "extra_redactions_per_call": 14.72,
+  "per_type_recall": {
+   "ACCOUNT_NO": 0.772,
+   "ADDRESS": 1.0,
+   "CARD_NUMBER": 0.0,
+   "DATE": 0.944,
+   "EMAIL": 1.0,
+   "PERSON": 1.0,
+   "PHONE": 0.957
+  },
+  "per_split_recall": {
+   "dev": 0.896,
+   "heldout": 0.899
+  },
+  "ms_per_turn_p50": 62.26,
+  "ms_per_turn_p95": 77.49
+ },
+ "gliner": {
+  "recall": 0.897,
+  "leaked": 27,
+  "planted": 261,
+  "extra_redactions_per_call": 0.78,
+  "per_type_recall": {
+   "ACCOUNT_NO": 0.772,
+   "ADDRESS": 1.0,
+   "CARD_NUMBER": 0.0,
+   "DATE": 0.944,
+   "EMAIL": 1.0,
+   "PERSON": 1.0,
+   "PHONE": 0.957
+  },
+  "per_split_recall": {
+   "dev": 0.896,
+   "heldout": 0.899
+  },
+  "ms_per_turn_p50": 70.72,
+  "ms_per_turn_p95": 120.44
+ },
+ "hybrid": {
+  "recall": 1.0,
+  "leaked": 0,
+  "planted": 261,
+  "extra_redactions_per_call": 0.83,
+  "per_type_recall": {
+   "ACCOUNT_NO": 1.0,
+   "ADDRESS": 1.0,
+   "CARD_NUMBER": 1.0,
+   "DATE": 1.0,
+   "EMAIL": 1.0,
+   "PERSON": 1.0,
+   "PHONE": 1.0
+  },
+  "per_split_recall": {
+   "dev": 1.0,
+   "heldout": 1.0
+  },
+  "ms_per_turn_p50": 77.96,
+  "ms_per_turn_p95": 108.59
+ }
+}

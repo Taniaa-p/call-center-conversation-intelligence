@@ -1,0 +1,83 @@
+{
+ "call_id": "syn_058",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T13:27:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Vikram. How can I help you today?\nCustomer: Hi Vikram, I am so frustrated. My phone has been dropping calls every five minutes and I can't get any work done. This is ridiculous!\nAgent: I am very sorry to hear that you're experiencing these drops, I know how disruptive that is when you're trying to work.\nAgent: Before we look into the device settings, could you please provide me with your account number?\nCustomer: Yes, it is 83587246. My name is Fatima Brown.\nAgent: Thank you, Ms. Brown. I see your account here. Let's try a quick network reset on your device to see if that stabilizes the connection.\nCustomer: I've already tried restarting it twice, but it's still happening. I'm using the phone number 94160 47660.\nAgent: I appreciate you trying that. Since the basic reset didn't work, it sounds like there might be a hardware issue with the SIM card or the device antenna.\nCustomer: I just want this fixed. I can't keep losing calls with my clients.\nAgent: I understand. I will book a device check for you at our nearest service center so a technician can run a full diagnostic on the hardware.\nCustomer: Oh, that sounds like a plan. I can definitely do that tomorrow morning. Thank you for actually doing something about this.\nAgent: You're very welcome. Is there anything else I can assist you with today? To recap, we have booked your device check for tomorrow. Have a great day!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Vikram. How can I help you today?",
+   "ts": "2026-10-02T13:27:19+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Vikram, I am so frustrated. My phone has been dropping calls every five minutes and I can't get any work done. This is ridiculous!",
+   "ts": "2026-10-02T13:27:26+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you're experiencing these drops, I know how disruptive that is when you're trying to work.",
+   "ts": "2026-10-02T13:27:50+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we look into the device settings, could you please provide me with your account number?",
+   "ts": "2026-10-02T13:28:13+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Yes, it is 83587246. My name is Fatima Brown.",
+   "ts": "2026-10-02T13:28:29+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Brown. I see your account here. Let's try a quick network reset on your device to see if that stabilizes the connection.",
+   "ts": "2026-10-02T13:28:50+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "I've already tried restarting it twice, but it's still happening. I'm using the phone number 94160 47660.",
+   "ts": "2026-10-02T13:29:15+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I appreciate you trying that. Since the basic reset didn't work, it sounds like there might be a hardware issue with the SIM card or the device antenna.",
+   "ts": "2026-10-02T13:29:19+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "I just want this fixed. I can't keep losing calls with my clients.",
+   "ts": "2026-10-02T13:29:29+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I understand. I will book a device check for you at our nearest service center so a technician can run a full diagnostic on the hardware.",
+   "ts": "2026-10-02T13:29:41+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Oh, that sounds like a plan. I can definitely do that tomorrow morning. Thank you for actually doing something about this.",
+   "ts": "2026-10-02T13:30:05+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "You're very welcome. Is there anything else I can assist you with today? To recap, we have booked your device check for tomorrow. Have a great day!",
+   "ts": "2026-10-02T13:30:15+00:00"
+  }
+ ]
+}

@@ -1,0 +1,5773 @@
+[
+ {
+  "call_id": "syn_051",
+  "analysis": {
+   "call_id": "syn_051",
+   "final": {
+    "summary": "The customer called to dispute an unexpected charge for a premium movie package on their bill. The agent verified the account, agreed it was a mistake, and submitted a refund request. The issue was successfully resolved.",
+    "reasons": [
+     {
+      "label": "billing",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated they needed help with an unexpectedly high bill due to an unauthorized charge.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "hi i need help with my bill it's way too high this month!!",
+        "verified": true
+       },
+       {
+        "turn_id": 6,
+        "quote": "there's a charge for a premium movie package I never even signed up for.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent processed the refund request for the disputed charge and the customer expressed satisfaction.",
+    "resolution_evidence": [
+     {
+      "turn_id": 7,
+      "quote": "I will raise a refund request for the wrong charge right now.",
+      "verified": true
+     },
+     {
+      "turn_id": 10,
+      "quote": "Okay, that sounds fair. I appreciate you fixing this so quickly!",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.0,
+    "churn_rationale": "The customer was initially frustrated by the bill, but after the agent resolved the issue by submitting a refund, the customer was pleased and showed no intent to leave.",
+    "churn_evidence": [
+     {
+      "turn_id": 10,
+      "quote": "Okay, that sounds fair. I appreciate you fixing this so quickly!",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, stated the company name and their own name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "Hello! Thanks for contacting Nimbus Telecom. I'm [PERSON_1]. I'd be happy to help you",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent requested the account number (a secret knowledge factor) before discussing account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "Before we dive into the account, could you please provide your account number and full name for verification?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent explicitly acknowledged the customer's frustration in a human and empathetic way.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "I can see you're upset about the charges, and I completely understand why that would be frustrating.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "A refund was agreed upon, and the agent correctly disclosed that it is subject to approval and provided the expected timeline.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "Please keep in mind that the refund is subject to approval and typically takes 7-10 business days",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent raised a request without guaranteeing the refund before approval, avoiding any prohibited promises.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "I will raise a refund request for the wrong charge right now.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked for further assistance, summarized the next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Is there anything else I can assist you with today? ... Have a great day!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 1,
+      "score": -1.0,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 8,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 10,
+      "score": 0.667,
+      "label": "positive"
+     }
+    ],
+    "start": -0.5,
+    "end": 0.584,
+    "delta": 1.084,
+    "direction": "improved",
+    "shift_turns": [
+     4,
+     8
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 867,
+     "output_tokens": 439,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1295,
+     "output_tokens": 686,
+     "latency_ms": 3067,
+     "cost_usd": 0.000404,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:33:32.526382Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Raise refund request for unauthorized premium movie package charge",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 6,
+    "updated_turn": 7,
+    "evidence": [
+     {
+      "turn_id": 6,
+      "quote": "there's a charge for a premium movie package I never even signed up for",
+      "verified": true
+     },
+     {
+      "turn_id": 7,
+      "quote": "I will raise a refund request for the wrong charge right now.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer reported an unwanted charge for a movie package they did not subscribe to, which the agent will need to investigate and process a dispute or removal for.",
+    "confidence": 0.9
+   }
+  ]
+ },
+ {
+  "call_id": "syn_052",
+  "analysis": {
+   "call_id": "syn_052",
+   "final": {
+    "summary": "The customer called to report network coverage issues and a flickering phone screen. The agent raised a network ticket and offered a device service center booking, but the customer demanded to speak to a supervisor due to recurring problems. The call was escalated to a manager.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly complains about poor network coverage in their home area.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "having some really frustrating issues with my network coverage",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 1.0,
+      "rationale": "The customer mentions a hardware problem with their phone screen acting up.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "the screen on my device is flickering constantly",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "escalated",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent transfers the call to a supervisor as requested by the customer.",
+    "resolution_evidence": [
+     {
+      "turn_id": 13,
+      "quote": "Please hold while I transfer you to my manager.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.7,
+    "churn_rationale": "The customer is extremely angry and demanding a supervisor due to recurring unresolved problems, but does not explicitly state an intent to cancel or port out during this specific dialogue.",
+    "churn_evidence": [
+     {
+      "turn_id": 12,
+      "quote": "This is completely unacceptable. I want to speak to your supervisor immediately.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "device"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent properly opened with a greeting, stated the company name and their own name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom, my name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent never asked for a secret/knowledge factor (like PIN, DOB, or account number) before discussing network status and account-specific troubleshooting. The customer volunteered a phone number, which does not count as secret verification.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "My phone number is [PHONE_1].",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration in a human and empathetic way early in the conversation.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are experiencing these issues, Mr. [PERSON_2]. I know how frustrating it is when your service is unreliable.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "None of the required disclosures (plan change, cancellation, or refund/credit agreement) apply to this call since the agent only opened a ticket and offered a service center booking.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "I will raise a network ticket to have our engineers investigate the local tower.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises such as guaranteed outcomes, refunds without approval, or permanently free service.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "I will raise a network ticket to have our engineers investigate the local tower.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked if anything else was needed, summarised next steps/actions taken, and ended politely prior to the transfer.",
+      "evidence": [
+       {
+        "turn_id": 15,
+        "quote": "Before I transfer you, is there anything else I can help you with? I have raised the network ticket and booked the device check.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 76.5,
+    "violations": [
+     {
+      "item_id": "identity_verification",
+      "severity": "high",
+      "description": "Identity verification (fail): The agent never asked for a secret/knowledge factor (like PIN, DOB, or account number) before discussing network status and account-specific troubleshooting. The customer volunteered a phone number, which does not count as secret verification.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "My phone number is [PHONE_1].",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 8,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 10,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 12,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 14,
+      "score": -0.75,
+      "label": "negative"
+     }
+    ],
+    "start": -0.375,
+    "end": -0.75,
+    "delta": -0.375,
+    "direction": "worsened",
+    "shift_turns": [
+     4,
+     8,
+     10
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "fed_up",
+     "kind": "churn_signal",
+     "turn_id": 14,
+     "quote": "fed up"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 951,
+     "output_tokens": 442,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1379,
+     "output_tokens": 740,
+     "latency_ms": 3573,
+     "cost_usd": 0.000434,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:33:33.045132Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Troubleshoot network coverage and investigate local tower via network ticket",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 4,
+    "updated_turn": 15,
+    "evidence": [
+     {
+      "turn_id": 4,
+      "quote": "I just can't get a signal up there and the screen on my device is flickering constantly.",
+      "verified": true
+     },
+     {
+      "turn_id": 7,
+      "quote": "I will raise a network ticket to have our engineers investigate the local tower",
+      "verified": true
+     },
+     {
+      "turn_id": 15,
+      "quote": "I have raised the network ticket and booked the device check.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer reported signal loss and screen flickering issues that need agent assistance.",
+    "confidence": 0.95
+   },
+   {
+    "action_id": "A2",
+    "text": "Raise a network ticket to investigate the local tower",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 7,
+    "updated_turn": 15,
+    "evidence": [
+     {
+      "turn_id": 7,
+      "quote": "I will raise a network ticket to have our engineers investigate the local tower",
+      "verified": true
+     },
+     {
+      "turn_id": 15,
+      "quote": "I have raised the network ticket and booked the device check.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent explicitly stated they will raise a network ticket for the engineers to investigate the local tower.",
+    "confidence": 1.0
+   },
+   {
+    "action_id": "A3",
+    "text": "Customer to consider or book appointment for device check at service center",
+    "owner": "customer",
+    "status": "done",
+    "created_turn": 10,
+    "updated_turn": 15,
+    "evidence": [
+     {
+      "turn_id": 10,
+      "quote": "I have to go to a store? I can't believe this.",
+      "verified": true
+     },
+     {
+      "turn_id": 15,
+      "quote": "I have raised the network ticket and booked the device check.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The customer is reacting to the agent's suggestion to book a device check at a service center.",
+    "confidence": 0.8
+   },
+   {
+    "action_id": "A4",
+    "text": "Transfer call to supervisor",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 12,
+    "updated_turn": 15,
+    "evidence": [
+     {
+      "turn_id": 12,
+      "quote": "I want to speak to your supervisor immediately.",
+      "verified": true
+     },
+     {
+      "turn_id": 15,
+      "quote": "Before I transfer you, is there anything else I can help you with? ... Goodbye for now.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer demanded to speak to a supervisor immediately.",
+    "confidence": 0.95
+   }
+  ]
+ },
+ {
+  "call_id": "syn_053",
+  "analysis": {
+   "call_id": "syn_053",
+   "final": {
+    "summary": "The customer called to upgrade their data plan and troubleshoot a faulty device. Due to a system outage, the agent could not process the plan change, leaving the issues unresolved and the customer frustrated. The call ended without completing any requests.",
+    "reasons": [
+     {
+      "label": "plan_change",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated they wanted a larger data plan and the agent discussed upgrading options.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my current data plan is way too small for my needs",
+        "verified": true
+       },
+       {
+        "turn_id": 8,
+        "quote": "regarding the plan change, I can see your current options",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 1.0,
+      "rationale": "The customer reported hardware trouble with their phone screen flickering.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my phone has been acting up lately",
+        "verified": true
+       },
+       {
+        "turn_id": 9,
+        "quote": "my screen keeps flickering on my device",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "unresolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The system was unresponsive preventing the plan upgrade, and the device issue was left unaddressed, resulting in no fixes.",
+    "resolution_evidence": [
+     {
+      "turn_id": 14,
+      "quote": "I cannot complete the plan change at this moment.",
+      "verified": true
+     },
+     {
+      "turn_id": 15,
+      "quote": "nothing is fixed",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.8,
+    "churn_rationale": "The customer expressed intense frustration and anger over the failed requests and poor service, but did not explicitly state an intention to cancel, switch, or port out during this conversation.",
+    "churn_evidence": [
+     {
+      "turn_id": 15,
+      "quote": "This is absolutely pathetic service!",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "plan_change",
+     "device"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opens with a proper greeting, states the company name and their own name, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asks for the account number, which is a secret/knowledge factor, before discussing account details.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "Before we dive into the account details, could you please provide your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent appropriately acknowledges the customer's initial problem.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are having trouble with your device and your plan.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The plan change was never agreed or completed because the system was unresponsive, so the plan change disclosure requirement was not triggered.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "I cannot complete the plan change at this moment.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent did not make any prohibited promises during the call.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "I cannot complete the plan change at this moment.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checks if anything else is needed, summarises next steps, and ends politely.",
+      "evidence": [
+       {
+        "turn_id": 16,
+        "quote": "Is there anything else I can assist you with today? I will have to ask you to call back later once the system is restored. Goodbye.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 11,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 13,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 15,
+      "score": -0.333,
+      "label": "negative"
+     }
+    ],
+    "start": 0.0,
+    "end": -0.541,
+    "delta": -0.541,
+    "direction": "worsened",
+    "shift_turns": [
+     13
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 976,
+     "output_tokens": 537,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1404,
+     "output_tokens": 493,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:33:29.475011Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Process data plan upgrade",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 2,
+    "updated_turn": 9,
+    "evidence": [
+     {
+      "turn_id": 2,
+      "quote": "my current data plan is way too small for my needs",
+      "verified": true
+     },
+     {
+      "turn_id": 9,
+      "quote": "Great, please do that.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer stated their current data plan is too small.",
+    "confidence": 0.95
+   },
+   {
+    "action_id": "A2",
+    "text": "Troubleshoot device screen flickering issue",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 9,
+    "updated_turn": 9,
+    "evidence": [
+     {
+      "turn_id": 9,
+      "quote": "Also, my screen keeps flickering on my device. Can you fix that remotely?",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer reported a new issue with their device screen flickering.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_054",
+  "analysis": {
+   "call_id": "syn_054",
+   "final": {
+    "summary": "The customer called because their internet was barely working and their bill was unexpectedly high. The agent raised a network ticket for the connectivity issue and submitted a refund request for a duplicate charge. Both issues were addressed and the customer expressed satisfaction.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated their internet connection was barely working due to area signal issues.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "my internet is barely working",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "billing",
+      "confidence": 1.0,
+      "rationale": "The customer complained about an excessively high bill and a duplicate charge for the premium package.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "my bill is way too high this month",
+        "verified": true
+       },
+       {
+        "turn_id": 8,
+        "quote": "i was charged twice for the premium package.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully addressed both the network issue by raising a ticket and the billing issue by submitting a refund request, which the customer accepted.",
+    "resolution_evidence": [
+     {
+      "turn_id": 7,
+      "quote": "I'll raise a network ticket right now",
+      "verified": true
+     },
+     {
+      "turn_id": 9,
+      "quote": "I will raise a refund request for that duplicate charge immediately.",
+      "verified": true
+     },
+     {
+      "turn_id": 10,
+      "quote": "that sounds fair. thanks for sorting this out so quickly!",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.0,
+    "churn_rationale": "The customer did not express any intent to cancel or port out; instead, they thanked the agent and ended the call on a positive note.",
+    "churn_evidence": [
+     {
+      "turn_id": 12,
+      "quote": "nope that's all. thanks meera! bye",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opens with a greeting, names the company and themselves, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "Hello! Thanks for contacting Nimbus Telecom. I'm [PERSON_1].",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent requested secret knowledge factors (account number and date of birth) before discussing account details.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "could you please provide your account number and date of birth for verification?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration in a human way.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "I totally understand how frustrating it is when your connection is slow and the bill doesn't look right.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The billing policy required disclosure regarding refund approval and timeline was stated correctly.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "Please note that any credit is subject to approval and usually takes 7-10 business days",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "I will raise a refund request for that duplicate charge immediately. Please note that any credit is subject to approval",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent summarized next steps, checked for anything else needed, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Is there anything else I can help you with today? If not, have a great day!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 1,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 8,
+      "score": 0.667,
+      "label": "positive"
+     },
+     {
+      "turn_id": 10,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 12,
+      "score": 0.5,
+      "label": "positive"
+     }
+    ],
+    "start": -0.25,
+    "end": 0.5,
+    "delta": 0.75,
+    "direction": "improved",
+    "shift_turns": []
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 914,
+     "output_tokens": 546,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1342,
+     "output_tokens": 655,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:33:29.480516Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Raise network ticket for signal issue",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 7,
+    "updated_turn": 7,
+    "evidence": [
+     {
+      "turn_id": 7,
+      "quote": "I'll raise a network ticket right now to get this prioritized for the engineers.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent explicitly stated they will raise a network ticket for the engineers to prioritize the signal issue.",
+    "confidence": 1.0
+   },
+   {
+    "action_id": "A2",
+    "text": "Raise refund request for duplicate charge",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 8,
+    "updated_turn": 9,
+    "evidence": [
+     {
+      "turn_id": 8,
+      "quote": "what about the bill? i was charged twice for the premium package",
+      "verified": true
+     },
+     {
+      "turn_id": 9,
+      "quote": "I will raise a refund request for that duplicate charge immediately.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer brought up a duplicate charge on their bill that needs investigation.",
+    "confidence": 0.95
+   }
+  ]
+ },
+ {
+  "call_id": "syn_055",
+  "analysis": {
+   "call_id": "syn_055",
+   "final": {
+    "summary": "The customer called to cancel her service due to persistent signal drops and expressed strong intent to switch providers. The agent informed her about the early-termination fee, leading to a dispute over the charge. The cancellation was not finalized and the issue remained unresolved.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.9,
+      "rationale": "The customer explicitly mentioned constant signal drops as the primary driver for wanting to leave.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "constant signal drops in my area",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "cancellation",
+      "confidence": 1.0,
+      "rationale": "The customer repeatedly stated that she wants to cancel her account and switch to another provider.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I want to cancel my service.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "billing",
+      "confidence": 0.8,
+      "rationale": "An unexpected billing dispute arose regarding the early-termination fee mentioned by the agent.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "early-termination fee of fifty dollars",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "unresolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The customer hung up or ended the call extremely dissatisfied without finalizing the cancellation or resolving the dispute over the termination fee.",
+    "resolution_evidence": [
+     {
+      "turn_id": 14,
+      "quote": "No, nothing else. You've made it worse.",
+      "verified": true
+     }
+    ],
+    "churn_flag": true,
+    "churn_score": 1.0,
+    "churn_rationale": "The customer firmly stated her intention to cancel and switch to another provider, showing absolute churn intent.",
+    "churn_evidence": [
+     {
+      "turn_id": 4,
+      "quote": "I'm switching to a different provider who actually has coverage here.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "cancellation",
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, named the company and themselves, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asked for a secret/knowledge factor (account number) before proceeding with account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "Before we proceed with any account changes, could you please provide your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent properly acknowledged the customer's frustration and problems in a human way.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am very sorry to hear that you've been experiencing connectivity issues",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "For the cancellation, the agent correctly stated the early-termination fee and when the final bill arrives.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "there is an early-termination fee of fifty dollars, and your final bill will arrive within thirty days",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises, correctly refusing to waive fees without authorization.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "I'm afraid I don't have the authority to waive that early-termination fee",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent properly checked whether anything else was needed to close the call.",
+      "evidence": [
+       {
+        "turn_id": 13,
+        "quote": "Is there anything else I can assist you with today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 8,
+      "score": -0.875,
+      "label": "negative"
+     },
+     {
+      "turn_id": 10,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 12,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 14,
+      "score": 0.0,
+      "label": "neutral"
+     }
+    ],
+    "start": -0.25,
+    "end": 0.0,
+    "delta": 0.25,
+    "direction": "improved",
+    "shift_turns": [
+     8
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "cancel_service",
+     "kind": "churn_signal",
+     "turn_id": 2,
+     "quote": "cancel my service"
+    },
+    {
+     "rule_id": "fed_up",
+     "kind": "churn_signal",
+     "turn_id": 2,
+     "quote": "had enough"
+    },
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 4,
+     "quote": "switching to a different provider"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 927,
+     "output_tokens": 528,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1355,
+     "output_tokens": 665,
+     "latency_ms": 2607,
+     "cost_usd": 0.000402,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:33:32.102010Z"
+  },
+  "actions": []
+ },
+ {
+  "call_id": "syn_056",
+  "analysis": {
+   "call_id": "syn_056",
+   "final": {
+    "summary": "The customer called because their new phone was dropping calls every hour. The agent attempted troubleshooting steps including checking network status and asking for a device restart. The call ended without resolution while the agent planned to run remote diagnostics amidst the customer's threats to cancel.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.9,
+      "rationale": "The customer is complaining about dropped calls.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my new phone has been dropping calls every single hour",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 0.8,
+      "rationale": "The customer mentions a problem with their new phone/device failing to work properly.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my new phone has been dropping calls",
+        "verified": true
+       },
+       {
+        "turn_id": 9,
+        "quote": "I just want this device to work properly",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "unresolved",
+    "resolution_confidence": 0.95,
+    "resolution_rationale": "The call ends while diagnostics are still being prepared, with no fix having been implemented yet.",
+    "resolution_evidence": [
+     {
+      "turn_id": 14,
+      "quote": "I will need to run a remote diagnostic on your device to see what is happening",
+      "verified": true
+     }
+    ],
+    "churn_flag": true,
+    "churn_score": 0.95,
+    "churn_rationale": "The customer explicitly threatens to cancel their contract and switch providers if the issue isn't fixed immediately.",
+    "churn_evidence": [
+     {
+      "turn_id": 13,
+      "quote": "If you can't fix this right now, I'm going to cancel my contract and switch to another provider.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "device"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, named the company and themselves, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent requested a secret/knowledge factor (account number) before discussing account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "could you please provide your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration appropriately.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are experiencing these dropped calls.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "None of the required disclosures (plan change, cancellation, or refund/credit agreement) apply to this technical troubleshooting call.",
+      "evidence": [],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises during the conversation.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "I will need to run a remote diagnostic on your device",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The transcript cuts off before the call is closed properly; the agent did not check for additional needs or close politely.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "I see. I will need to run a remote diagnostic on your device to see what is happening.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 88.2,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 11,
+      "score": -0.875,
+      "label": "negative"
+     },
+     {
+      "turn_id": 13,
+      "score": -0.75,
+      "label": "negative"
+     }
+    ],
+    "start": -0.25,
+    "end": -0.812,
+    "delta": -0.562,
+    "direction": "worsened",
+    "shift_turns": [
+     11
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 13,
+     "quote": "switch to another provider"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 889,
+     "output_tokens": 483,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1317,
+     "output_tokens": 611,
+     "latency_ms": 2600,
+     "cost_usd": 0.000376,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:33:32.096762Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Run remote diagnostic on customer device",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 14,
+    "updated_turn": 14,
+    "evidence": [
+     {
+      "turn_id": 14,
+      "quote": "I will need to run a remote diagnostic on your device",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Agent stated they will run a remote diagnostic to investigate the issue.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_057",
+  "analysis": {
+   "call_id": "syn_057",
+   "final": {
+    "summary": "The customer called regarding severe signal issues with their device. The agent identified a potentially faulty SIM card and processed an outstanding bill payment, but the customer remained angry about the wait time for a replacement SIM.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.9,
+      "rationale": "The customer called because they have no signal on their phone.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "My phone has been acting up for the last few days and I can't get any signal on it.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 0.9,
+      "rationale": "The issue involves a faulty SIM card requiring a replacement.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "It seems the SIM card might be faulty. I can send you a replacement SIM",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "billing",
+      "confidence": 0.7,
+      "rationale": "The call also addressed paying an outstanding balance.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "I can help you pay your outstanding balance to ensure the service remains active.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "partial",
+    "resolution_confidence": 0.8,
+    "resolution_rationale": "The billing payment was successfully processed and the replacement SIM order was arranged, but the core network/device issue is not yet resolved since the customer must wait for delivery.",
+    "resolution_evidence": [
+     {
+      "turn_id": 11,
+      "quote": "The payment has been processed successfully.",
+      "verified": true
+     },
+     {
+      "turn_id": 13,
+      "quote": "I'll have that replacement SIM sent out immediately",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.7,
+    "churn_rationale": "Although the customer expressed extreme dissatisfaction and annoyance, they did not explicitly state an intent to cancel, port out, or switch providers during the final turns.",
+    "churn_evidence": [
+     {
+      "turn_id": 12,
+      "quote": "That doesn't change the fact that my phone is useless. I'm absolutely dissatisfied with this service.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "device",
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent provided the company name, their own name, and offered help in the opening turn.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom, my name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent discussed account-specific details and initiated actions on the account without asking for any secret knowledge factor like PIN, OTP, or date of birth.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "Let me check the line. It seems the SIM card might be faulty. I can send you a replacement SIM to your address on file.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration appropriately.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are experiencing signal issues with your device, Ms. [PERSON_2]. I know how frustrating it is to be disconnected.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "None of the required policy disclosures (plan change, cancellation, refund/credit) apply to this call.",
+      "evidence": [],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent did not make any prohibited promises such as guaranteed outcomes, refunds before approval, or permanently free service.",
+      "evidence": [
+       {
+        "turn_id": 13,
+        "quote": "I'll have that replacement SIM sent out immediately, and you can activate it once it arrives.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked whether anything else was needed and ended politely after the customer responded.",
+      "evidence": [
+       {
+        "turn_id": 13,
+        "quote": "Is there anything else I can assist you with today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 76.5,
+    "violations": [
+     {
+      "item_id": "identity_verification",
+      "severity": "high",
+      "description": "Identity verification (fail): The agent discussed account-specific details and initiated actions on the account without asking for any secret knowledge factor like PIN, OTP, or date of birth.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "Let me check the line. It seems the SIM card might be faulty. I can send you a replacement SIM to your address on file.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.667,
+      "label": "positive"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 8,
+      "score": -0.667,
+      "label": "negative"
+     },
+     {
+      "turn_id": 10,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 12,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 14,
+      "score": 0.0,
+      "label": "neutral"
+     }
+    ],
+    "start": 0.334,
+    "end": -0.25,
+    "delta": -0.584,
+    "direction": "worsened",
+    "shift_turns": [
+     4,
+     6,
+     8,
+     10,
+     12
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 968,
+     "output_tokens": 590,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1396,
+     "output_tokens": 500,
+     "latency_ms": 2721,
+     "cost_usd": 0.00034,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:35:34.925139Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Send replacement SIM card to customer",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 5,
+    "updated_turn": 6,
+    "evidence": [
+     {
+      "turn_id": 5,
+      "quote": "I can send you a replacement SIM to your address on file.",
+      "verified": true
+     },
+     {
+      "turn_id": 6,
+      "quote": "A replacement SIM? I don't have time to wait for the mail.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent offered to send a replacement SIM card to resolve the customer's signal issue.",
+    "confidence": 0.95
+   },
+   {
+    "action_id": "A2",
+    "text": "Process outstanding balance payment",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 10,
+    "updated_turn": 12,
+    "evidence": [
+     {
+      "turn_id": 10,
+      "quote": "Fine, just take the payment.",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "The payment has been processed successfully.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer agreed to pay the outstanding balance using her card details.",
+    "confidence": 0.95
+   },
+   {
+    "action_id": "A3",
+    "text": "Send replacement SIM card to customer",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 13,
+    "updated_turn": 13,
+    "evidence": [
+     {
+      "turn_id": 13,
+      "quote": "I'll have that replacement SIM sent out immediately",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Agent confirms sending the replacement SIM out immediately.",
+    "confidence": 0.95
+   }
+  ]
+ },
+ {
+  "call_id": "syn_058",
+  "analysis": {
+   "call_id": "syn_058",
+   "final": {
+    "summary": "The customer called because their phone kept dropping calls constantly, affecting their work. The agent identified potential hardware issues and booked a device check at the service center for the next morning. The customer was satisfied with this resolution.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.8,
+      "rationale": "The customer reported that their phone has been dropping calls repeatedly.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "My phone has been dropping calls every five minutes",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 0.9,
+      "rationale": "The agent and customer discussed potential device and SIM card hardware problems requiring a technician's diagnostic.",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "it sounds like there might be a hardware issue with the SIM card or the device antenna.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully booked a device check appointment for the customer, who agreed and expressed satisfaction.",
+    "resolution_evidence": [
+     {
+      "turn_id": 10,
+      "quote": "I will book a device check for you at our nearest service center",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "Oh, that sounds like a plan. I can definitely do that tomorrow morning.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.1,
+    "churn_rationale": "Although the customer was initially frustrated with the dropped calls, they were pleased with the agent's solution and agreed to the service center appointment, showing no intent to leave.",
+    "churn_evidence": [
+     {
+      "turn_id": 11,
+      "quote": "Oh, that sounds like a plan. I can definitely do that tomorrow morning. Thank you for actually doing something about this.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "device"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, stated the company name and their own name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asked for the customer's account number before discussing account-specific troubleshooting.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "Before we look into the device settings, could you please provide me with your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent properly acknowledged the customer's frustration and the impact of the issue.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am very sorry to hear that you're experiencing these drops, I know how disruptive that is",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "None of the required disclosures for plan change, cancellation, or refund/credit apply to this technical support/repair booking call.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "I will book a device check for you at our nearest service center",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises such as guaranteed outcomes, permanent fixes, or unauthorised fee waivers.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "I will book a device check for you at our nearest service center so a technician can run a full diagnostic",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked for additional questions, summarised next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 12,
+        "quote": "Is there anything else I can assist you with today? To recap, we have booked your device check for tomorrow. Have a great day!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -1.0,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 11,
+      "score": 0.5,
+      "label": "positive"
+     }
+    ],
+    "start": -0.5,
+    "end": 0.5,
+    "delta": 1.0,
+    "direction": "improved",
+    "shift_turns": [
+     5
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 899,
+     "output_tokens": 508,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1327,
+     "output_tokens": 696,
+     "latency_ms": 2670,
+     "cost_usd": 0.000411,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:35:36.665958Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Book device check at service center for tomorrow morning",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 10,
+    "updated_turn": 11,
+    "evidence": [
+     {
+      "turn_id": 10,
+      "quote": "I will book a device check for you at our nearest service center",
+      "verified": true
+     },
+     {
+      "turn_id": 10,
+      "quote": "I will book a device check for you at our nearest service center",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "I can definitely do that tomorrow morning",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent stated they will book a device check for the customer at the service center.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_059",
+  "analysis": {
+   "call_id": "syn_059",
+   "final": {
+    "summary": "The customer called to cancel their account due to ongoing router connection issues and an upcoming early-termination fee dispute. The agent confirmed the cancellation terms and fees, but the technical issue and payment could not be resolved. The customer ended the call expressing strong dissatisfaction.",
+    "reasons": [
+     {
+      "label": "device",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated that their new router is constantly dropping the connection.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my new router is constantly dropping the connection",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "cancellation",
+      "confidence": 1.0,
+      "rationale": "The customer repeatedly stated their intention to cancel the account and switch providers.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I want to cancel my account.",
+        "verified": true
+       },
+       {
+        "turn_id": 6,
+        "quote": "I am switching to another provider",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "billing",
+      "confidence": 0.9,
+      "rationale": "The call involved disputes and discussions around early-termination fees and the current account balance.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "an early-termination fee will apply, and your final bill will arrive in the next billing cycle",
+        "verified": true
+       },
+       {
+        "turn_id": 8,
+        "quote": "I want to pay my current balance now",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "unresolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent explicitly stated they were unable to resolve the technical fault or billing dispute, leaving the issues unaddressed.",
+    "resolution_evidence": [
+     {
+      "turn_id": 9,
+      "quote": "I cannot process that payment right now as I am unable to resolve the technical fault or the billing dispute during this call.",
+      "verified": true
+     }
+    ],
+    "churn_flag": true,
+    "churn_score": 1.0,
+    "churn_rationale": "The customer explicitly stated multiple times that they want to cancel, are switching to another provider, and concluded by stating they are done with the company.",
+    "churn_evidence": [
+     {
+      "turn_id": 10,
+      "quote": "I am done with Nimbus Telecom.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "device",
+     "cancellation",
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, stated the company name and their name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom, my name is [PERSON_1]. How can I assist you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent correctly asked for a secret/knowledge factor (account number) before discussing account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "could you please provide your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration in a human and empathetic manner.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am very sorry to hear you are having such a frustrating experience",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The call involved a cancellation, and the agent correctly disclosed the early-termination fee and when the final bill arrives.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "an early-termination fee will apply, and your final bill will arrive in the next billing cycle.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises during the conversation.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "I am sorry I cannot be of more help at this moment.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent properly checked if anything else was needed and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Is there anything else I can assist you with, or shall we conclude the call?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.667,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 8,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 10,
+      "score": -0.75,
+      "label": "negative"
+     }
+    ],
+    "start": -0.334,
+    "end": -0.625,
+    "delta": -0.291,
+    "direction": "worsened",
+    "shift_turns": [
+     4
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "cancel_service",
+     "kind": "churn_signal",
+     "turn_id": 2,
+     "quote": "cancel my account"
+    },
+    {
+     "rule_id": "fed_up",
+     "kind": "churn_signal",
+     "turn_id": 2,
+     "quote": "fed up"
+    },
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 6,
+     "quote": "switching to another provider"
+    },
+    {
+     "rule_id": "fed_up",
+     "kind": "churn_signal",
+     "turn_id": 6,
+     "quote": "had enough"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 890,
+     "output_tokens": 613,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1318,
+     "output_tokens": 652,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:35:35.368330Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Process current balance payment via card",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 8,
+    "updated_turn": 10,
+    "evidence": [
+     {
+      "turn_id": 8,
+      "quote": "I want to pay my current balance now using my card, [CARD_NUMBER_1]",
+      "verified": true
+     },
+     {
+      "turn_id": 10,
+      "quote": "This is completely useless! You are not fixing the device and you are not helping with the fees.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer requested to pay their current balance using their card.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_060",
+  "analysis": {
+   "call_id": "syn_060",
+   "final": {
+    "summary": "The customer called because their home internet had been dropping out for the past three days. The agent diagnosed signal instability and opened a priority network ticket for the technical team to investigate. The issue was partially addressed as a repair ticket was successfully raised.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated their internet connection was dropping out constantly due to coverage or signal instability.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my internet has been dropping out constantly for the last three days",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "partial",
+    "resolution_confidence": 0.9,
+    "resolution_rationale": "The immediate issue was not fixed on the call, but a technical ticket was successfully raised for engineering follow-up, which satisfied the customer.",
+    "resolution_evidence": [
+     {
+      "turn_id": 8,
+      "quote": "I am going to raise a network ticket for our technical team to investigate the local node immediately.",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "That sounds like a solid plan, thank you for helping me.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.1,
+    "churn_rationale": "The customer was initially frustrated by the dropped connection but expressed satisfaction with the agent's action plan and stated that was all they needed.",
+    "churn_evidence": [
+     {
+      "turn_id": 11,
+      "quote": "That sounds like a solid plan, thank you for helping me.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opens with a greeting, names the company and themselves, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom, my name is [PERSON_1]. How can I assist you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent correctly asks for a secret factor (account number and date of birth) before discussing account details.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "could you please provide your account number and date of birth?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent directly acknowledges the customer's frustration and the disruption to their work.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am very sorry to hear that you are experiencing these connectivity issues",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "None of the required disclosures for plan change, cancellation, or billing/refunds apply to this technical support ticket call.",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "I am going to raise a network ticket for our technical team",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent makes no prohibited promises and explicitly states they cannot guarantee an instant fix.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "I cannot guarantee an instant fix, but this is the correct step",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checks for additional needs, summarizes next steps, and ends politely.",
+      "evidence": [
+       {
+        "turn_id": 12,
+        "quote": "Is there anything else I can help you with today?",
+        "verified": true
+       },
+       {
+        "turn_id": 14,
+        "quote": "To summarize, I have raised a network ticket for your connection issues... have a wonderful day.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 11,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 13,
+      "score": 0.0,
+      "label": "neutral"
+     }
+    ],
+    "start": -0.375,
+    "end": 0.25,
+    "delta": 0.625,
+    "direction": "improved",
+    "shift_turns": [
+     5
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 887,
+     "output_tokens": 416,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1315,
+     "output_tokens": 509,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:35:35.381191Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Raise network ticket for technical team to investigate local node",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 8,
+    "updated_turn": 14,
+    "evidence": [
+     {
+      "turn_id": 8,
+      "quote": "I am going to raise a network ticket for our technical team to investigate",
+      "verified": true
+     },
+     {
+      "turn_id": 14,
+      "quote": "I have raised a network ticket for your connection issues, and our team will be working on it.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent explicitly stated they are going to raise a network ticket for the technical team to investigate the signal instability.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_061",
+  "analysis": {
+   "call_id": "syn_061",
+   "final": {
+    "summary": "The customer called to dispute an unexpected extra charge and complain about slow internet speed. The agent processed a refund for the billing error and assured the customer that the network speed issue would be fixed by tonight.",
+    "reasons": [
+     {
+      "label": "billing",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated they are seeing a weird, higher than usual charge on their bill.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I'm seeing a weird charge on my bill this month. It's way higher than usual",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "network",
+      "confidence": 1.0,
+      "rationale": "The customer reported slow internet speed requiring a fix.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "my internet speed has been super slow lately. Can you fix that too?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully raised a refund for the billing issue and confirmed the network speed will be fixed by tonight.",
+    "resolution_evidence": [
+     {
+      "turn_id": 9,
+      "quote": "I'll raise a refund request for the wrong charge right now.",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "Your speed will be fixed by tonight, that's certain.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.1,
+    "churn_rationale": "The customer expressed mild annoyance and skepticism about whether the fix will happen, but made no threats or indications of leaving the provider.",
+    "churn_evidence": [
+     {
+      "turn_id": 12,
+      "quote": "Okay, cool. I just hope it actually happens.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "billing",
+     "network"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent greets the customer, names the company and themselves, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Hi! Thanks for contacting Nimbus Telecom. I'm [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asks for the account number, which is a secret/knowledge factor, before discussing account details.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "could you please provide your account number and your full name?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent directly acknowledges the customer's frustration.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I'm sorry to hear that you're frustrated with the billing issue.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "A refund was agreed, but the agent failed to state that the refund is subject to approval and provide the expected timeline (7-10 business days).",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "I'll raise a refund request for the wrong charge right now.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent guaranteed an outcome (fixing the speed by tonight with certainty) which violates the prohibited promises policy regarding guaranteeing outcomes outside direct control.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Your speed will be fixed by tonight, that's certain.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checks for further help, summarises next steps, and ends politely.",
+      "evidence": [
+       {
+        "turn_id": 13,
+        "quote": "Is there anything else I can help you with today? ... Have a great day!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 52.4,
+    "violations": [
+     {
+      "item_id": "correct_disclosure",
+      "severity": "medium",
+      "description": "Correct disclosure (fail): A refund was agreed, but the agent failed to state that the refund is subject to approval and provide the expected timeline (7-10 business days).",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "I'll raise a refund request for the wrong charge right now.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "severity": "high",
+      "description": "No prohibited promises (fail): The agent guaranteed an outcome (fixing the speed by tonight with certainty) which violates the prohibited promises policy regarding guaranteeing outcomes outside direct control.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Your speed will be fixed by tonight, that's certain.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 10,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 12,
+      "score": 0.667,
+      "label": "positive"
+     }
+    ],
+    "start": -0.25,
+    "end": 0.334,
+    "delta": 0.584,
+    "direction": "improved",
+    "shift_turns": [
+     12
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 872,
+     "output_tokens": 487,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1300,
+     "output_tokens": 498,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:35:35.395512Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Raise refund request for the wrong charge",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 9,
+    "updated_turn": 9,
+    "evidence": [
+     {
+      "turn_id": 9,
+      "quote": "I'll raise a refund request for the wrong charge right now.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent explicitly stated they will raise a refund request for the incorrect charge.",
+    "confidence": 1.0
+   },
+   {
+    "action_id": "A2",
+    "text": "Troubleshoot slow internet speed",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 10,
+    "updated_turn": 10,
+    "evidence": [
+     {
+      "turn_id": 10,
+      "quote": "Also, my internet speed has been super slow lately. Can you fix that too?",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer requested assistance with slow internet speed in turn 10.",
+    "confidence": 0.95
+   }
+  ]
+ },
+ {
+  "call_id": "syn_062",
+  "analysis": {
+   "call_id": "syn_062",
+   "final": {
+    "summary": "The customer called because of poor network coverage at home and requested to cancel their service. The agent processed the cancellation request without any termination fees. The account closure was successfully completed during the call.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.9,
+      "rationale": "The customer explicitly complained about poor network coverage.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "Mera network coverage area mein bahut kharab hai",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "cancellation",
+      "confidence": 1.0,
+      "rationale": "The customer requested to cancel their connection due to the issues.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "Isliye main apna connection cancel karna chahta hoon",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully processed the cancellation as requested by the customer.",
+    "resolution_evidence": [
+     {
+      "turn_id": 9,
+      "quote": "I have now processed your cancellation request in our system",
+      "verified": true
+     }
+    ],
+    "churn_flag": true,
+    "churn_score": 1.0,
+    "churn_rationale": "The customer explicitly demanded cancellation and followed through with it, leading to account closure.",
+    "churn_evidence": [
+     {
+      "turn_id": 10,
+      "quote": "Aapne bahut help ki, I am satisfied now.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "cancellation"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent clearly opened with a greeting, stated the company name and their name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom, my name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The customer requested a cancellation of their account, which touches account-specific information. The agent discussed and processed the cancellation without asking for any secret factor like PIN, OTP, date of birth, security answer, or account number.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "May I ask if there is any specific area where the signal is worst?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent explicitly and humanly acknowledged the customer's frustration regarding the network issues.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am truly sorry to hear that you are facing these network issues, Mr. [PERSON_2]. I understand how frustrating it is when your connection is unstable.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "For a cancellation, the policy requires stating any early-termination fee and when the final bill arrives, both of which the agent accurately disclosed.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "there is no early-termination fee for your current plan, and your final bill will arrive via email within the next seven business days.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises such as guaranteed refunds, permanent fixes, or waiving unauthorized fees.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "I have now processed your cancellation request in our system, and you will receive a confirmation SMS shortly.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked if anything else was needed, summarized next steps, and ended politely with a goodbye.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Is there anything else I can assist you with today? Your account is now set for closure, and you will receive the final bill soon. Goodbye!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 81.0,
+    "violations": [
+     {
+      "item_id": "identity_verification",
+      "severity": "high",
+      "description": "Identity verification (fail): The customer requested a cancellation of their account, which touches account-specific information. The agent discussed and processed the cancellation without asking for any secret factor like PIN, OTP, date of birth, security answer, or account number.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "May I ask if there is any specific area where the signal is worst?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -1.0,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": -0.76,
+      "label": "negative"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 8,
+      "score": 0.25,
+      "label": "positive"
+     },
+     {
+      "turn_id": 10,
+      "score": 0.5,
+      "label": "positive"
+     }
+    ],
+    "start": -0.88,
+    "end": 0.375,
+    "delta": 1.255,
+    "direction": "improved",
+    "shift_turns": [
+     6
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 4,
+     "quote": "switch to another provider"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 867,
+     "output_tokens": 408,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1295,
+     "output_tokens": 754,
+     "latency_ms": 3304,
+     "cost_usd": 0.000431,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:36:32.916533Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Process connection cancellation request for phone number [PHONE_1]",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 4,
+    "updated_turn": 10,
+    "evidence": [
+     {
+      "turn_id": 4,
+      "quote": "Isliye main apna connection cancel karna chahta hoon.",
+      "verified": true
+     },
+     {
+      "turn_id": 6,
+      "quote": "please just process the cancellation",
+      "verified": true
+     },
+     {
+      "turn_id": 9,
+      "quote": "I have now processed your cancellation request",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer requested to cancel their connection due to poor network coverage.",
+    "confidence": 0.95
+   }
+  ]
+ },
+ {
+  "call_id": "syn_063",
+  "analysis": {
+   "call_id": "syn_063",
+   "final": {
+    "summary": "The customer called because their bill was too high and they wanted to change their plan. The agent switched the customer to a more affordable Value Plan starting next month. The issue was successfully resolved during the call.",
+    "reasons": [
+     {
+      "label": "billing",
+      "confidence": 0.9,
+      "rationale": "The customer initially called because their current bill was too high.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "my current bill is way too high and I need to change my plan immediately",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "plan_change",
+      "confidence": 1.0,
+      "rationale": "The primary action requested and performed was changing the customer's plan.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I need to change my plan immediately",
+        "verified": true
+       },
+       {
+        "turn_id": 5,
+        "quote": "I can switch you to our Value Plan",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully processed the requested plan change to lower the customer's bill, and the customer expressed satisfaction.",
+    "resolution_evidence": [
+     {
+      "turn_id": 7,
+      "quote": "I will now process the plan change and send a confirmation SMS",
+      "verified": true
+     },
+     {
+      "turn_id": 8,
+      "quote": "That is perfect, thank you so much for your help",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.0,
+    "churn_rationale": "The customer was satisfied with the plan change and expressed gratitude, showing no intent to leave.",
+    "churn_evidence": [
+     {
+      "turn_id": 8,
+      "quote": "That is perfect, thank you so much for your help.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "billing",
+     "plan_change"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, stated the company name and their own name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom, my name is [PERSON_1]. How can I assist you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asked for account number and date of birth before discussing account-specific plan details.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "Could you please provide your account number and date of birth for verification?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration in a human and empathetic way.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are feeling frustrated with your current billing",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "For a plan change, the agent clearly disclosed the new monthly price and the exact date the change takes effect.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "Value Plan which is 45 dollars per month, and this change will take effect on the first of next month.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent did not make any prohibited promises such as guaranteed outcomes, permanent fixes, or unapproved refunds.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "this plan is designed to be more cost-effective for you.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked if anything else was needed, summarized the next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "Is there anything else I can help you with today? To summarize, I have processed your plan change... have a great day.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 8,
+      "score": 0.667,
+      "label": "positive"
+     }
+    ],
+    "start": -0.375,
+    "end": 0.334,
+    "delta": 0.709,
+    "direction": "improved",
+    "shift_turns": [
+     4,
+     8
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 855,
+     "output_tokens": 498,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1283,
+     "output_tokens": 508,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:32.293888Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Change customer's plan and send confirmation SMS",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 2,
+    "updated_turn": 7,
+    "evidence": [
+     {
+      "turn_id": 2,
+      "quote": "I need to change my plan immediately",
+      "verified": true
+     },
+     {
+      "turn_id": 7,
+      "quote": "I will now process the plan change and send a confirmation SMS to [PHONE_1]",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Customer requested a plan change due to high bills.",
+    "confidence": 0.95
+   }
+  ]
+ },
+ {
+  "call_id": "syn_064",
+  "analysis": {
+   "call_id": "syn_064",
+   "final": {
+    "summary": "The customer called to cancel their service due to unexpected fees and being overcharged. The agent offered a cheaper Basic Plan for 25 dollars a month, which the customer accepted. The account was updated to the new plan, resolving the customer's issues and preventing churn.",
+    "reasons": [
+     {
+      "label": "billing",
+      "confidence": 0.9,
+      "rationale": "The customer complained about unexpected fees and being overcharged on their bill.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "I am so tired of these hidden fees on my bill!",
+        "verified": true
+       },
+       {
+        "turn_id": 3,
+        "quote": "I'm paying for a plan that doesn't fit my needs and I'm being overcharged.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "plan_change",
+      "confidence": 1.0,
+      "rationale": "The issue was addressed by switching the customer to a cheaper Basic Plan.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I'm paying for a plan that doesn't fit my needs",
+        "verified": true
+       },
+       {
+        "turn_id": 6,
+        "quote": "would you like to see if a cheaper plan fits your needs better? I can switch you to the Basic Plan",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "cancellation",
+      "confidence": 0.95,
+      "rationale": "The customer explicitly demanded to cancel their service and switch providers.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "I want to cancel my service immediately.",
+        "verified": true
+       },
+       {
+        "turn_id": 5,
+        "quote": "I just want to get rid of this account. I'm switching to another provider",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully processed the plan change to a cheaper option, and the customer expressed satisfaction with the solution.",
+    "resolution_evidence": [
+     {
+      "turn_id": 8,
+      "quote": "I will process the plan change now and send you a confirmation SMS shortly.",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "That sounds fair. I'm actually quite happy with that solution.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.1,
+    "churn_rationale": "Although the customer initially threatened to cancel and switch providers, they rescinded that stance after being offered a cheaper plan and stated they were happy with the resolution.",
+    "churn_evidence": [
+     {
+      "turn_id": 7,
+      "quote": "Twenty-five dollars? That's actually much better. I might stay if that's the plan I want.",
+      "verified": true
+     },
+     {
+      "turn_id": 11,
+      "quote": "That sounds fair. I'm actually quite happy with that solution. Thank you for your help.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "billing",
+     "plan_change",
+     "cancellation"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent did not open with a greeting, did not name the company or themselves, and did not offer help properly.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "Yeah, what's the problem?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent discussed and changed account details (plan change) without asking for any secret knowledge factor such as PIN, OTP, date of birth, or account number.",
+      "evidence": [
+       {
+        "turn_id": 6,
+        "quote": "Before we go through with the cancellation, would you like to see if a cheaper plan fits your needs better?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent appropriately acknowledged the customer's frustration.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "I can see why that's frustrating, I'm sorry you've been feeling this way.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The call involved a cancellation/plan change discussion and the agent correctly stated the early-termination fee info and final bill details.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "There is no early-termination fee for this change, and your final bill for the current plan will arrive on the 15th of this month.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent did not make any prohibited promises.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "There is no early-termination fee for this change",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked if anything else was needed, summarised next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 12,
+        "quote": "Is there anything else I can help you with today? I've updated your plan and logged the retention offer. Goodbye!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 71.4,
+    "violations": [
+     {
+      "item_id": "identity_verification",
+      "severity": "high",
+      "description": "Identity verification (fail): The agent discussed and changed account details (plan change) without asking for any secret knowledge factor such as PIN, OTP, date of birth, or account number.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 6,
+        "quote": "Before we go through with the cancellation, would you like to see if a cheaper plan fits your needs better?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 1,
+      "score": -1.0,
+      "label": "negative"
+     },
+     {
+      "turn_id": 3,
+      "score": -0.667,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 11,
+      "score": 0.667,
+      "label": "positive"
+     }
+    ],
+    "start": -0.834,
+    "end": 0.584,
+    "delta": 1.418,
+    "direction": "improved",
+    "shift_turns": []
+   },
+   "rule_flags": [
+    {
+     "rule_id": "cancel_service",
+     "kind": "churn_signal",
+     "turn_id": 1,
+     "quote": "cancel my service"
+    },
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 5,
+     "quote": "switching to another provider"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 907,
+     "output_tokens": 770,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1335,
+     "output_tokens": 517,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:32.306106Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Process service cancellation request",
+    "owner": "agent",
+    "status": "done",
+    "created_turn": 1,
+    "updated_turn": 7,
+    "evidence": [
+     {
+      "turn_id": 1,
+      "quote": "I want to cancel my service immediately",
+      "verified": true
+     },
+     {
+      "turn_id": 7,
+      "quote": "Twenty-five dollars? That's actually much better. I might stay if that's the plan I want.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The customer explicitly stated they want to cancel their service immediately due to hidden fees.",
+    "confidence": 0.95
+   },
+   {
+    "action_id": "A2",
+    "text": "Send plan change confirmation SMS",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 8,
+    "updated_turn": 8,
+    "evidence": [
+     {
+      "turn_id": 8,
+      "quote": "I will process the plan change now and send you a confirmation SMS shortly.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Agent stated they will send a confirmation SMS shortly after processing the plan change.",
+    "confidence": 1.0
+   },
+   {
+    "action_id": "A3",
+    "text": "Log retention offer on customer account",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 10,
+    "updated_turn": 10,
+    "evidence": [
+     {
+      "turn_id": 10,
+      "quote": "I'll log a retention offer on your account",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Agent stated they will log a retention offer on the account.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_065",
+  "analysis": {
+   "call_id": "syn_065",
+   "final": {
+    "summary": "The customer called to cancel their service due to signal drops and disputed an early-termination fee and a previous overcharge. The agent waived the fee, processed the cancellation to allow porting, and issued a refund for the overcharge. The customer was satisfied and the issues were successfully handled.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.9,
+      "rationale": "The customer called initially because of constant signal drops.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I am so tired of the constant signal drops in my area.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "cancellation",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly demanded to cancel their service.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I want to cancel my service immediately.",
+        "verified": true
+       },
+       {
+        "turn_id": 9,
+        "quote": "I'll also process the cancellation request right now",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "billing",
+      "confidence": 0.9,
+      "rationale": "The customer brought up an overcharge on their last statement.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "what about the overcharge on my last statement?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully processed the cancellation, waived the fee, and refunded the overcharge to the customer's satisfaction.",
+    "resolution_evidence": [
+     {
+      "turn_id": 14,
+      "quote": "I have processed the cancellation and waived the fee.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.0,
+    "churn_rationale": "Although the customer initially intended to switch providers due to fees, the agent waived the fees and resolved the overcharge, resulting in the customer stating they were happy with the resolution.",
+    "churn_evidence": [
+     {
+      "turn_id": 13,
+      "quote": "I'm actually quite happy with how you handled this.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "cancellation",
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, named the company and themselves, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent correctly asked for a secret factor (account number) before discussing account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 5,
+        "quote": "Before we proceed with the account details, could you please provide your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration in a human and empathetic way.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am very sorry to hear that you have been experiencing these connectivity issues, [PERSON_2]. I understand how frustrating it is",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "For the cancellation, the agent correctly disclosed the early-termination fee and when the final bill arrives.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "there is an early-termination fee of forty-five dollars, and your final bill will arrive in the next billing cycle.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent violated the prohibited promise policy by guaranteeing a refund before it is approved and guaranteeing a precise timeline/outcome outside their absolute control.",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Trust me, the money will definitely be back in your account by tomorrow.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked for additional needs, summarized next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "Is there anything else I can assist you with today? I have processed the cancellation and waived the fee. Goodbye!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 71.4,
+    "violations": [
+     {
+      "item_id": "no_prohibited_promises",
+      "severity": "high",
+      "description": "No prohibited promises (fail): The agent violated the prohibited promise policy by guaranteeing a refund before it is approved and guaranteeing a precise timeline/outcome outside their absolute control.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 11,
+        "quote": "Trust me, the money will definitely be back in your account by tomorrow.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.833,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": -0.4,
+      "label": "negative"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 8,
+      "score": -0.833,
+      "label": "negative"
+     },
+     {
+      "turn_id": 10,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 12,
+      "score": 0.833,
+      "label": "positive"
+     },
+     {
+      "turn_id": 13,
+      "score": 0.5,
+      "label": "positive"
+     }
+    ],
+    "start": -0.617,
+    "end": 0.666,
+    "delta": 1.283,
+    "direction": "improved",
+    "shift_turns": [
+     8,
+     10,
+     12
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "cancel_service",
+     "kind": "churn_signal",
+     "turn_id": 2,
+     "quote": "cancel my service"
+    },
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 8,
+     "quote": "switching to a different provider"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 958,
+     "output_tokens": 573,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1386,
+     "output_tokens": 699,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:32.322561Z"
+  },
+  "actions": [
+   {
+    "action_id": "A1",
+    "text": "Process account cancellation and number porting",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 9,
+    "updated_turn": 9,
+    "evidence": [
+     {
+      "turn_id": 9,
+      "quote": "I'll also process the cancellation request right now so you'll be able to port out your number, [PHONE_1], to your new provider",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "The agent explicitly stated they will process the cancellation request right now to enable number porting.",
+    "confidence": 1.0
+   },
+   {
+    "action_id": "A2",
+    "text": "Process refund for the overcharge",
+    "owner": "agent",
+    "status": "open",
+    "created_turn": 11,
+    "updated_turn": 11,
+    "evidence": [
+     {
+      "turn_id": 11,
+      "quote": "I've issued a refund for the overcharge",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "rationale": "Agent states they have issued a refund for the overcharge on the last statement.",
+    "confidence": 1.0
+   }
+  ]
+ },
+ {
+  "call_id": "syn_066",
+  "analysis": {
+   "call_id": "syn_066",
+   "final": {
+    "summary": "The customer called due to constant dropped calls and suspected device failure, initially expressing intent to cancel. The agent offered a technical device check instead of immediate cancellation. The customer agreed to try the device check while remaining unsure about staying.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 0.9,
+      "rationale": "The customer reported that their phone has been dropping calls constantly.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "My phone has been dropping calls constantly for the week",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 0.9,
+      "rationale": "The customer stated they believe their device is faulty.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "I think the device is faulty.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "cancellation",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated they wanted to cancel their service and switch providers.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "I'm just going to cancel my service and switch to another provider.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "partial",
+    "resolution_confidence": 0.9,
+    "resolution_rationale": "The cancellation was put on hold and a device check was arranged, but the ultimate outcome regarding retention remains unconfirmed.",
+    "resolution_evidence": [
+     {
+      "turn_id": 13,
+      "quote": "I have scheduled that check. Is there anything else I can assist you with today? Your cancellation request is on hold and the device check is arranged.",
+      "verified": true
+     }
+    ],
+    "churn_flag": true,
+    "churn_score": 0.7,
+    "churn_rationale": "The customer initially demanded cancellation and even after agreeing to a device check, confirmed they are still leaning towards leaving.",
+    "churn_evidence": [
+     {
+      "turn_id": 12,
+      "quote": "I'll take the device check, but I'm still leaning towards leaving. Let's see if that helps first.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network",
+     "device",
+     "cancellation"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opens with a greeting, names the company and themselves, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent correctly asked for account number and date of birth before discussing account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "Before we dive into the account details, could you please provide your account number and date of birth for verification?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration and problems in a human way.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are experiencing these connectivity issues",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent correctly disclosed early-termination fee details and when the final bill arrives during a cancellation discussion.",
+      "evidence": [
+       {
+        "turn_id": 9,
+        "quote": "there is no early-termination fee for your current plan, and your final bill will arrive within thirty days",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent promised that the problem will never happen again, which is explicitly listed as a prohibited promise in the company policy.",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "I promise this will never happen again.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checks if anything else is needed, summarises next steps, and ends politely.",
+      "evidence": [
+       {
+        "turn_id": 13,
+        "quote": "Is there anything else I can assist you with today? ... Goodbye!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 71.4,
+    "violations": [
+     {
+      "item_id": "no_prohibited_promises",
+      "severity": "high",
+      "description": "No prohibited promises: never_again",
+      "source": "rule+llm",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "never happen again",
+        "verified": true
+       },
+       {
+        "turn_id": 8,
+        "quote": "I promise this will never happen again.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.833,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": -0.667,
+      "label": "negative"
+     },
+     {
+      "turn_id": 12,
+      "score": 0.0,
+      "label": "neutral"
+     }
+    ],
+    "start": -0.416,
+    "end": -0.334,
+    "delta": 0.082,
+    "direction": "flat",
+    "shift_turns": [
+     5,
+     7,
+     12
+    ]
+   },
+   "rule_flags": [
+    {
+     "rule_id": "switch_provider",
+     "kind": "churn_signal",
+     "turn_id": 7,
+     "quote": "switch to another provider"
+    },
+    {
+     "rule_id": "cancel_service",
+     "kind": "churn_signal",
+     "turn_id": 7,
+     "quote": "cancel my service"
+    },
+    {
+     "rule_id": "never_again",
+     "kind": "prohibited_promise",
+     "turn_id": 8,
+     "quote": "never happen again"
+    }
+   ],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 938,
+     "output_tokens": 554,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1366,
+     "output_tokens": 493,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:32.333405Z"
+  },
+  "actions": []
+ },
+ {
+  "call_id": "syn_067",
+  "analysis": {
+   "call_id": "syn_067",
+   "final": {
+    "summary": "The customer called to dispute an unexpected charge on their bill and to upgrade their mobile plan. The agent processed a refund for the billing error and updated the plan with more data. The issues were successfully resolved during the call.",
+    "reasons": [
+     {
+      "label": "billing",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly complained about the latest bill being unexpectedly high.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I am so frustrated with my latest bill. It is way higher than it should be",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "plan_change",
+      "confidence": 1.0,
+      "rationale": "The customer requested to change their current plan.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I also want to change my plan because the current one is not working for me.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully processed the refund and updated the plan as requested by the customer.",
+    "resolution_evidence": [
+     {
+      "turn_id": 12,
+      "quote": "I have requested the refund and updated your plan.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.0,
+    "churn_rationale": "The customer expressed frustration with their bill and plan but only sought a refund and an upgrade, showing no intent to cancel or leave.",
+    "churn_evidence": [
+     {
+      "turn_id": 9,
+      "quote": "Now about the plan change, I need something with more data.",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "billing",
+     "plan_change"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opens with a proper greeting, states the company name and their own name, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asks for the customer's account number before discussing account-specific information.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "Before we dive into the account details, could you please provide your account number?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledges the customer's frustration directly and empathetically.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are feeling frustrated.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent agreed to a refund/credit and a plan change, but failed to disclose the required approval timeline (7-10 business days) for the refund and the new monthly price/effective date for the plan change.",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "I will raise a refund request for the wrong charge now.",
+        "verified": true
+       },
+       {
+        "turn_id": 10,
+        "quote": "I will process the plan change and send a confirmation SMS",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent raised a request rather than guaranteeing a refund before approval, and made no other prohibited promises.",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "I will raise a refund request for the wrong charge now.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checks if anything else is needed, summarises next steps, and ends politely.",
+      "evidence": [
+       {
+        "turn_id": 12,
+        "quote": "Is there anything else I can assist you with today? I have requested the refund and updated your plan. Goodbye!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 81.0,
+    "violations": [
+     {
+      "item_id": "correct_disclosure",
+      "severity": "medium",
+      "description": "Correct disclosure (fail): The agent agreed to a refund/credit and a plan change, but failed to disclose the required approval timeline (7-10 business days) for the refund and the new monthly price/effective date for the plan change.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "I will raise a refund request for the wrong charge now.",
+        "verified": true
+       },
+       {
+        "turn_id": 10,
+        "quote": "I will process the plan change and send a confirmation SMS",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.767,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.833,
+      "label": "positive"
+     },
+     {
+      "turn_id": 11,
+      "score": 0.5,
+      "label": "positive"
+     }
+    ],
+    "start": -0.384,
+    "end": 0.666,
+    "delta": 1.05,
+    "direction": "improved",
+    "shift_turns": [
+     5,
+     9
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 852,
+     "output_tokens": 442,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1280,
+     "output_tokens": 722,
+     "latency_ms": 2479,
+     "cost_usd": 0.000417,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:35.215806Z"
+  },
+  "actions": []
+ },
+ {
+  "call_id": "syn_068",
+  "analysis": {
+   "call_id": "syn_068",
+   "final": {
+    "summary": "The customer called to fix a flickering phone screen and upgrade their data plan. The agent processed the plan change and booked an in-store device check, but the customer was dissatisfied with the price and the inconvenience.",
+    "reasons": [
+     {
+      "label": "plan_change",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly states they need to change their plan.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "my phone is acting up and i need to change my plan",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "device",
+      "confidence": 1.0,
+      "rationale": "The customer mentions phone problems and a flickering screen.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "my phone is acting up",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "label": "billing",
+      "confidence": 0.8,
+      "rationale": "The customer disputes or expresses dismay over the cost of the new plan.",
+      "evidence": [
+       {
+        "turn_id": 7,
+        "quote": "wait, $45? that's more expensive than i thought.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 0.9,
+    "resolution_rationale": "The agent successfully completed the requested plan change and scheduled the device check appointment.",
+    "resolution_evidence": [
+     {
+      "turn_id": 13,
+      "quote": "I've processed the plan change and booked your device check.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.6,
+    "churn_rationale": "The customer expresses high frustration and complains about the service, but does not explicitly state an intent to cancel, port out, or switch providers.",
+    "churn_evidence": [
+     {
+      "turn_id": 11,
+      "quote": "i'm so tired of this service. this is terrible!",
+      "verified": true
+     },
+     {
+      "turn_id": 12,
+      "quote": "this is a total waste of time. i'm so angry right now!",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "plan_change",
+     "device",
+     "billing"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, named the company and themselves, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "Hello! Thanks for contacting Nimbus Telecom. I'm [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent correctly asked for the account number and date of birth before discussing account-specific details.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "could you please provide your account number and date of birth?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledged the customer's frustration regarding the screen issue.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "I'm sorry to hear about the screen issue, that sounds really frustrating.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "For the plan change, the agent correctly disclosed the new monthly price and the effective date.",
+      "evidence": [
+       {
+        "turn_id": 6,
+        "quote": "For the data plan, the new monthly price will be $45 per month, and the change will take effect on the 1st of next month.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent made no prohibited promises during the call.",
+      "evidence": [
+       {
+        "turn_id": 8,
+        "quote": "I will process the plan change now and send you a confirmation SMS shortly.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked if anything else was needed, summarised next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 13,
+        "quote": "Is there anything else I can help you with today? I've processed the plan change and booked your device check. Have a kind day, goodbye!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 1,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 3,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 7,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 9,
+      "score": -1.0,
+      "label": "negative"
+     },
+     {
+      "turn_id": 11,
+      "score": -1.0,
+      "label": "negative"
+     },
+     {
+      "turn_id": 12,
+      "score": -1.0,
+      "label": "negative"
+     }
+    ],
+    "start": 0.0,
+    "end": -1.0,
+    "delta": -1.0,
+    "direction": "worsened",
+    "shift_turns": [
+     7
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 923,
+     "output_tokens": 560,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1351,
+     "output_tokens": 680,
+     "latency_ms": 2700,
+     "cost_usd": 0.000407,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:36.798968Z"
+  },
+  "actions": []
+ },
+ {
+  "call_id": "syn_069",
+  "analysis": {
+   "call_id": "syn_069",
+   "final": {
+    "summary": "The customer called because their phone screen was flickering and apps were unusable. The agent diagnosed a hardware issue and arranged for a replacement device to be sent to the customer's home. The issue was successfully resolved.",
+    "reasons": [
+     {
+      "label": "device",
+      "confidence": 1.0,
+      "rationale": "The customer called about a malfunctioning phone screen and hardware issue.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "my screen is flickering and i cant even use the apps",
+        "verified": true
+       },
+       {
+        "turn_id": 8,
+        "quote": "it sounds like a hardware issue with the display",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "resolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent successfully processed a request to ship a replacement device to the customer.",
+    "resolution_evidence": [
+     {
+      "turn_id": 10,
+      "quote": "I can arrange for a replacement device to be sent to your home address",
+      "verified": true
+     },
+     {
+      "turn_id": 12,
+      "quote": "I've processed that request now",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.0,
+    "churn_rationale": "The customer expressed satisfaction with the resolution and showed no intent to leave.",
+    "churn_evidence": [
+     {
+      "turn_id": 11,
+      "quote": "oh wow really? that would be great! thank you so much",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "device"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opened with a greeting, stated the company name, stated their own name, and offered help.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "Hello! Thanks for contacting Nimbus Telecom. I'm [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "fail",
+      "points": 0.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent discussed the customer's device and account status without asking for any secret knowledge factor like PIN, OTP, DOB, or account number.",
+      "evidence": [
+       {
+        "turn_id": 6,
+        "quote": "Thanks [PERSON_2]. Let me check the system. It looks like you have the latest model, right?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent explicitly acknowledged the customer's frustration in a human way.",
+      "evidence": [
+       {
+        "turn_id": 4,
+        "quote": "I am sorry to hear that you're having such a frustrating experience with your device",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "None of the required disclosures for plan change, cancellation, or billing/refund apply to this hardware replacement call.",
+      "evidence": [],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent arranged a standard replacement and made no prohibited promises.",
+      "evidence": [
+       {
+        "turn_id": 10,
+        "quote": "I can arrange for a replacement device to be sent to your home address",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checked for additional needs, summarised the next steps, and ended politely.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "Is there anything else I can assist you with today? I'll get that replacement device shipped out immediately. Have a great day!",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 76.5,
+    "violations": [
+     {
+      "item_id": "identity_verification",
+      "severity": "high",
+      "description": "Identity verification (fail): The agent discussed the customer's device and account status without asking for any secret knowledge factor like PIN, OTP, DOB, or account number.",
+      "source": "llm",
+      "evidence": [
+       {
+        "turn_id": 6,
+        "quote": "Thanks [PERSON_2]. Let me check the system. It looks like you have the latest model, right?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ]
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 1,
+      "score": -0.875,
+      "label": "negative"
+     },
+     {
+      "turn_id": 3,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 5,
+      "score": 0.5,
+      "label": "positive"
+     },
+     {
+      "turn_id": 7,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 9,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 11,
+      "score": 0.667,
+      "label": "positive"
+     },
+     {
+      "turn_id": 13,
+      "score": 0.667,
+      "label": "positive"
+     }
+    ],
+    "start": -0.812,
+    "end": 0.667,
+    "delta": 1.479,
+    "direction": "improved",
+    "shift_turns": [
+     5,
+     11
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 847,
+     "output_tokens": 401,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1275,
+     "output_tokens": 653,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:37:35.222430Z"
+  },
+  "actions": []
+ },
+ {
+  "call_id": "syn_070",
+  "analysis": {
+   "call_id": "syn_070",
+   "final": {
+    "summary": "The customer called to report severe network issues at her house that lasted for three days. The agent ran diagnostics and suggested checking hardware, but could not resolve the problem. The call ended without a fix and with the customer highly frustrated.",
+    "reasons": [
+     {
+      "label": "network",
+      "confidence": 1.0,
+      "rationale": "The customer explicitly stated she is experiencing terrible network issues and cannot make phone calls.",
+      "evidence": [
+       {
+        "turn_id": 2,
+        "quote": "I've been having terrible network issues at my house for the last three days.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "resolution": "unresolved",
+    "resolution_confidence": 1.0,
+    "resolution_rationale": "The agent was unable to determine the cause or fix the network issue remotely, and nothing concrete was arranged.",
+    "resolution_evidence": [
+     {
+      "turn_id": 14,
+      "quote": "without a clear error code, I cannot fix this remotely.",
+      "verified": true
+     },
+     {
+      "turn_id": 16,
+      "quote": "Since we couldn't find a remote fix, I suggest monitoring the connection.",
+      "verified": true
+     }
+    ],
+    "churn_flag": false,
+    "churn_score": 0.6,
+    "churn_rationale": "The customer expressed extreme frustration and insulted the agent, indicating a high risk of leaving, but did not explicitly state an intention to cancel, port out, or switch providers during this conversation.",
+    "churn_evidence": [
+     {
+      "turn_id": 15,
+      "quote": "My hardware is fine! You are completely useless. I am beyond frustrated",
+      "verified": true
+     }
+    ],
+    "verified": true,
+    "reasons_labels": [
+     "network"
+    ]
+   },
+   "qa": {
+    "items": [
+     {
+      "item_id": "greeting",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent opens with a greeting, names the company and themselves, and offers help.",
+      "evidence": [
+       {
+        "turn_id": 1,
+        "quote": "Thank you for calling Nimbus Telecom. My name is [PERSON_1]. How can I help you today?",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "identity_verification",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent asks for the account number before discussing account details, and the customer provides it.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "Before we proceed, could you please provide your account number for verification?",
+        "verified": true
+       },
+       {
+        "turn_id": 4,
+        "quote": "Yes, my account number is [ACCOUNT_NO_1].",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "empathy",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.5,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent acknowledges the customer's problem in a human way.",
+      "evidence": [
+       {
+        "turn_id": 3,
+        "quote": "I am sorry to hear that you are experiencing connectivity problems",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "correct_disclosure",
+      "verdict": "na",
+      "points": null,
+      "weight": 2.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "No plan change, cancellation, or refund/credit was agreed during the call, so required disclosures do not apply.",
+      "evidence": [],
+      "verified": true
+     },
+     {
+      "item_id": "no_prohibited_promises",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 3.0,
+      "critical": true,
+      "confidence": 1.0,
+      "rationale": "The agent makes no prohibited promises such as guaranteed outcomes or permanent fixes.",
+      "evidence": [
+       {
+        "turn_id": 14,
+        "quote": "I apologize, but without a clear error code, I cannot fix this remotely.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     },
+     {
+      "item_id": "proper_closure",
+      "verdict": "pass",
+      "points": 1.0,
+      "weight": 1.0,
+      "critical": false,
+      "confidence": 1.0,
+      "rationale": "The agent checks for further assistance and ends politely.",
+      "evidence": [
+       {
+        "turn_id": 16,
+        "quote": "Is there anything else I can assist you with today? ... Thank you for calling Nimbus Telecom. Goodbye.",
+        "verified": true
+       }
+      ],
+      "verified": true
+     }
+    ],
+    "score_pct": 100.0,
+    "violations": []
+   },
+   "sentiment": {
+    "points": [
+     {
+      "turn_id": 2,
+      "score": -0.5,
+      "label": "negative"
+     },
+     {
+      "turn_id": 4,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 6,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 8,
+      "score": 0.0,
+      "label": "neutral"
+     },
+     {
+      "turn_id": 10,
+      "score": -0.65,
+      "label": "negative"
+     },
+     {
+      "turn_id": 13,
+      "score": -0.75,
+      "label": "negative"
+     },
+     {
+      "turn_id": 15,
+      "score": -0.375,
+      "label": "negative"
+     }
+    ],
+    "start": -0.25,
+    "end": -0.562,
+    "delta": -0.312,
+    "direction": "worsened",
+    "shift_turns": [
+     10
+    ]
+   },
+   "rule_flags": [],
+   "actions": [],
+   "review_items": [],
+   "llm_calls": [
+    {
+     "task": "final_analysis",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "final_analysis.v1",
+     "input_tokens": 990,
+     "output_tokens": 418,
+     "latency_ms": 0,
+     "cost_usd": 0.0,
+     "status": "cache_hit"
+    },
+    {
+     "task": "qa_scoring",
+     "model": "gemini-3.5-flash-lite",
+     "prompt_version": "qa_scoring.v1",
+     "input_tokens": 1418,
+     "output_tokens": 477,
+     "latency_ms": 2783,
+     "cost_usd": 0.000333,
+     "status": "ok"
+    }
+   ],
+   "config_version": "13873791f1a3",
+   "created_at": "2026-10-05T16:38:32.499986Z"
+  },
+  "actions": []
+ }
+]

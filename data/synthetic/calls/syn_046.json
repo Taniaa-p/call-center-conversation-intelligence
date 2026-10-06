@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_046",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "hinglish",
+ "started_at": "2026-10-03T15:07:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?\nCustomer: Hello Nisha, mera bill bahut zyada aaya hai is baar. I am very upset, please check karo kya hua hai.\nAgent: I am sorry to hear that you are frustrated with your bill. I will definitely look into this for you.\nAgent: Before we proceed, could you please provide your account number and date of birth for verification?\nCustomer: Haan, my account number is 68526005 and my date of birth is 07/02/1997. My name is Aisha Nair and my phone is 98293 22901.\nAgent: Thank you, Ms. Nair. Let me check the charges. One moment please.\nCustomer: Please jaldi check karo, it is too much money for a simple plan.\nAgent: I see here that you were charged twice for the international roaming pack. This was an error on our end.\nCustomer: Exactly! Maine toh sirf ek pack liya tha. Please fix this immediately.\nAgent: I will raise a refund request for the wrong charge right now.\nAgent: Please note that the refund is subject to approval and usually takes 7-10 business days to reflect in your account.\nCustomer: Theek hai, I understand. Thank you for finding the mistake.\nAgent: You are welcome. Is there anything else I can assist you with today?\nCustomer: Nahi, that is all. Thank you, Nisha.\nAgent: Thank you for choosing Nimbus Telecom. I have raised the refund request, and you will receive an update soon. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?",
+   "ts": "2026-10-03T15:07:12+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hello Nisha, mera bill bahut zyada aaya hai is baar. I am very upset, please check karo kya hua hai.",
+   "ts": "2026-10-03T15:07:17+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are frustrated with your bill. I will definitely look into this for you.",
+   "ts": "2026-10-03T15:07:37+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we proceed, could you please provide your account number and date of birth for verification?",
+   "ts": "2026-10-03T15:07:56+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Haan, my account number is 68526005 and my date of birth is 07/02/1997. My name is Aisha Nair and my phone is 98293 22901.",
+   "ts": "2026-10-03T15:08:11+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Nair. Let me check the charges. One moment please.",
+   "ts": "2026-10-03T15:08:28+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Please jaldi check karo, it is too much money for a simple plan.",
+   "ts": "2026-10-03T15:08:33+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I see here that you were charged twice for the international roaming pack. This was an error on our end.",
+   "ts": "2026-10-03T15:08:41+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Exactly! Maine toh sirf ek pack liya tha. Please fix this immediately.",
+   "ts": "2026-10-03T15:08:50+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I will raise a refund request for the wrong charge right now.",
+   "ts": "2026-10-03T15:09:07+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Please note that the refund is subject to approval and usually takes 7-10 business days to reflect in your account.",
+   "ts": "2026-10-03T15:09:16+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Theek hai, I understand. Thank you for finding the mistake.",
+   "ts": "2026-10-03T15:09:31+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You are welcome. Is there anything else I can assist you with today?",
+   "ts": "2026-10-03T15:09:49+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "Nahi, that is all. Thank you, Nisha.",
+   "ts": "2026-10-03T15:10:13+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "Thank you for choosing Nimbus Telecom. I have raised the refund request, and you will receive an update soon. Goodbye!",
+   "ts": "2026-10-03T15:10:17+00:00"
+  }
+ ]
+}

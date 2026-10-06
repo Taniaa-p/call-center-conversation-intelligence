@@ -1,0 +1,342 @@
+{
+ "split": "dev",
+ "run_at": "2026-10-03T22:41:05+00:00",
+ "models": {
+  "strong": "gemini-3.5-flash-lite",
+  "fast": "gemini-3.5-flash-lite"
+ },
+ "config_version": "e770b521b797",
+ "pii_backend": "regex",
+ "headline": {
+  "qa_item_accuracy_mean": 0.976,
+  "violation_recall": 0.839,
+  "violation_precision": 0.963,
+  "reasons_micro_f1": 0.857,
+  "resolution_accuracy": 0.633,
+  "churn_recall": 0.762,
+  "sentiment_direction_agreement": 0.796,
+  "action_recall": 0.957,
+  "pii_recall": 0.974,
+  "grounding_verified_rate": 1.0
+ },
+ "metrics": {
+  "n_calls": 49,
+  "qa_items": {
+   "greeting": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 2,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 49,
+    "confusion": {
+     "pass->pass": 47,
+     "fail->fail": 2
+    }
+   },
+   "identity_verification": {
+    "accuracy": 0.918,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 0.429,
+     "f1": 0.6,
+     "tp": 3,
+     "fp": 0,
+     "fn": 4
+    },
+    "n": 49,
+    "confusion": {
+     "pass->pass": 42,
+     "fail->pass": 4,
+     "fail->fail": 3
+    }
+   },
+   "empathy": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 11,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 49,
+    "confusion": {
+     "fail->fail": 11,
+     "pass->pass": 38
+    }
+   },
+   "correct_disclosure": {
+    "accuracy": 0.959,
+    "fail_class": {
+     "precision": 0.875,
+     "recall": 0.875,
+     "f1": 0.875,
+     "tp": 7,
+     "fp": 1,
+     "fn": 1
+    },
+    "n": 49,
+    "confusion": {
+     "na->na": 13,
+     "pass->pass": 27,
+     "fail->pass": 1,
+     "na->fail": 1,
+     "fail->fail": 7
+    }
+   },
+   "no_prohibited_promises": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 16,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 49,
+    "confusion": {
+     "fail->fail": 16,
+     "pass->pass": 33
+    }
+   },
+   "proper_closure": {
+    "accuracy": 0.98,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 0.833,
+     "f1": 0.909,
+     "tp": 5,
+     "fp": 0,
+     "fn": 1
+    },
+    "n": 49,
+    "confusion": {
+     "pass->pass": 43,
+     "fail->fail": 5,
+     "fail->partial": 1
+    }
+   }
+  },
+  "violations": {
+   "overall": {
+    "precision": 0.963,
+    "recall": 0.839,
+    "f1": 0.897,
+    "tp": 26,
+    "fp": 1,
+    "fn": 5
+   },
+   "by_source": {
+    "rule+llm": 6,
+    "llm": 21
+   },
+   "prohibited_promise_recall": {
+    "regex_only": 0.375,
+    "llm_only": 1.0,
+    "n_planted": 16
+   }
+  },
+  "reasons": {
+   "micro": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1": 0.857,
+    "tp": 60,
+    "fp": 20,
+    "fn": 0
+   },
+   "macro_f1": 0.888,
+   "exact_match": 0.633,
+   "per_label": {
+    "billing": {
+     "precision": 0.714,
+     "recall": 1.0,
+     "f1": 0.833,
+     "tp": 20,
+     "fp": 8,
+     "fn": 0
+    },
+    "network": {
+     "precision": 0.652,
+     "recall": 1.0,
+     "f1": 0.789,
+     "tp": 15,
+     "fp": 8,
+     "fn": 0
+    },
+    "plan_change": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 8,
+     "fp": 0,
+     "fn": 0
+    },
+    "cancellation": {
+     "precision": 0.692,
+     "recall": 1.0,
+     "f1": 0.818,
+     "tp": 9,
+     "fp": 4,
+     "fn": 0
+    },
+    "device": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 8,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  "outcomes": {
+   "resolution_accuracy": 0.633,
+   "resolution_confusion": {
+    "resolved->escalated": 3,
+    "partial->partial": 2,
+    "unresolved->unresolved": 2,
+    "escalated->escalated": 9,
+    "partial->resolved": 6,
+    "resolved->resolved": 18,
+    "resolved->partial": 3,
+    "unresolved->resolved": 1,
+    "unresolved->partial": 2,
+    "escalated->partial": 1,
+    "unresolved->escalated": 2
+   },
+   "churn_accuracy": 0.878,
+   "churn": {
+    "precision": 0.941,
+    "recall": 0.762,
+    "f1": 0.842,
+    "tp": 16,
+    "fp": 1,
+    "fn": 5
+   },
+   "sentiment_direction_agreement": 0.796,
+   "sentiment_confusion": {
+    "improved->improved": 29,
+    "worsened->worsened": 10,
+    "flat->improved": 4,
+    "worsened->improved": 2,
+    "worsened->flat": 4
+   }
+  },
+  "actions": {
+   "calls_replayed": 20,
+   "expected": 23,
+   "recall": 0.957,
+   "on_time_rate": 0.455,
+   "avg_actions_per_call": 1.8
+  },
+  "pii": {
+   "recall": 0.974,
+   "planted": 192,
+   "leaked": 5,
+   "per_type_recall": {
+    "ACCOUNT_NO": 1.0,
+    "ADDRESS": 1.0,
+    "CARD_NUMBER": 1.0,
+    "DATE": 1.0,
+    "EMAIL": 1.0,
+    "PERSON": 0.898,
+    "PHONE": 1.0
+   },
+   "extra_redactions_per_call": 1.918
+  },
+  "grounding": {
+   "evidence_quotes": 621,
+   "verified_rate": 1.0,
+   "regrounding_retries": 1,
+   "review_items_per_call": 0.0,
+   "review_reasons": {}
+  }
+ },
+ "slices": {
+  "language=en": {
+   "n": 41,
+   "qa_item_accuracy_mean": 0.984,
+   "violation_recall": 0.885,
+   "violation_precision": 0.958,
+   "reasons_micro_f1": 0.85,
+   "resolution_accuracy": 0.634,
+   "churn_recall": 0.75,
+   "sentiment_direction_agreement": 0.756,
+   "action_recall": 0.947,
+   "pii_recall": 0.982,
+   "grounding_verified_rate": 1.0
+  },
+  "language=hinglish": {
+   "n": 8,
+   "qa_item_accuracy_mean": 0.938,
+   "violation_recall": 0.6,
+   "violation_precision": 1.0,
+   "reasons_micro_f1": 0.9,
+   "resolution_accuracy": 0.625,
+   "churn_recall": 1.0,
+   "sentiment_direction_agreement": 1.0,
+   "action_recall": 1.0,
+   "pii_recall": 0.931,
+   "grounding_verified_rate": 1.0
+  },
+  "channel=chat": {
+   "n": 15,
+   "qa_item_accuracy_mean": 0.989,
+   "violation_recall": 0.875,
+   "violation_precision": 1.0,
+   "reasons_micro_f1": 0.818,
+   "resolution_accuracy": 0.6,
+   "churn_recall": 0.8,
+   "sentiment_direction_agreement": 0.867,
+   "action_recall": 1.0,
+   "pii_recall": 0.952,
+   "grounding_verified_rate": 1.0
+  },
+  "channel=voice": {
+   "n": 34,
+   "qa_item_accuracy_mean": 0.971,
+   "violation_recall": 0.826,
+   "violation_precision": 0.95,
+   "reasons_micro_f1": 0.875,
+   "resolution_accuracy": 0.647,
+   "churn_recall": 0.75,
+   "sentiment_direction_agreement": 0.765,
+   "action_recall": 0.933,
+   "pii_recall": 0.984,
+   "grounding_verified_rate": 1.0
+  }
+ },
+ "ops": {
+  "llm_calls": 271,
+  "cache_hits": 108,
+  "status": {
+   "cache_hit": 108,
+   "ok": 4,
+   "fallback": 159
+  },
+  "latency_ms_by_task": {
+   "live_actions": {
+    "p50": 7911,
+    "p95": 13049,
+    "n": 163
+   }
+  },
+  "live_update_ms": {
+   "p50": 7911,
+   "p95": 13049,
+   "n": 163
+  },
+  "cost_usd_fresh_calls": 0.0192,
+  "cost_per_call_usd": 0.00039,
+  "tokens_per_call": 2729
+ },
+ "wall_seconds": 1103.4
+}

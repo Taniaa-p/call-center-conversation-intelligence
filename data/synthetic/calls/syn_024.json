@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_024",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-09-28T13:34:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "my phone is barely working and im so annoyed 😡",
+   "timestamp": "2026-09-28T13:35:24+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Sana. How can I help you today?",
+   "timestamp": "2026-09-28T13:37:22+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "my signal is gone and i cant even make calls. this is ridiculous",
+   "timestamp": "2026-09-28T13:38:14+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I am sorry to hear that you're having trouble with your device. I know how frustrating it is to be disconnected.",
+   "timestamp": "2026-09-28T13:39:47+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Before we look into this, could you please provide your account number?",
+   "timestamp": "2026-09-28T13:40:05+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "it's 27087436. name is Rohan Sharma",
+   "timestamp": "2026-09-28T13:41:39+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Rohan. Let me check the line. Is the phone number associated with the account 96906 74182?",
+   "timestamp": "2026-09-28T13:43:17+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "yeah that's it. email is rohan.63@examplemail.com",
+   "timestamp": "2026-09-28T13:45:17+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I've checked the system and it looks like there is a fault with the SIM card itself. It's likely damaged.",
+   "timestamp": "2026-09-28T13:45:58+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "seriously? i just want it fixed now",
+   "timestamp": "2026-09-28T13:46:45+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I can definitely help with that. I'll send a replacement SIM to your address on file.",
+   "timestamp": "2026-09-28T13:47:06+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "oh okay, thanks a lot Sana! you've been great",
+   "timestamp": "2026-09-28T13:48:11+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "my phone is barely working and im so annoyed 😡",
+   "ts": "2026-09-28T13:35:24+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Sana. How can I help you today?",
+   "ts": "2026-09-28T13:37:22+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "my signal is gone and i cant even make calls. this is ridiculous",
+   "ts": "2026-09-28T13:38:14+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you're having trouble with your device. I know how frustrating it is to be disconnected.",
+   "ts": "2026-09-28T13:39:47+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Before we look into this, could you please provide your account number?",
+   "ts": "2026-09-28T13:40:05+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "it's 27087436. name is Rohan Sharma",
+   "ts": "2026-09-28T13:41:39+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Rohan. Let me check the line. Is the phone number associated with the account 96906 74182?",
+   "ts": "2026-09-28T13:43:17+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "yeah that's it. email is rohan.63@examplemail.com",
+   "ts": "2026-09-28T13:45:17+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I've checked the system and it looks like there is a fault with the SIM card itself. It's likely damaged.",
+   "ts": "2026-09-28T13:45:58+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "seriously? i just want it fixed now",
+   "ts": "2026-09-28T13:46:45+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I can definitely help with that. I'll send a replacement SIM to your address on file.",
+   "ts": "2026-09-28T13:47:06+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "oh okay, thanks a lot Sana! you've been great",
+   "ts": "2026-09-28T13:48:11+00:00"
+  }
+ ]
+}

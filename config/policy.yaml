@@ -1,0 +1,48 @@
+# Compliance policy. Regex patterns are case-insensitive and run on redacted text.
+version: 1
+
+prohibited_promises:
+  - id: guaranteed_refund
+    pattern: '\b(guarantee|guaranteed|promise)\w*\b.{0,40}\brefund'
+    description: Guaranteeing a refund before it is approved.
+  - id: never_again
+    pattern: '\b(never|won''t ever)\b.{0,30}\b(happen|occur|face|have)\b.{0,20}\bagain\b'
+    description: Promising a problem will never happen again.
+  - id: guaranteed_outcome
+    pattern: '\b(100\s?%|hundred percent|absolutely)\s+(guarantee|guaranteed|sure|certain)'
+    description: Guaranteeing an outcome the agent cannot control.
+  - id: permanent_free
+    pattern: '\bfree\b.{0,20}\b(forever|for life|permanently)\b'
+    description: Promising permanently free service.
+  - id: waive_all_fees
+    pattern: '\bwaive\w*\b.{0,20}\b(all|every)\b.{0,15}\b(fees?|charges?)\b'
+    description: Promising to waive all fees without authorisation.
+
+required_disclosures:
+  - id: plan_change_terms
+    applies_to_reasons: [plan_change]
+    description: New monthly price and the date the change takes effect.
+  - id: cancellation_fees
+    applies_to_reasons: [cancellation]
+    description: Any early-termination fee and when the final bill arrives.
+  - id: refund_timeline
+    applies_to_reasons: [billing]
+    applies_when: a refund or credit is agreed
+    description: Refund/credit is subject to approval and the expected timeline (e.g. 7-10 business days).
+
+churn_signals:
+  - id: switch_provider
+    pattern: '\b(switch|switching|move|moving|go|going|port|porting)\b.{0,25}\b(another|other|different|new|competitor)\b.{0,15}\b(provider|network|carrier|operator|company)\b'
+  - id: cancel_service
+    pattern: '\b(cancel|close|terminate|disconnect)\w*\b.{0,20}\b(service|connection|plan|account|sim|number)\b'
+  - id: port_out
+    pattern: '\bport(ing)?\s+(out|my number)\b'
+  - id: hinglish_switch
+    pattern: '\b(dusr[aie]|doosr[aie])\s+(network|company|operator)\b|\bport\s+karwa'
+  - id: fed_up
+    pattern: '\b(last time|last chance|had enough|fed up)\b'
+
+# Agent-turn phrases that look like a commitment. On agent turns these trigger a live
+# action-delta update (customer turns always trigger one).
+commitment_triggers:
+  pattern: '\b(i''ll|i will|we''ll|we will|i''ve (raised|logged|created|scheduled|booked)|schedul\w+|escalat\w+|call you back|send you|refund|credit|technician|ticket)\b'

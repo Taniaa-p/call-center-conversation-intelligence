@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_011",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T09:05:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?\nCustomer: Hi Nisha, I am beyond frustrated. My phone has been dropping calls every five minutes and I can't get any work done. This is ridiculous!\nAgent: I am very sorry to hear that you're experiencing these connectivity issues, Sneha. I can certainly understand how frustrating it is when your service disrupts your work.\nCustomer: It's just not acceptable. If this isn't fixed right now, I'm going to cancel my contract and switch to another provider immediately.\nAgent: I want to make sure we get this sorted for you. Before we look into the account details, could you please provide your account number?\nCustomer: Fine. My account number is 36763445 and my name is Sneha Gupta.\nAgent: Thank you, Sneha. I've accessed your account. I see you're using the phone number 96499 29199. Is that correct?\nCustomer: Yes, that's the one.\nAgent: I've run a quick diagnostic on the line and it looks like there might be a hardware fault with your device. I'd like to get this resolved for you as quickly as possible.\nCustomer: So what does that mean? Do I just have to live with a broken phone?\nAgent: Not at all. I am going to book a device check with our technical team to pinpoint the exact issue and see if it needs a replacement.\nCustomer: Oh, thank goodness. I was worried I'd have to spend hours trying to fix it myself. I appreciate you taking care of this.\nAgent: You're very welcome. Since this requires a specialist's review, I am escalating this ticket to our hardware support team who will contact you within 24 hours to confirm the appointment.\nCustomer: That sounds perfect. Thank you so much for your help, Nisha.\nAgent: It was my pleasure. Is there anything else I can assist you with today? To recap, I've booked the device check and escalated your case to the hardware team. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?",
+   "ts": "2026-10-02T09:05:20+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Nisha, I am beyond frustrated. My phone has been dropping calls every five minutes and I can't get any work done. This is ridiculous!",
+   "ts": "2026-10-02T09:05:37+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you're experiencing these connectivity issues, Sneha. I can certainly understand how frustrating it is when your service disrupts your work.",
+   "ts": "2026-10-02T09:05:50+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It's just not acceptable. If this isn't fixed right now, I'm going to cancel my contract and switch to another provider immediately.",
+   "ts": "2026-10-02T09:06:05+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I want to make sure we get this sorted for you. Before we look into the account details, could you please provide your account number?",
+   "ts": "2026-10-02T09:06:18+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Fine. My account number is 36763445 and my name is Sneha Gupta.",
+   "ts": "2026-10-02T09:06:27+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Sneha. I've accessed your account. I see you're using the phone number 96499 29199. Is that correct?",
+   "ts": "2026-10-02T09:06:48+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Yes, that's the one.",
+   "ts": "2026-10-02T09:07:13+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I've run a quick diagnostic on the line and it looks like there might be a hardware fault with your device. I'd like to get this resolved for you as quickly as possible.",
+   "ts": "2026-10-02T09:07:25+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "So what does that mean? Do I just have to live with a broken phone?",
+   "ts": "2026-10-02T09:07:32+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Not at all. I am going to book a device check with our technical team to pinpoint the exact issue and see if it needs a replacement.",
+   "ts": "2026-10-02T09:07:36+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Oh, thank goodness. I was worried I'd have to spend hours trying to fix it myself. I appreciate you taking care of this.",
+   "ts": "2026-10-02T09:07:47+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You're very welcome. Since this requires a specialist's review, I am escalating this ticket to our hardware support team who will contact you within 24 hours to confirm the appointment.",
+   "ts": "2026-10-02T09:08:03+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "That sounds perfect. Thank you so much for your help, Nisha.",
+   "ts": "2026-10-02T09:08:20+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "It was my pleasure. Is there anything else I can assist you with today? To recap, I've booked the device check and escalated your case to the hardware team. Goodbye!",
+   "ts": "2026-10-02T09:08:32+00:00"
+  }
+ ]
+}

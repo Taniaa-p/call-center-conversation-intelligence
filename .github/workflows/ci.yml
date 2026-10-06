@@ -1,0 +1,19 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync
+      - name: Lint
+        run: uvx ruff check app evals scripts data tests --select E,F,W,B --ignore E501
+      - name: Unit tests (no network, no API key)
+        run: uv run pytest tests -q
+      - name: Re-run the dev eval offline (LLM answers come from the committed data/cache, no API key)
+        run: PYTHONPATH=. uv run python evals/run_evals.py --split dev --live-limit 15
+      - name: Regression gate (fresh eval results vs baseline)
+        run: uv run pytest evals/test_regression.py -q
+      - name: Dashboard builds
+        run: cd dashboard && npm ci && npm run build

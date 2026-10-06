@@ -1,0 +1,166 @@
+{
+ "call_id": "syn_018",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-02T17:16:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "hi, my internet is down again!! 😡",
+   "timestamp": "2026-10-02T17:17:46+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Ravi. How can I help you today?",
+   "timestamp": "2026-10-02T17:18:50+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "my wifi is barely working and i cant even load a page. its so frustrating",
+   "timestamp": "2026-10-02T17:20:19+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I am sorry to hear that you're experiencing these connection issues. I know how annoying it is when your internet is slow.",
+   "timestamp": "2026-10-02T17:20:57+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "exactly. i just want it fixed now.",
+   "timestamp": "2026-10-02T17:21:39+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I can definitely look into this for you. Could you please provide your account number and full name for verification?",
+   "timestamp": "2026-10-02T17:22:15+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "My name is Michael Mehta, account number 53773065.",
+   "timestamp": "2026-10-02T17:22:54+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Mr. Mehta. Let me check the line status for your area. One moment please.",
+   "timestamp": "2026-10-02T17:23:30+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "hope it works. my phone is 99206 73058 if you need it.",
+   "timestamp": "2026-10-02T17:25:10+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thanks. I see a signal drop in your neighborhood. It looks like a network fault in the local hub.",
+   "timestamp": "2026-10-02T17:26:52+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "so what happens now? i need it for work",
+   "timestamp": "2026-10-02T17:27:18+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I will raise a network ticket right now to get our engineers to prioritize the repair in your area.",
+   "timestamp": "2026-10-02T17:29:03+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "oh okay, that sounds good. thanks for the quick response Ravi",
+   "timestamp": "2026-10-02T17:30:54+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "You're very welcome! Is there anything else I can assist you with today? I've raised the ticket and the engineers will update the status. Goodbye!",
+   "timestamp": "2026-10-02T17:31:28+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "hi, my internet is down again!! 😡",
+   "ts": "2026-10-02T17:17:46+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Ravi. How can I help you today?",
+   "ts": "2026-10-02T17:18:50+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "my wifi is barely working and i cant even load a page. its so frustrating",
+   "ts": "2026-10-02T17:20:19+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you're experiencing these connection issues. I know how annoying it is when your internet is slow.",
+   "ts": "2026-10-02T17:20:57+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "exactly. i just want it fixed now.",
+   "ts": "2026-10-02T17:21:39+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "I can definitely look into this for you. Could you please provide your account number and full name for verification?",
+   "ts": "2026-10-02T17:22:15+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "My name is Michael Mehta, account number 53773065.",
+   "ts": "2026-10-02T17:22:54+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Mehta. Let me check the line status for your area. One moment please.",
+   "ts": "2026-10-02T17:23:30+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "hope it works. my phone is 99206 73058 if you need it.",
+   "ts": "2026-10-02T17:25:10+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "Thanks. I see a signal drop in your neighborhood. It looks like a network fault in the local hub.",
+   "ts": "2026-10-02T17:26:52+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "so what happens now? i need it for work",
+   "ts": "2026-10-02T17:27:18+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I will raise a network ticket right now to get our engineers to prioritize the repair in your area.",
+   "ts": "2026-10-02T17:29:03+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "oh okay, that sounds good. thanks for the quick response Ravi",
+   "ts": "2026-10-02T17:30:54+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "You're very welcome! Is there anything else I can assist you with today? I've raised the ticket and the engineers will update the status. Goodbye!",
+   "ts": "2026-10-02T17:31:28+00:00"
+  }
+ ]
+}

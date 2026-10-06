@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_047",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T11:20:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Sana. How can I help you today?\nCustomer: Hi Sana, I'm Sneha Wilson. I've been having a lot of trouble with my phone. It keeps restarting randomly and I can't get any work done.\nAgent: I am sorry to hear that your device is causing you so much trouble, Ms. Wilson. I can certainly look into this for you.\nCustomer: I just want it fixed. It's incredibly frustrating.\nAgent: I understand. Before we dive into the account details, could you please provide me with your account number?\nCustomer: Yes, my account number is 13559020.\nAgent: Thank you. And just to confirm, is the phone number associated with the account 91068 52307?\nCustomer: That is correct.\nAgent: Thank you for verifying that. I've checked the system and it looks like this might be a hardware failure. I'm going to escalate this to our technical hardware team for a deeper analysis.\nCustomer: Will they be able to fix it quickly?\nAgent: They are the experts in this area. I will book a device check for you at our nearest service center so they can examine the hardware physically.\nCustomer: Okay, that sounds like a plan.\nAgent: Is there anything else I can assist you with today? To recap, I have escalated your case to the hardware team and booked your device check. Thank you for calling Nimbus Telecom, and have a great day. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Sana. How can I help you today?",
+   "ts": "2026-10-02T11:20:23+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Sana, I'm Sneha Wilson. I've been having a lot of trouble with my phone. It keeps restarting randomly and I can't get any work done.",
+   "ts": "2026-10-02T11:20:33+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that your device is causing you so much trouble, Ms. Wilson. I can certainly look into this for you.",
+   "ts": "2026-10-02T11:20:51+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "I just want it fixed. It's incredibly frustrating.",
+   "ts": "2026-10-02T11:21:11+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I understand. Before we dive into the account details, could you please provide me with your account number?",
+   "ts": "2026-10-02T11:21:30+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yes, my account number is 13559020.",
+   "ts": "2026-10-02T11:21:50+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you. And just to confirm, is the phone number associated with the account 91068 52307?",
+   "ts": "2026-10-02T11:22:05+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That is correct.",
+   "ts": "2026-10-02T11:22:23+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Thank you for verifying that. I've checked the system and it looks like this might be a hardware failure. I'm going to escalate this to our technical hardware team for a deeper analysis.",
+   "ts": "2026-10-02T11:22:27+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Will they be able to fix it quickly?",
+   "ts": "2026-10-02T11:22:32+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "They are the experts in this area. I will book a device check for you at our nearest service center so they can examine the hardware physically.",
+   "ts": "2026-10-02T11:22:41+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Okay, that sounds like a plan.",
+   "ts": "2026-10-02T11:22:56+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? To recap, I have escalated your case to the hardware team and booked your device check. Thank you for calling Nimbus Telecom, and have a great day. Goodbye.",
+   "ts": "2026-10-02T11:23:04+00:00"
+  }
+ ]
+}

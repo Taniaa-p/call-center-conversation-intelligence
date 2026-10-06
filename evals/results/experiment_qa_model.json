@@ -1,0 +1,18 @@
+{
+ "gemini-3.1-flash-lite": {
+  "n_calls": 14,
+  "qa_item_accuracy": 0.988,
+  "violation_recall": 1.0,
+  "cost_per_call_usd": 0.00041,
+  "output_tokens_p50": 683.5,
+  "latency_p50_ms": null
+ },
+ "gemini-3-flash-preview": {
+  "n_calls": 14,
+  "qa_item_accuracy": 0.988,
+  "violation_recall": 1.0,
+  "cost_per_call_usd": 0.01328,
+  "output_tokens_p50": 3967.5,
+  "latency_p50_ms": 16288.0
+ }
+}

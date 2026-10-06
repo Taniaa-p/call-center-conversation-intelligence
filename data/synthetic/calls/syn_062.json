@@ -1,0 +1,77 @@
+{
+ "call_id": "syn_062",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "hinglish",
+ "started_at": "2026-10-01T12:11:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Nisha. How can I help you today?\nCustomer: Hello Nisha, main Karan Wilson hoon. Mera network coverage area mein bahut kharab hai, I am very frustrated with this service!\nAgent: I am truly sorry to hear that you are facing these network issues, Mr. Wilson. I understand how frustrating it is when your connection is unstable.\nCustomer: Haan, it's just not working. Isliye main apna connection cancel karna chahta hoon. I will switch to another provider because this is unacceptable.\nAgent: We would hate to lose you as a customer. May I ask if there is any specific area where the signal is worst?\nCustomer: Mere ghar ke andar signal nahi aata. My phone number is 95462 38028, please just process the cancellation.\nAgent: I can certainly help you with that. Just so you know, there is no early-termination fee for your current plan, and your final bill will arrive via email within the next seven business days.\nCustomer: Okay, that's fine. Bas jaldi se cancel kar do please.\nAgent: I have now processed your cancellation request in our system, and you will receive a confirmation SMS shortly.\nCustomer: Thank you, Nisha. Aapne bahut help ki, I am satisfied now.\nAgent: You are very welcome. Is there anything else I can assist you with today? Your account is now set for closure, and you will receive the final bill soon. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Nisha. How can I help you today?",
+   "ts": "2026-10-01T12:11:18+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hello Nisha, main Karan Wilson hoon. Mera network coverage area mein bahut kharab hai, I am very frustrated with this service!",
+   "ts": "2026-10-01T12:11:38+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am truly sorry to hear that you are facing these network issues, Mr. Wilson. I understand how frustrating it is when your connection is unstable.",
+   "ts": "2026-10-01T12:11:45+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Haan, it's just not working. Isliye main apna connection cancel karna chahta hoon. I will switch to another provider because this is unacceptable.",
+   "ts": "2026-10-01T12:12:08+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "We would hate to lose you as a customer. May I ask if there is any specific area where the signal is worst?",
+   "ts": "2026-10-01T12:12:30+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Mere ghar ke andar signal nahi aata. My phone number is 95462 38028, please just process the cancellation.",
+   "ts": "2026-10-01T12:12:41+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I can certainly help you with that. Just so you know, there is no early-termination fee for your current plan, and your final bill will arrive via email within the next seven business days.",
+   "ts": "2026-10-01T12:12:58+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Okay, that's fine. Bas jaldi se cancel kar do please.",
+   "ts": "2026-10-01T12:13:17+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I have now processed your cancellation request in our system, and you will receive a confirmation SMS shortly.",
+   "ts": "2026-10-01T12:13:29+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Thank you, Nisha. Aapne bahut help ki, I am satisfied now.",
+   "ts": "2026-10-01T12:13:54+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? Your account is now set for closure, and you will receive the final bill soon. Goodbye!",
+   "ts": "2026-10-01T12:14:08+00:00"
+  }
+ ]
+}

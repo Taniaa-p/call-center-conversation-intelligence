@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_023",
+ "agent_id": "agent_03",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "hinglish",
+ "started_at": "2026-10-02T11:38:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "Hi, mera bill bahut zyada aaya hai, please check karo! 😡",
+   "timestamp": "2026-10-02T11:39:25+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Welcome to Nimbus Telecom. I am Daniel. How can I help you today?",
+   "timestamp": "2026-10-02T11:39:49+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Yaar, my bill is 5000 rupees, it should be 1500. Yeh kya ho raha hai? I am so frustrated!",
+   "timestamp": "2026-10-02T11:40:48+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I am sorry to hear that you are feeling frustrated, Aisha Johnson. I can definitely look into this for you.",
+   "timestamp": "2026-10-02T11:42:19+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Haan, please check. My number is 97817 86860 and I live at 138 Brigade Road.",
+   "timestamp": "2026-10-02T11:43:51+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you. I see a double charge for the international roaming pack. It looks like a mistake on our end.",
+   "timestamp": "2026-10-02T11:44:42+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Exactly! Maine toh sirf ek pack buy kiya tha. Please fix it fast.",
+   "timestamp": "2026-10-02T11:45:08+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I will raise a refund request for the wrong charge right now.",
+   "timestamp": "2026-10-02T11:46:28+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Okay, kab tak aayega refund?",
+   "timestamp": "2026-10-02T11:47:27+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Please note that the refund is subject to approval and usually takes 7-10 business days to reflect in your account.",
+   "timestamp": "2026-10-02T11:48:32+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Theek hai, that is fine. Thank you for the quick help, Daniel!",
+   "timestamp": "2026-10-02T11:49:40+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "You are very welcome! Is there anything else I can assist you with today? I have raised the request, and you will get an email confirmation. Goodbye!",
+   "timestamp": "2026-10-02T11:49:57+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "Hi, mera bill bahut zyada aaya hai, please check karo! 😡",
+   "ts": "2026-10-02T11:39:25+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Welcome to Nimbus Telecom. I am Daniel. How can I help you today?",
+   "ts": "2026-10-02T11:39:49+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "Yaar, my bill is 5000 rupees, it should be 1500. Yeh kya ho raha hai? I am so frustrated!",
+   "ts": "2026-10-02T11:40:48+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are feeling frustrated, Aisha Johnson. I can definitely look into this for you.",
+   "ts": "2026-10-02T11:42:19+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Haan, please check. My number is 97817 86860 and I live at 138 Brigade Road.",
+   "ts": "2026-10-02T11:43:51+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you. I see a double charge for the international roaming pack. It looks like a mistake on our end.",
+   "ts": "2026-10-02T11:44:42+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Exactly! Maine toh sirf ek pack buy kiya tha. Please fix it fast.",
+   "ts": "2026-10-02T11:45:08+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I will raise a refund request for the wrong charge right now.",
+   "ts": "2026-10-02T11:46:28+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Okay, kab tak aayega refund?",
+   "ts": "2026-10-02T11:47:27+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "Please note that the refund is subject to approval and usually takes 7-10 business days to reflect in your account.",
+   "ts": "2026-10-02T11:48:32+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Theek hai, that is fine. Thank you for the quick help, Daniel!",
+   "ts": "2026-10-02T11:49:40+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "You are very welcome! Is there anything else I can assist you with today? I have raised the request, and you will get an email confirmation. Goodbye!",
+   "ts": "2026-10-02T11:49:57+00:00"
+  }
+ ]
+}

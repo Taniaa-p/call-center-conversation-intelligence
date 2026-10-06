@@ -1,0 +1,62 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: convo
+      POSTGRES_PASSWORD: convo
+      POSTGRES_DB: convo
+    ports: ["5434:5432"]   # 5434 so it does not clash with other local Postgres instances
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U convo -d convo"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    image: convo-intel:latest   # api and worker share one image
+    env_file: .env          # GEMINI_API_KEY + model names
+    environment: &svc_env   # container-network addresses override the localhost ones in .env
+      DATABASE_URL: postgresql://convo:convo@db:5432/convo
+      REDIS_URL: redis://redis:6379/0
+    ports: ["8000:8000"]
+    volumes: ["./data:/app/data"]   # demo data + shared LLM response cache
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  worker:
+    image: convo-intel:latest
+    command: ["arq", "app.worker.WorkerSettings"]
+    env_file: .env
+    environment: *svc_env
+    ports: ["9101:9101"]    # worker Prometheus metrics
+    volumes: ["./data:/app/data"]
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+
+  prometheus:
+    image: prom/prometheus:latest
+    command: ["--config.file=/etc/prometheus/prometheus.yml"]
+    volumes: ["./ops:/etc/prometheus:ro"]   # prometheus.yml + alerts.yml
+    ports: ["9090:9090"]
+    depends_on: [api, worker]
+
+volumes:
+  pgdata:

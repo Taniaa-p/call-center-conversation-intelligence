@@ -1,0 +1,113 @@
+{
+ "call_id": "syn_019",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-03T09:55:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?\nCustomer: Hi Nisha, I'm Aisha Reddy. I'm calling because I've had enough of the constant signal drops in my area. It's completely unacceptable.\nAgent: I am very sorry to hear that you've been experiencing connectivity issues, Ms. Reddy. I can certainly look into this for you.\nCustomer: I don't want it looked into anymore. I just want to cancel my service.\nAgent: I understand. Before we proceed with any account changes, could you please provide your account number?\nCustomer: My account number is 14182295.\nAgent: Thank you. And just to confirm, is your phone number 91913 66527 and your email aisha.91@examplemail.com?\nCustomer: Yes, that's correct.\nAgent: I see the account here. I can start the process to close the account for you.\nCustomer: Fine. I also have an outstanding balance of twenty dollars that I want to pay now so there are no issues later.\nAgent: I can take that payment. Please go ahead and read me your card details.\nCustomer: It is four seven eight zero zero eight three seven four zero seven one eight eight one six.\nAgent: Thank you. I have processed that payment.\nCustomer: This is ridiculous. I've spent hours on the phone over the last month and I'm still just paying to leave. This is the worst service I've ever had.\nAgent: I apologize for the frustration this has caused you.\nCustomer: Apologies don't fix my signal! I'm done with this company.\nAgent: Is there anything else I can assist you with today? I will submit the cancellation request now. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?",
+   "ts": "2026-10-03T09:55:16+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Nisha, I'm Aisha Reddy. I'm calling because I've had enough of the constant signal drops in my area. It's completely unacceptable.",
+   "ts": "2026-10-03T09:55:20+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you've been experiencing connectivity issues, Ms. Reddy. I can certainly look into this for you.",
+   "ts": "2026-10-03T09:55:30+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "I don't want it looked into anymore. I just want to cancel my service.",
+   "ts": "2026-10-03T09:55:43+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I understand. Before we proceed with any account changes, could you please provide your account number?",
+   "ts": "2026-10-03T09:56:07+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "My account number is 14182295.",
+   "ts": "2026-10-03T09:56:26+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you. And just to confirm, is your phone number 91913 66527 and your email aisha.91@examplemail.com?",
+   "ts": "2026-10-03T09:56:31+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Yes, that's correct.",
+   "ts": "2026-10-03T09:56:43+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I see the account here. I can start the process to close the account for you.",
+   "ts": "2026-10-03T09:56:48+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Fine. I also have an outstanding balance of twenty dollars that I want to pay now so there are no issues later.",
+   "ts": "2026-10-03T09:57:01+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I can take that payment. Please go ahead and read me your card details.",
+   "ts": "2026-10-03T09:57:23+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "It is four seven eight zero zero eight three seven four zero seven one eight eight one six.",
+   "ts": "2026-10-03T09:57:40+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Thank you. I have processed that payment.",
+   "ts": "2026-10-03T09:57:47+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "This is ridiculous. I've spent hours on the phone over the last month and I'm still just paying to leave. This is the worst service I've ever had.",
+   "ts": "2026-10-03T09:58:09+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "I apologize for the frustration this has caused you.",
+   "ts": "2026-10-03T09:58:16+00:00"
+  },
+  {
+   "turn_id": 16,
+   "speaker": "customer",
+   "text": "Apologies don't fix my signal! I'm done with this company.",
+   "ts": "2026-10-03T09:58:38+00:00"
+  },
+  {
+   "turn_id": 17,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? I will submit the cancellation request now. Goodbye.",
+   "ts": "2026-10-03T09:59:03+00:00"
+  }
+ ]
+}

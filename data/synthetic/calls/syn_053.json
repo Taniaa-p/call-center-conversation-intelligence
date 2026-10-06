@@ -1,0 +1,107 @@
+{
+ "call_id": "syn_053",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-01T15:16:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?\nCustomer: Hi Nisha, I'm Emily Wilson. I'm calling because my current data plan is way too small for my needs and my phone has been acting up lately.\nAgent: I am sorry to hear that you are having trouble with your device and your plan. I can certainly look into that for you.\nAgent: Before we dive into the account details, could you please provide your account number?\nCustomer: Sure, it is 92856959.\nAgent: Thank you. And just to confirm, what is the phone number and email address associated with the account?\nCustomer: The phone number is 99874 73445 and my email is emily.29@examplemail.com.\nAgent: Perfect. Now, regarding the plan change, I can see your current options. I can move you to a higher data tier.\nCustomer: Great, please do that. Also, my screen keeps flickering on my device. Can you fix that remotely?\nAgent: I cannot fix a hardware issue remotely, but I can check if your device is still under warranty.\nCustomer: I don't want to go to a store. I just want this sorted now. Why is this so difficult?\nAgent: I understand your frustration, but there are certain steps we must follow for device repairs.\nCustomer: This is ridiculous. I'm not getting any answers and you're not actually changing my plan right now!\nAgent: I am trying to process the request, but the system is currently unresponsive. I cannot complete the plan change at this moment.\nCustomer: Are you kidding me? I've wasted my time on this call and nothing is fixed. This is absolutely pathetic service!\nAgent: I apologize for the inconvenience. Is there anything else I can assist you with today? I will have to ask you to call back later once the system is restored. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?",
+   "ts": "2026-10-01T15:16:11+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Nisha, I'm Emily Wilson. I'm calling because my current data plan is way too small for my needs and my phone has been acting up lately.",
+   "ts": "2026-10-01T15:16:17+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are having trouble with your device and your plan. I can certainly look into that for you.",
+   "ts": "2026-10-01T15:16:41+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide your account number?",
+   "ts": "2026-10-01T15:16:59+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Sure, it is 92856959.",
+   "ts": "2026-10-01T15:17:03+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you. And just to confirm, what is the phone number and email address associated with the account?",
+   "ts": "2026-10-01T15:17:11+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "The phone number is 99874 73445 and my email is emily.29@examplemail.com.",
+   "ts": "2026-10-01T15:17:24+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Perfect. Now, regarding the plan change, I can see your current options. I can move you to a higher data tier.",
+   "ts": "2026-10-01T15:17:28+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Great, please do that. Also, my screen keeps flickering on my device. Can you fix that remotely?",
+   "ts": "2026-10-01T15:17:53+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I cannot fix a hardware issue remotely, but I can check if your device is still under warranty.",
+   "ts": "2026-10-01T15:18:16+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "I don't want to go to a store. I just want this sorted now. Why is this so difficult?",
+   "ts": "2026-10-01T15:18:20+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I understand your frustration, but there are certain steps we must follow for device repairs.",
+   "ts": "2026-10-01T15:18:39+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "This is ridiculous. I'm not getting any answers and you're not actually changing my plan right now!",
+   "ts": "2026-10-01T15:18:55+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "I am trying to process the request, but the system is currently unresponsive. I cannot complete the plan change at this moment.",
+   "ts": "2026-10-01T15:19:14+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "customer",
+   "text": "Are you kidding me? I've wasted my time on this call and nothing is fixed. This is absolutely pathetic service!",
+   "ts": "2026-10-01T15:19:35+00:00"
+  },
+  {
+   "turn_id": 16,
+   "speaker": "agent",
+   "text": "I apologize for the inconvenience. Is there anything else I can assist you with today? I will have to ask you to call back later once the system is restored. Goodbye.",
+   "ts": "2026-10-01T15:19:48+00:00"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_039",
+ "agent_id": "agent_05",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T14:00:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?\nCustomer: I am so frustrated with my latest bill. It's way too high and I think I've been charged incorrectly for roaming charges that I didn't even use!\nAgent: I am sorry to hear that you're feeling frustrated. I can certainly look into those charges for you.\nAgent: Before we dive into the account, could you please provide your account number and date of birth for verification?\nCustomer: My account number is 67141834 and my date of birth is 01/10/1996.\nAgent: Thank you, Emily Gupta. I see the roaming charges here. It looks like it was a mistake on our end.\nCustomer: It's just ridiculous. I was at home the whole time. Why is this happening?\nAgent: I apologize for the error. I'll make sure you're never charged for roaming again.\nAgent: I will now raise a refund request for the wrong charge to be credited back to your account.\nCustomer: Thank you. I also want to change my plan to something cheaper because I'm not using all the data I have.\nAgent: I can help you with that. I will process the plan change and send a confirmation SMS to your phone number 93676 39649.\nCustomer: That's great. I'm much happier now that this is sorted out. Thank you so much for your help, Arjun.\nAgent: You're very welcome. Is there anything else I can assist you with today? I've raised the refund and updated your plan. Have a great day. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?",
+   "ts": "2026-09-30T14:00:12+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am so frustrated with my latest bill. It's way too high and I think I've been charged incorrectly for roaming charges that I didn't even use!",
+   "ts": "2026-09-30T14:00:29+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you're feeling frustrated. I can certainly look into those charges for you.",
+   "ts": "2026-09-30T14:00:48+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account, could you please provide your account number and date of birth for verification?",
+   "ts": "2026-09-30T14:01:00+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "My account number is 67141834 and my date of birth is 01/10/1996.",
+   "ts": "2026-09-30T14:01:06+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Emily Gupta. I see the roaming charges here. It looks like it was a mistake on our end.",
+   "ts": "2026-09-30T14:01:19+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "It's just ridiculous. I was at home the whole time. Why is this happening?",
+   "ts": "2026-09-30T14:01:33+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I apologize for the error. I'll make sure you're never charged for roaming again.",
+   "ts": "2026-09-30T14:01:37+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I will now raise a refund request for the wrong charge to be credited back to your account.",
+   "ts": "2026-09-30T14:01:43+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Thank you. I also want to change my plan to something cheaper because I'm not using all the data I have.",
+   "ts": "2026-09-30T14:02:02+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I can help you with that. I will process the plan change and send a confirmation SMS to your phone number 93676 39649.",
+   "ts": "2026-09-30T14:02:06+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "That's great. I'm much happier now that this is sorted out. Thank you so much for your help, Arjun.",
+   "ts": "2026-09-30T14:02:13+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You're very welcome. Is there anything else I can assist you with today? I've raised the refund and updated your plan. Have a great day. Goodbye!",
+   "ts": "2026-09-30T14:02:26+00:00"
+  }
+ ]
+}

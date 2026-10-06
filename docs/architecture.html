@@ -1,0 +1,141 @@
+<!doctype html>
+<!-- Source of docs/architecture.png. Render: open in Chrome and screenshot the 1600x870 canvas
+     (or: "Google Chrome" --headless=new --window-size=1600,870 --screenshot=architecture.png architecture.html). -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>convo-intel architecture</title>
+<style>
+  :root { --ink:#0b0b0b; --ink2:#52514e; --muted:#7a7974; --line:#8f8e86; --surface:#ffffff; --page:#f6f6f4;
+          --api:#e8f0fb; --api-b:#2a78d6; --wk:#e6f6ef; --wk-b:#1baf7a; --db:#fdf1e6; --db-b:#eb6834; --side:#f0efec; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--ink); }
+  .canvas { position: relative; width: 1600px; height: 870px; }
+  .title { position: absolute; left: 30px; top: 22px; font-size: 22px; font-weight: 650; }
+  .title span { font-size: 14px; font-weight: 400; color: var(--ink2); margin-left: 10px; }
+  .group { position: absolute; border: 1.5px dashed; border-radius: 16px; }
+  .group > .gl { position: absolute; top: -11px; left: 16px; padding: 0 8px; background: var(--page); font-weight: 650; font-size: 13px; }
+  .box { position: absolute; background: var(--surface); border: 1.5px solid #d6d5cf; border-radius: 12px; padding: 10px 12px; }
+  .box b { display: block; font-size: 14px; margin-bottom: 3px; }
+  .box .d { color: var(--ink2); font-size: 12.5px; }
+  .n { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 12px; font-weight: 700; margin-right: 6px; vertical-align: 1px; }
+  .llm { position: absolute; top: -10px; right: 10px; background: #4a3aa7; color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+  .api { background: var(--api); border-color: var(--api-b); } .wk { background: var(--wk); border-color: var(--wk-b); }
+  .db { background: var(--db); border-color: var(--db-b); } .side { background: var(--side); }
+  svg { position: absolute; inset: 0; }
+  .lbl { position: absolute; font-size: 11.5px; color: var(--ink2); background: var(--page); padding: 0 4px; white-space: nowrap; }
+  .legend { position: absolute; left: 30px; bottom: 18px; color: var(--ink2); font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="title">convo-intel <span>call-center conversation intelligence: live path, end-of-call path, storage</span></div>
+
+  <!-- arrows -->
+  <svg width="1600" height="870">
+    <defs>
+      <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6f6e69"/></marker>
+    </defs>
+    <g fill="none" stroke="#6f6e69" stroke-width="1.8" marker-end="url(#a)">
+      <path d="M230,190 L268,190"/>                       <!-- input -> normalize -->
+      <path d="M450,190 L478,190"/>                       <!-- normalize -> PII -->
+      <path d="M700,175 C720,175 720,150 738,150"/>       <!-- PII -> fast -->
+      <path d="M700,205 C720,205 720,250 738,250"/>       <!-- PII -> live -->
+      <path d="M1150,150 L1208,150"/>                     <!-- fast -> dashboard -->
+      <path d="M1150,250 L1208,250"/>                     <!-- live -> dashboard -->
+      <path d="M380,330 L380,398"/>                       <!-- call ended -> queue -->
+      <path d="M470,470 L528,470"/>                       <!-- queue -> analysis -->
+      <path d="M720,470 L743,470"/>                       <!-- analysis -> grounding -->
+      <path d="M935,470 L958,470"/>                       <!-- grounding -> scoring -->
+      <path d="M1150,470 L1208,470"/>                     <!-- scoring -> review -->
+      <path d="M840,562 L840,618"/>                       <!-- worker -> postgres -->
+      <path d="M268,330 L268,618"/>                       <!-- api -> postgres (turns) -->
+      <path d="M1150,740 L1190,740 L1190,290 L1208,290"/> <!-- views -> dashboard -->
+    </g>
+    <g fill="none" stroke="#eb6834" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#a)">
+      <path d="M490,222 L490,640 L715,640 L715,663"/>     <!-- PII entity map -> vault -->
+    </g>
+  </svg>
+
+  <!-- input -->
+  <div class="box side" style="left:30px; top:120px; width:200px; height:140px">
+    <b>Conversation in</b>
+    <div class="d">Call transcript <i>or</i> chat log<br>· live: WebSocket <code>/ws/calls/{id}</code>, turn by turn<br>· batch: <code>POST /calls</code></div>
+  </div>
+
+  <!-- API -->
+  <div class="group" style="left:250px; top:80px; width:920px; height:250px; border-color:var(--api-b)"><span class="gl" style="color:var(--api-b)">API · FastAPI</span></div>
+  <div class="box api" style="left:270px; top:140px; width:180px; height:100px">
+    <b><span class="n">1</span>Normalize</b><div class="d">transcript / chat / corpus → turns {id, speaker, text, ts}</div>
+  </div>
+  <div class="box api" style="left:480px; top:130px; width:220px; height:92px">
+    <b><span class="n">2</span>PII redaction</b><div class="d">regex | GLiNER | hybrid → typed placeholders <code>[PHONE_1]</code></div>
+  </div>
+  <div class="box api" style="left:740px; top:105px; width:410px; height:80px">
+    <b><span class="n">3a</span>Fast path · every turn · ~0.1 ms · free</b><div class="d">customer sentiment (lexicon) + policy regex flags (prohibited promises, churn phrases)</div>
+  </div>
+  <div class="box api" style="left:740px; top:200px; width:410px; height:110px">
+    <span class="llm">◆ LLM fast tier</span>
+    <b><span class="n">3b</span>Live LLM path · p50 1.6 s</b><div class="d">customer turns + agent commitments: previous actions + new turns → action deltas (add / update / close) + rolling summary. One serial consumer per call; coalesces under load; 4 s budget; IDs and dedup in code</div>
+  </div>
+
+  <!-- dashboard -->
+  <div class="box side" style="left:1210px; top:105px; width:360px; height:210px">
+    <b>Dashboard <code>/ui</code></b>
+    <div class="d">· Live call: transcript, flags, sentiment, actions update as the call flows (WebSocket pushes)<br>· Overview, calls with quoted evidence, agents &amp; teams, review queue, monitoring (REST)<br>· Paste a transcript → analysis</div>
+  </div>
+  <span class="lbl" style="left:1153px; top:128px">push</span>
+  <span class="lbl" style="left:1153px; top:228px">push</span>
+
+  <!-- queue + worker -->
+  <span class="lbl" style="left:386px; top:352px">call ended</span>
+  <div class="box side" style="left:290px; top:400px; width:180px; height:140px">
+    <b>Redis · arq queue</b><div class="d">one job per ended call · job-id dedup · retries with back-off · hourly PII purge cron</div>
+  </div>
+  <div class="group" style="left:510px; top:375px; width:660px; height:187px; border-color:var(--wk-b)"><span class="gl" style="color:var(--wk-b)">Worker · arq (scales horizontally)</span></div>
+  <div class="box wk" style="left:530px; top:400px; width:190px; height:142px">
+    <span class="llm">◆ LLM strong tier</span>
+    <b><span class="n">4</span>End-of-call analysis</b><div class="d">summary · reasons · resolution · churn + QA checklist. Evidence first, temp 0, Pydantic schema</div>
+  </div>
+  <div class="box wk" style="left:745px; top:400px; width:190px; height:142px">
+    <b><span class="n">5</span>Grounding validator</b><div class="d">every quote must exist in the turn it cites. Fail → one targeted retry → still failing = <i>unverified</i></div>
+  </div>
+  <div class="box wk" style="left:960px; top:400px; width:190px; height:142px">
+    <b><span class="n">6</span>Code-side scoring</b><div class="d">weighted QA % from per-item verdicts, violations from critical items ∪ regex hits, sentiment trajectory</div>
+  </div>
+  <div class="box side" style="left:1210px; top:400px; width:360px; height:142px">
+    <b>Human review queue</b><div class="d">unverified quotes, low confidence, rule vs LLM disagreement, failed stages. Reviewers accept / overturn; overturn rate is monitored</div>
+  </div>
+  <span class="lbl" style="left:1150px; top:452px">flag</span>
+
+  <!-- postgres -->
+  <span class="lbl" style="left:120px; top:470px">redacted turns, live actions</span>
+  <span class="lbl" style="left:846px; top:582px">analyses + evidence, QA scores, violations</span>
+  <div class="group" style="left:250px; top:620px; width:920px; height:190px; border-color:var(--db-b)"><span class="gl" style="color:var(--db-b)">Postgres</span></div>
+  <div class="box db" style="left:270px; top:665px; width:300px; height:125px">
+    <b>Tables (redacted text only)</b><div class="d">calls · turns · actions · analyses (model, prompt version, config hash) · qa_scores · violations · review_queue · llm_calls · judge_results</div>
+  </div>
+  <div class="box db" style="left:590px; top:665px; width:250px; height:125px">
+    <b>pii_vault (restricted)</b><div class="d">placeholder → raw value. Separate schema, never joined or returned by the API, TTL purge</div>
+  </div>
+  <span class="lbl" style="left:496px; top:590px; color:#c4501f">entity map</span>
+  <div class="box db" style="left:860px; top:665px; width:290px; height:125px">
+    <span class="n" style="position:absolute; top:10px; right:10px">7</span>
+    <b>SQL views</b><div class="d">agent &amp; team roll-ups (shrunk scores), per-item coaching, call-reason drift, cost, p50/p95, review agreement</div>
+  </div>
+
+  <!-- side services -->
+  <div class="box side" style="left:1210px; top:620px; width:360px; height:92px">
+    <b>◆ Gemini</b><div class="d">fast + strong tiers, fallback chain, RPM limiter, back-off, disk cache keyed by prompt version + input</div>
+  </div>
+  <div class="box side" style="left:1210px; top:722px; width:360px; height:88px">
+    <b>config/*.yaml</b><div class="d">qa_checklist · taxonomy · policy, per-tenant overrides; hash stored with every analysis</div>
+  </div>
+  <div class="box side" style="left:30px; top:665px; width:200px; height:145px">
+    <b>Observability</b><div class="d">Prometheus <code>/metrics</code> + 8 alert rules · <code>/health</code> · online LLM judge on a 5% sample · offline evals + regression gate in CI</div>
+  </div>
+
+  <div class="legend">solid arrow = data flow · dashed = raw PII (only into the vault) · <b>◆</b> = calls the LLM (only ever sees redacted text) · numbers = order of processing</div>
+</div>
+</body>
+</html>

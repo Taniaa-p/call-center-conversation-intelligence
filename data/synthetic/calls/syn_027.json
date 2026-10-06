@@ -1,0 +1,77 @@
+{
+ "call_id": "syn_027",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T16:33:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Ravi. How can I assist you today?\nCustomer: Hi Ravi, I am Anjali Iyer and I am having constant network drops on my line 96608 85798. It is extremely frustrating.\nAgent: I am sorry to hear you are experiencing these connectivity issues, Anjali. I understand how disruptive that is. Before we proceed, could you please provide your account number?\nCustomer: My account number is 24615023.\nAgent: Thank you for that information. I see the account details here. Don't worry, this add-on will be free forever for you.\nCustomer: I do not care about an add-on, I care about my internet working. It has been down for three days.\nAgent: I understand your frustration, and I am going to raise a network ticket for our technical team to investigate the signal strength in your area immediately.\nCustomer: A ticket? That is not good enough. I am tired of waiting. If this is not fixed today, I am going to cancel my service and switch to another provider.\nAgent: I hear your concerns, but I must escalate this to our senior technical department as I cannot resolve the signal drop from my end.\nCustomer: This is ridiculous. You are just passing me around. I am completely dissatisfied with this service.\nAgent: I apologize that I cannot fix this right now. Is there anything else I can help you with today? To summarize, I have escalated your case to the senior team for further review. Thank you for your patience and have a good day.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Ravi. How can I assist you today?",
+   "ts": "2026-09-30T16:33:22+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Ravi, I am Anjali Iyer and I am having constant network drops on my line 96608 85798. It is extremely frustrating.",
+   "ts": "2026-09-30T16:33:31+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear you are experiencing these connectivity issues, Anjali. I understand how disruptive that is. Before we proceed, could you please provide your account number?",
+   "ts": "2026-09-30T16:33:55+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My account number is 24615023.",
+   "ts": "2026-09-30T16:34:06+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you for that information. I see the account details here. Don't worry, this add-on will be free forever for you.",
+   "ts": "2026-09-30T16:34:18+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "I do not care about an add-on, I care about my internet working. It has been down for three days.",
+   "ts": "2026-09-30T16:34:37+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I understand your frustration, and I am going to raise a network ticket for our technical team to investigate the signal strength in your area immediately.",
+   "ts": "2026-09-30T16:35:01+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "A ticket? That is not good enough. I am tired of waiting. If this is not fixed today, I am going to cancel my service and switch to another provider.",
+   "ts": "2026-09-30T16:35:22+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I hear your concerns, but I must escalate this to our senior technical department as I cannot resolve the signal drop from my end.",
+   "ts": "2026-09-30T16:35:42+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "This is ridiculous. You are just passing me around. I am completely dissatisfied with this service.",
+   "ts": "2026-09-30T16:35:51+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I apologize that I cannot fix this right now. Is there anything else I can help you with today? To summarize, I have escalated your case to the senior team for further review. Thank you for your patience and have a good day.",
+   "ts": "2026-09-30T16:36:15+00:00"
+  }
+ ]
+}

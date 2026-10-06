@@ -1,0 +1,155 @@
+{
+ "call_id": "syn_049",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-01T17:39:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hi! Welcome to Nimbus Telecom. I'm Vikram. How can I help you today? 😊",
+   "timestamp": "2026-10-01T17:39:26+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Hey, my phone is acting up. The screen is flickering and it just keeps restarting. It's super annoying.",
+   "timestamp": "2026-10-01T17:40:06+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry to hear that. Before we dive into the account, could you please provide your account number and full name?",
+   "timestamp": "2026-10-01T17:40:40+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Sure, it's Rohan Patel, account 23134790. Phone number is 92424 35866.",
+   "timestamp": "2026-10-01T17:42:29+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thanks, Rohan. I totally understand how frustrating it is when your device doesn't work properly. I'll do my best to help.",
+   "timestamp": "2026-10-01T17:43:22+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Yeah, it's a brand new phone and it's already broken. I want a replacement or a refund for the overcharge on my last bill too.",
+   "timestamp": "2026-10-01T17:43:47+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Trust me, the money will definitely be back in your account by tomorrow.",
+   "timestamp": "2026-10-01T17:45:37+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Okay, but what about the phone? I can't use it for work. This is ridiculous.",
+   "timestamp": "2026-10-01T17:46:15+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Let me check the warranty status. One moment please.",
+   "timestamp": "2026-10-01T17:47:08+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "I've been waiting for like 5 minutes. This is taking way too long. 🙄",
+   "timestamp": "2026-10-01T17:47:34+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm still looking into it. The system is a bit slow today.",
+   "timestamp": "2026-10-01T17:48:34+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "I'm done with this. Your service is terrible. I'm going to cancel my plan and switch to another provider immediately.",
+   "timestamp": "2026-10-01T17:50:21+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I will open a ticket for the device issue to be reviewed by the technical team.",
+   "timestamp": "2026-10-01T17:52:00+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hi! Welcome to Nimbus Telecom. I'm Vikram. How can I help you today? 😊",
+   "ts": "2026-10-01T17:39:26+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hey, my phone is acting up. The screen is flickering and it just keeps restarting. It's super annoying.",
+   "ts": "2026-10-01T17:40:06+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I'm sorry to hear that. Before we dive into the account, could you please provide your account number and full name?",
+   "ts": "2026-10-01T17:40:40+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Sure, it's Rohan Patel, account 23134790. Phone number is 92424 35866.",
+   "ts": "2026-10-01T17:42:29+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thanks, Rohan. I totally understand how frustrating it is when your device doesn't work properly. I'll do my best to help.",
+   "ts": "2026-10-01T17:43:22+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yeah, it's a brand new phone and it's already broken. I want a replacement or a refund for the overcharge on my last bill too.",
+   "ts": "2026-10-01T17:43:47+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Trust me, the money will definitely be back in your account by tomorrow.",
+   "ts": "2026-10-01T17:45:37+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Okay, but what about the phone? I can't use it for work. This is ridiculous.",
+   "ts": "2026-10-01T17:46:15+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Let me check the warranty status. One moment please.",
+   "ts": "2026-10-01T17:47:08+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I've been waiting for like 5 minutes. This is taking way too long. 🙄",
+   "ts": "2026-10-01T17:47:34+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I'm still looking into it. The system is a bit slow today.",
+   "ts": "2026-10-01T17:48:34+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "I'm done with this. Your service is terrible. I'm going to cancel my plan and switch to another provider immediately.",
+   "ts": "2026-10-01T17:50:21+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "I will open a ticket for the device issue to be reviewed by the technical team.",
+   "ts": "2026-10-01T17:52:00+00:00"
+  }
+ ]
+}

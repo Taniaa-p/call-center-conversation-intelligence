@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_002",
+ "agent_id": "agent_02",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-03T08:12:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "hi, my internet is barely working and i think i got overcharged on my last bill",
+   "timestamp": "2026-10-03T08:12:44+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Welcome to Nimbus Telecom. I'm Meera. How can I help you today?",
+   "timestamp": "2026-10-03T08:13:46+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "like i said, my wifi is super slow and my bill is like 20 bucks more than usual",
+   "timestamp": "2026-10-03T08:14:49+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I need your account number and date of birth to access your details.",
+   "timestamp": "2026-10-03T08:15:20+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "it's 52164119 and 06/12/1980. my name is Aisha Nair and my phone is 95591 23743",
+   "timestamp": "2026-10-03T08:15:59+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I see the network issue. I will raise a network ticket for your area.",
+   "timestamp": "2026-10-03T08:17:44+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "can you just fix it now? i'm paying for high speed and i'm not getting it",
+   "timestamp": "2026-10-03T08:18:04+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "The ticket is raised. Now about the billing error, I will raise a refund request for the wrong charge.",
+   "timestamp": "2026-10-03T08:18:29+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "so i get my money back now?",
+   "timestamp": "2026-10-03T08:19:01+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "The refund is subject to approval and will take 7-10 business days to process.",
+   "timestamp": "2026-10-03T08:19:47+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "this is ridiculous. i've been waiting for a while and you're not even helping me properly 😡",
+   "timestamp": "2026-10-03T08:21:45+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else? I have raised the ticket and the refund request. Goodbye.",
+   "timestamp": "2026-10-03T08:23:04+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "hi, my internet is barely working and i think i got overcharged on my last bill",
+   "ts": "2026-10-03T08:12:44+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Welcome to Nimbus Telecom. I'm Meera. How can I help you today?",
+   "ts": "2026-10-03T08:13:46+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "like i said, my wifi is super slow and my bill is like 20 bucks more than usual",
+   "ts": "2026-10-03T08:14:49+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I need your account number and date of birth to access your details.",
+   "ts": "2026-10-03T08:15:20+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "it's 52164119 and 06/12/1980. my name is Aisha Nair and my phone is 95591 23743",
+   "ts": "2026-10-03T08:15:59+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "I see the network issue. I will raise a network ticket for your area.",
+   "ts": "2026-10-03T08:17:44+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "can you just fix it now? i'm paying for high speed and i'm not getting it",
+   "ts": "2026-10-03T08:18:04+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "The ticket is raised. Now about the billing error, I will raise a refund request for the wrong charge.",
+   "ts": "2026-10-03T08:18:29+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "so i get my money back now?",
+   "ts": "2026-10-03T08:19:01+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "The refund is subject to approval and will take 7-10 business days to process.",
+   "ts": "2026-10-03T08:19:47+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "this is ridiculous. i've been waiting for a while and you're not even helping me properly 😡",
+   "ts": "2026-10-03T08:21:45+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "Is there anything else? I have raised the ticket and the refund request. Goodbye.",
+   "ts": "2026-10-03T08:23:04+00:00"
+  }
+ ]
+}

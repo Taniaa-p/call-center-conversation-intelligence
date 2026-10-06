@@ -1,0 +1,15 @@
+.env
+__pycache__/
+.venv/
+node_modules/
+*.pyc
+.DS_Store
+pgdata/
+docs/*.pdf
+.run/
+study/
+
+# personal notes, kept local
+CLAUDE.md
+PROGRESS.md
+docs/STUDY_GUIDE.md

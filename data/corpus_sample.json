@@ -1,0 +1,2487 @@
+[
+ {
+  "conversation_id": "98a6dbc997614ceb8e0734dda38b2524",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank, thank you for calling Union Mobile. My name is Ray, how can I assist you today?",
+    "date_time": "2023-09-09T15:08:03+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity problems.",
+    "date_time": "2023-09-09T15:08:10.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Alissa. Can you please verify your identity for me? I'll do my best to help you resolve the issue.",
+    "date_time": "2023-09-09T15:08:20.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-09-09T15:08:30.692308+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Alissa. I'm unable to verify your identity with the P you provided. Can you please try again?",
+    "date_time": "2023-09-09T15:08:33.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, let me check again. My account PIN is 5678.",
+    "date_time": "2023-09-09T15:08:42.230770+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize, but that doesn't seem to be working either. Can you please try one more time for me?",
+    "date_time": "2023-09-09T15:08:46.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, my account PIN is 9012.",
+    "date_time": "2023-09-09T15:08:55.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Alissa. I'm now able to verify your identity. I see that you've had some issues with your phone service. Can you tell me a little bit more about what's been happening?",
+    "date_time": "2023-09-09T15:08:58.384617+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, like I said, I've been experiencing dropped calls, poor reception, and data connectivity problems. It's been really frustrating.",
+    "date_time": "2023-09-09T15:09:13.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I understand how frustrating that must be for you. I me see what I can do to help. Can you tell me a little bit more about your phone and the areas where you're experiencing these issues?",
+    "date_time": "2023-09-09T15:09:22.384617+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I have an iPhone 12 Pro and I live in downtown Los Angeles.",
+    "date_time": "2023-09-09T15:09:39.461540+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for providing that information, Alissa. Based on what you've told me, it sounds like there might be some network issues in your area. Let'm going to go ahead and escalate your issue to our engineering team. They'll work on resolving the problem as soon as possible. In the meantime, I recommendd like to offer you a complimentary 1-month subscription to our Premium Data Plan, which will give you an extra abyte of data per month. Would you like to take advantage of this offer?",
+    "date_time": "2023-09-09T15:09:45.923078+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, that sounds great. Thank you!",
+    "date_time": "2023-09-09T15:10:25.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alissa. Is there anything else I can assist you with today?",
+    "date_time": "2023-09-09T15:10:28.384617+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. Thanks you so much for your help, Ray.",
+    "date_time": "2023-09-09T15:10:34.384617+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alissa. Have a great day and thank you for choosing Union Mobile.",
+    "date_time": "2023-09-09T15:10:39.461540+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "0e79164e7b8b4633bc1424637eacab32",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Good afternoon, thank you for calling Union Mobile. My name is Marilou, how I'll be assisting you today. Could you please tell me a little bit more about the issue you're experiencing with your phone service?",
+    "date_time": "2023-10-12T17:51:54+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Marilou, thanks for picking up. I've been having some problems with my phone service lately. I've been getting a lot of dropped calls, and my data connection has been really slow. It's been really frustrating.",
+    "date_time": "2023-10-12T17:52:10.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Jessica. Let me see if I can help you with that. Can you please verify your identity so I can look into this further for you?",
+    "date_time": "2023-10-12T17:52:27.230770+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-10-12T17:52:41.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Jessica. Just moment please while I check on your account. (pause) Okay, I see that you're experiencing some issues with your service. Let me see what might be causing this. Can you tell me a little bit more about your phone and the areas where you're experiencing these issues?",
+    "date_time": "2023-10-12T17:52:43.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Well, I have an iPhone 12 Pro, and it's been happening everywhere I go. I live in the city, so I wouldn't think it would be a coverage issue.",
+    "date_time": "2023-10-12T17:53:07.384617+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I understand. In that case, it's possible that there might be some network congestion in your area. I'm going to suggest a few thingshooting steps that might help improve your service. First, have you tried restarting your phone recently?",
+    "date_time": "2023-10-12T17:53:20.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried that already.",
+    "date_time": "2023-10-12T17:53:38.769232+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright. In that case, let me suggest a few other things. Have you checked to see if there are any software updates available for your phone?",
+    "date_time": "2023-10-12T17:53:41.076924+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I haven't. How do I do that?",
+    "date_time": "2023-10-12T17:53:53.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure, I can walk you through that process. Go to Settings, then General, then Software Update. If there's an update available, it will show up there.",
+    "date_time": "2023-10-12T17:53:56.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, got it.",
+    "date_time": "2023-10-12T17:54:08.769232+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. If that doesn't work, we can try a few other troubles. Have you considered switching to a different network mode? Sometimes that can help improve service. You can do that by going to Settings, then Cellular, then Network Mode. Try switching between theTE and 4G to see if that makes a difference.",
+    "date_time": "2023-10-12T17:54:10.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hmm, okay. I'll give that a try.",
+    "date_time": "2023-10-12T17:54:34.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Excellent. And if that still't work, we can also try resetting your network settings. That will restore your network settings to their default state, which might help resolve the issue. To do that, go to Settings, then General, then Reset, then Reset Network Settings.",
+    "date_time": "2023-10-12T17:54:37.846154+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I'll try that too. Thanks for walking me through all of this, Marilou.",
+    "date_time": "2023-10-12T17:54:58.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Jessica. I apologize again for the inconvenience you've experienced, and I hope these steps help resolve the issue for you. If you have any further questions or concerns, feel free to reach out to us at any time. Is there anything else I can assist you with today?",
+    "date_time": "2023-10-12T17:55:04.615384+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for now. Thanks again, Marilou.",
+    "date_time": "2023-10-12T17:55:27.692307+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Jessica. Have a great day.",
+    "date_time": "2023-10-12T17:55:31.384615+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "9db3dbf522c3487691ce42dd23658e0a",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Good afternoon, thank you for calling Union Mobile's 24/7 Phone Support. My name is Edythe, how can I assist you today?",
+    "date_time": "2023-11-28T11:58:55+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Edythe, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity problems.",
+    "date_time": "2023-11-28T11:59:04.692308+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Nila. Can you please provide me with your account information so I can look into this further for you?",
+    "date_time": "2023-11-28T11:59:14.384616+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account number is #XXXXX.",
+    "date_time": "2023-11-28T11:59:25.000001+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Nila. One moment please while I check on your account. (pause) It appears that there issue you're experiencing is related to a network outage in your area. Our engineers are working to resolve the issue as soon as possible.",
+    "date_time": "2023-11-28T11:59:27.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh, I see. When do you expect the issue to be resolved?",
+    "date_time": "2023-11-28T11:59:46.692309+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Unfortunately, I don't have an estimated time for resolution yet. However, I can suggest a few workarounds that may help improve your service in the meantime. Would you tried restarting your device or switching to a different network mode?",
+    "date_time": "2023-11-28T11:59:52.230771+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I've tried both of those things and they haven't helped. Is there anything else I can do?",
+    "date_time": "2023-11-28T12:00:10.230771+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize, but it seems that the issue is beyond what I can resolve over the phone. You'll need to call our dedicated support line for further assistance. The number is 1-800-123-4567. They'll be able to assist you with scheduling a technician visit or providing additional solutions.",
+    "date_time": "2023-11-28T12:00:18.538463+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, thank you for letting me know.",
+    "date_time": "2023-11-28T12:00:40.230771+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Nila. I apologize again for the inconvenience and appreciate your patience. Before we end this call, I want wanted to remind you that we value your feedback and would like to invite you to takeate in a brief survey regarding your experience today. Would you be interested in taking the survey?",
+    "date_time": "2023-11-28T12:00:43.461540+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, yes, I'd be happy to provide feedback.",
+    "date_time": "2023-11-28T12:01:07.923078+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you, Nila. I'll go ahead and transfer you to the survey now. Thank you again for choosing Union Mobile. Have a great day!",
+    "date_time": "2023-11-28T12:01:11.615386+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thank you, Edythe. Bye for",
+    "date_time": "2023-11-28T12:01:23.153848+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "4562ec45ff3e433b8dac72d215c9124c",
+  "messages": [
+   {
+    "speaker": "client",
+    "text": "Hi, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity problems. Can you help me resolve this?",
+    "date_time": "2023-12-28T09:03:24+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Hello Betty, sorry to hear that. Let me see what might be causing the problem. Can you tell me a little bit more about the issues you're experiencing?",
+    "date_time": "2023-12-28T09:03:36+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Well, like I said, I've been getting dropped calls and poor reception. And when I try to use my data, it's really slow or doesn't work at all. It's really frustrating.",
+    "date_time": "2023-12-28T09:03:48.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I understand how frustrating that must be for Let me check on your account real quick to see if there are any known issues in your area. Can you tell me what kind of phone you're using?",
+    "date_time": "2023-12-28T09:04:03.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "I, sure'm using an iPhone 12.",
+    "date_time": "2023-12-28T09:04:20.307692+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, let me check. (pause) Okay, it looks like there have been some reports of similar issues in your area. We're working on fixing them, but in the meantime, I can offer you a discount on your next bill as a gesture of goodwill. Would you like that?",
+    "date_time": "2023-12-28T09:04:23.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "That sounds nice, but can you also help me troubleshoot the issue so it doesn't happen again in the future?",
+    "date_time": "2023-12-28T09:04:45.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course! Let me walk you through a few steps you can try to improve your service. First, have you tried restarting your phone recently?",
+    "date_time": "2023-12-28T09:04:54.461538+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried that already.",
+    "date_time": "2023-12-28T09:05:06+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Okay, no problem. Another thing you can try is checking to software updates. Make sure your phone is running the latest version of its operating system.",
+    "date_time": "2023-12-28T09:05:08.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I'll do that. What else can I do?",
+    "date_time": "2023-12-28T09:05:20.307692+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You can also try turning your phone off and then back on again. This will sometimes reset the network connection and improve service.",
+    "date_time": "2023-12-28T09:05:24.461538+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I'll give that a try. Thank for your help, Guy.",
+    "date_time": "2023-12-28T09:05:35.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Betty. Is hope those suggestions help resolve the issue for you. If you continue to experience problems, feel free to reach out to us againtime. Have a great day!",
+    "date_time": "2023-12-28T09:05:40.153846+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Guy appreciate it. Bye for now.",
+    "date_time": "2023-12-28T09:05:54.461538+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "6bb5af1b731e485794dbaf4975fe78e9",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Good afternoon, thank you for calling Union Mobile' My name is Leontine, how may I assist you today?",
+    "date_time": "2023-09-03T12:22:00+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity problems.",
+    "date_time": "2023-09-03T12:22:08.307692+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Geary. Can you tell me a little bit more about the problem you're facing? For example, are these getting any error messages or is certain features not working properly?",
+    "date_time": "2023-09-03T12:22:17.538461+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've been getting a lot of \"no service\" notifications and and my data isn keeps dropping. It's really frustrating.",
+    "date_time": "2023-09-03T12:22:32.769230+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I understand. Let me see what might be causing the issue. Can you tell me your current?",
+    "date_time": "2023-09-03T12:22:41.999999+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "I'm in downtown Los Angeles.",
+    "date_time": "2023-09-03T12:22:49.846153+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, I've checked on our network status and it looks like there might be some maintenance going on in your area. That could be causing the issues you're experiencing.",
+    "date_time": "2023-09-03T12:22:52.153845+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh, okay. Is there anything you can do to fix it?",
+    "date_time": "2023-09-03T12:23:05.538460+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Yes, I can offer you a complimentary network booster that will help improve your signal strength and data connectivity. Would you like me to send one to your location?",
+    "date_time": "2023-09-03T12:23:10.615383+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Really? That would be great, thank you!",
+    "date_time": "2023-09-03T12:23:23.999998+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of problem, Geary. I'll go ahead and send one to your location right away. You should receive it within the next 24 hours. In the meantime, I recommend turning your phone off and back on to see if that helps resolve the issue.",
+    "date_time": "2023-09-03T12:23:27.230767+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I'll try that. Thank you so much for your help, Leontine.",
+    "date_time": "2023-09-03T12:23:47.076921+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Geary. Is there anything else I can assist you with today?",
+    "date_time": "2023-09-03T12:23:52.615383+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for now. Thanks again!",
+    "date_time": "2023-09-03T12:23:58.615383+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome. Have a great day, Geary.",
+    "date_time": "2023-09-03T12:24:01.846152+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "47e90233be1748dbaede3da114fd6d0b",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Good day, Carmela. Thank you for reaching out to Union Mobile's 24/7 Phone Support. My name is Yoel, and I'll be assisting you today. May I have your account PIN for verification purposes, please?",
+    "date_time": "2023-09-10T12:13:09+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Yoel, my account PIN is 1234.",
+    "date_time": "2023-09-10T12:13:24.692308+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Carmela. I've verified your identity. How can I assist you today?",
+    "date_time": "2023-09-10T12:13:27.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Yoel, I'm calling some trouble with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity issues. I was promised that this issue would be resolved previously, but it hasn't been addressed yet.",
+    "date_time": "2023-09-10T12:13:33.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Carmela. I understand how frustrating it can be to experience those kinds of issues with your phone service. I'd like to help you resolve this matter as quickly and efficiently as possible. Can you tell me a little bit more about the specific problems you're facing? For example, are you experiencing dropped calls when you're in a particular location, or is it happening randomly? And what kind of data connectivity issues are you encountercing?",
+    "date_time": "2023-09-10T12:13:51+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, sure. I'm been experiencing dropped calls mostly when I'm indoors, and sometimes when I'm driving. The data connectivity issues are random, sometimes it works fine, but other times it doesn't work at all.",
+    "date_time": "2023-09-10T12:14:27+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for providing that information, Carmela. I'm going to check on your account and see what might be causing these issues. Can you please hold for just a moment?",
+    "date_time": "2023-09-10T12:14:42.692308+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, thank you.",
+    "date_time": "2023-09-10T12:14:56.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for holding, Carmela. I've checked on your account, and it looks like there's an issue with the network in your area. I've got a team working on it, but it may take a few hours to resolve. In the meantime, I can offer you a complimentary data boost to help you stay connected. Would you like that?",
+    "date_time": "2023-09-10T12:14:57.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Really? That's great! Thank you, Yoel.",
+    "date_time": "2023-09-10T12:15:25.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Carmela. I there anything else I can assist you with today?",
+    "date_time": "2023-09-10T12:15:27.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. Thank you so much for your help, Yoel.",
+    "date_time": "2023-09-10T12:15:33.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Carmela. It you for choosing Union Mobile. Have a great day, and we'll make sure to keep you updated on the status of the network issue in your area.",
+    "date_time": "2023-09-10T12:15:39+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thank, Yoel. By a good day too.",
+    "date_time": "2023-09-10T12:15:53.307692+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Carmela. Goodbye.",
+    "date_time": "2023-09-10T12:15:56.538461+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "0953e97a547c4db78205343303d0e7aa",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Good afternoon, thank you for calling Union Mobile. My name is Julie, and I'll be happy to assist you with your concern. Can you please verify your name and account number so I can pull up your information?",
+    "date_time": "2023-09-08T16:52:10+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Julie, my name is Alexandra, and my account number is 1234567890.",
+    "date_time": "2023-09-08T16:52:27.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you for providing that information, Alexandra. I see that you're experiencing some issues with your phone service, such as dropped calls, poor reception, and data connectivity problems. Can you tell me more about the problem and when it started?",
+    "date_time": "2023-09-08T16:52:33.076924+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, it's been happening for the past few days. I've tried restarting my phone and checking for network outages, but nothing seems to be working. It's really frustrating because I need to be able to use my phone for work.",
+    "date_time": "2023-09-08T16:52:52.000001+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry understand how important it is to have reliable phone service, Alexandra. Let me check on the status of your account and see if there are any known issues in your area. Can you tell me what kind of phone you're using and what version of software it's running?",
+    "date_time": "2023-09-08T16:53:10.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I have an iPhone 12 Pro, and it's running iOS 16.2.",
+    "date_time": "2023-09-08T16:53:33.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for providing that information, Alexandra. After'm going to check on the status of your account and see if there are any issues that might be causing your problems you're experiencing. Can you please hold for just a moment while I investigate?",
+    "date_time": "2023-09-08T16:53:38.615386+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, thank.",
+    "date_time": "2023-09-08T16:53:58.461540+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for holding, Alexandra. I've checked on your account, and it looks like there's an issue with the network in your area that's causing the dropped calls and poor reception. Our engineeringers are working on fixing the issue, and it should be resolved within the next few hours. In the meantime, I can offer you a complimentary upgrade to a newer model of phone that will improve better reception in your area. Would you like me to go ahead and process that upgrade for you?",
+    "date_time": "2023-09-08T16:53:59.384617+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Really? That would be great, thank you!",
+    "date_time": "2023-09-08T16:54:39.076925+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alexandra. I'll go ahead and process the upgrade, and you should receive a confirmation email with the details of the new phone and when it will be delivered. Is there anything else I can assist you with today?",
+    "date_time": "2023-09-08T16:54:42.307694+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. Thank you so much for your help, Julie.",
+    "date_time": "2023-09-08T16:55:00.769232+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alexandra. It was my pleasure to assist you. Have a great day, and enjoy your new phone!",
+    "date_time": "2023-09-08T16:55:05.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Julie. Bye!",
+    "date_time": "2023-09-08T16:55:14.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Bye, Alexandra. Have a great day!",
+    "date_time": "2023-09-08T16:55:16.000001+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "03b91edc0e574d1082b3e7f778e111bd",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile. My name is Chris, how can I assist you today?",
+    "date_time": "2023-10-16T11:51:51+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Chris, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity issues.",
+    "date_time": "2023-10-16T11:51:58.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Dorcas. Can you please verify your identity so I can assist you better?",
+    "date_time": "2023-10-16T11:52:08.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-10-16T11:52:16.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Dorcas. I, the P PIN you provided doesn't match the one on file. Can you please try again?",
+    "date_time": "2023-10-16T11:52:19.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hmm, that's strange. Let me try again. My account PIN is 5678.",
+    "date_time": "2023-10-16T11:52:28.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize, but that PIN doesn't match either. Can you please try again or provide another way for me to verify your identity?",
+    "date_time": "2023-10-16T11:52:33.923078+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, let me try again. My account PIN is 9012.",
+    "date_time": "2023-10-16T11:52:44.538463+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize, but that PIN doesn't match either. I'm unable to verify your identity and assist you further.",
+    "date_time": "2023-10-16T11:52:49.153848+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh no, that's frustrating. Is there anything else I can do?",
+    "date_time": "2023-10-16T11:52:57.461540+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Unfortunately apologize for the inconvenience, Dorcas. Unfortunately, without verifying your identity, I'm unable to access your account or provide any further assistance.",
+    "date_time": "2023-10-16T11:53:02.538463+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Al, thank you for trying. I guess I'll have to try calling back later.",
+    "date_time": "2023-10-16T11:53:12.692309+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Dorcas. I apologize again for the inconvenience. If you have any other questions or concerns, feel free to call us back at your convenience. Have a great day.",
+    "date_time": "2023-10-16T11:53:19.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thank you, Chris. Bye.",
+    "date_time": "2023-10-16T11:53:33.000001+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "05909b077c4c4f2094b88932bf02a911",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile. My name is Juliette, how can I assist you today?",
+    "date_time": "2023-12-26T12:37:02+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Juliette, I'm having some trouble with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity issues. I called called about this before, but the representative I spoke with wasn't able to help me, so I'm calling back hoping to get a resolution this time.",
+    "date_time": "2023-12-26T12:37:09.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that you're having these issues, Dessie. Can you please confirm your identity so I can look into this for you?",
+    "date_time": "2023-12-26T12:37:32.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-12-26T12:37:43.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Dessie. I apologm able to see your account now. It looks like you've been experiencing these issues for a few days now. Have you tried restarting your phone or turning for any software updates?",
+    "date_time": "2023-12-26T12:37:45.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I've tried both of those things and they didn't work. I'm getting frustrated because I need to be able to use my phone for work and this can't afford to have these kinds of problems.",
+    "date_time": "2023-12-26T12:38:02.461540+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I completely understand, Dessie. Let me see what else we can do. help you. One thing that might help is if we run a diagnostic test on your phone to see if there's an issue with the network in your area. Would you be willing to stay that?",
+    "date_time": "2023-12-26T12:38:19.076925+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, whatever it takes to get this resolved.",
+    "date_time": "2023-12-26T12:38:41.230771+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, I'll guide you through the process. First, let you tell me what type of phone you have?",
+    "date_time": "2023-12-26T12:38:44.923079+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Samsung Galaxy S21.",
+    "date_time": "2023-12-26T12:38:53.230771+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect, I'll walk you through the steps to run the diagnostic test. Once the test is complete, I'll check the results and see if there's anything else we need to do to resolve the issue.",
+    "date_time": "2023-12-26T12:38:55.538463+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, that sounds good. Thank you, Juliette.",
+    "date_time": "2023-12-26T12:39:11.692309+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Dessie. I'll be with you every step of the way to make sure we get this resolved for you.",
+    "date_time": "2023-12-26T12:39:14.923078+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "b01256bad50143879964f3d631a8f5f8",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank you for calling Union Mobile, my name is Kendall, and I'll be happy to assist you today. How can I help you, Lula?",
+    "date_time": "2023-12-05T10:19:40+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Kendall, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity issues.",
+    "date_time": "2023-12-05T10:19:51.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Lula. Can you tell me a little bit more about the issues you're experiencing? For example, are you having trouble with voice calls, data usage, or both? And have you noticed any patterns or areas where the issues seem to be happening more frequently?",
+    "date_time": "2023-12-05T10:20:00.769231+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Well, it seems like I'm having trouble with both voice calls and data usage. I've had a few dropped calls recently, and my data connection has been really slow. It's been happening all over the city, so I'm not sure if it's a problem with my phone or the your service.",
+    "date_time": "2023-12-05T10:20:22.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I understand. Let me see if I can help you troubleshoot the issue. Have you tried restarting your phone or turning it off and back on again? Sometimes that can help resolve connectivity issues.",
+    "date_time": "2023-12-05T10:20:46.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried that already. It didn't seem to help.",
+    "date_time": "2023-12-05T10:21:02.153847+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Okay, no problem. In that case, I'd like to check your account and see if there are any issues on our end that might be causing the problems you're experiencing. Can you please verify your identity for me so",
+    "date_time": "2023-12-05T10:21:06.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is... (provides PIN)",
+    "date_time": "2023-12-05T10:21:24.769232+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you. providing that. Now, let me check your account. (pauses for a moment) It looks like everything appears to be in order on our end. However, I do notice that you're using an older model phone. Have you considered upgrading to a newer device? That might help improve your service quality.",
+    "date_time": "2023-12-05T10:21:28.000001+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hmm, I hadn't thought about that. What kind of phones do you recommend?",
+    "date_time": "2023-12-05T10:21:52.461539+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "We offer a variety of phones from different manufacturers, so it really depends on your personal preferences and budget. Let me check what see which devices are available for upgrade. (pauses for a moment) It looks like we have a few options that would be compatible with your plan. Would you like me to walk you through them?",
+    "date_time": "2023-12-05T10:21:58.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, that would be great.",
+    "date_time": "2023-12-05T10:22:25.230770+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Let me give you a quick overview of our most popular models. We have the X10, which is a high-end device with a large screen and advanced camera features. We also have the Z20, which is a mid-range device with a long-lasting battery life a sleek design. Finally, we have the E50, which is an entry-level device with a compact size and easy-to-use interface. Which one of these sounds like it might interest you?",
+    "date_time": "2023-12-05T10:22:27.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "The M20 sounds good. Can you tell me more about it?",
+    "date_time": "2023-12-05T10:23:02.153847+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Absolutely! The M20 has a 6.3-inch display, a powerful processor, and a battery that can last up to two days on a single charge. It also has a triple-camera setup with advanced wide-angle lens, a telephoto lens, and a depth sensor. Plus, it's available in several different colors. Would you like me to add it to your cart and go over the pricing options with you?",
+    "date_time": "2023-12-05T10:23:07.230770+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, that sounds great.",
+    "date_time": "2023-12-05T10:23:37.692308+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Wonderful! I'll go ahead and add the M20 to your cart. As for pricing, we currently have a promotion going on where you can get $ device for $200 off if you sign up for a new line. Would you like me to go over the details of that promotion with you?",
+    "date_time": "2023-12-05T10:23:39.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that sounds good. I think I'll just stick with the regular plan.",
+    "date_time": "2023-12-05T10:24:03.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, no problem. I'll go ahead and process the order for the M20. Is there anything else I can assist you with today, Lula?",
+    "date_time": "2023-12-05T10:24:09.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for now. Thanks for your help, Kendall!",
+    "date_time": "2023-12-05T10:24:20.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Lula. It was my pleasure to assist you. Ifjoy your new phone, and feel free to reach out to us if you have any further questions or concerns in the future. Have a great day!",
+    "date_time": "2023-12-05T10:24:25.230770+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "5ae9e9e42d1648de8e6b96dbc543a7f9",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank you for calling Union Mobile, my name is Grace, how can I assist you today?",
+    "date_time": "2023-11-01T09:35:23+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Grace, I'm having some trouble with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity issues.",
+    "date_time": "2023-11-01T09:35:30.384615+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Ethel. Can you please verify your identity so I can assist you better?",
+    "date_time": "2023-11-01T09:35:40.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-11-01T09:35:47.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Ethel. Unfortunately, the informationIN you provided doesn't match the one on file. Can you please try again?",
+    "date_time": "2023-11-01T09:35:50.692308+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hmm, that's strange. Let me try again. My account PIN is 5678.",
+    "date_time": "2023-11-01T09:35:59.461539+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize, but that PIN doesn't match either. Can you please try again or provide another way for me to verify your identity?",
+    "date_time": "2023-11-01T09:36:05.000001+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, let me try again. My account PIN is 9012.",
+    "date_time": "2023-11-01T09:36:15.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize, but that PIN doesn't match either. I'm unable to verify your identity and assist you further your issue.",
+    "date_time": "2023-11-01T09:36:20.230771+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh's frustrating. Can't you just look up my account information?",
+    "date_time": "2023-11-01T09:36:29.461540+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I understand your frustration, Ethel. However, for security purposes, we require look up your account information without proper verification. I apologize for any inconvenience this may have caused. Is there anything else I can assist you with today?",
+    "date_time": "2023-11-01T09:36:34.076925+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's okay. I'll just have to try again later.",
+    "date_time": "2023-11-01T09:36:51.615387+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, Ethel. Thank you for choosing Union Mobile. Have a great day.",
+    "date_time": "2023-11-01T09:36:56.230772+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "5903c277df7b41c081358f45066f4387",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile. My name is Carroll, and I'll be happy to assist you with your concern. Can you please tell me a little bit more about the issue you're experiencing with your phone service?",
+    "date_time": "2023-11-17T14:45:53+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Carroll, yeah for picking up my call. I've been having some trouble with my phone service lately. I've been experiencing dropped calls, poor reception, and data connectivity issues. It's been really frustrating.",
+    "date_time": "2023-11-17T14:46:11+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Ozella. Let understand how important it is to have reliable phone service. Let me see what might be causing the problem. Can you tell me a little bit more about your phone and the areas where you're experiencing these issues?",
+    "date_time": "2023-11-17T14:46:26.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I have an iPhone 12 Pro, and I've been having problems both at home and when I'm out and about. It seems like the signal just drops suddenly, and sometimes I can't even make or receive calls.",
+    "date_time": "2023-11-17T14:46:46.538461+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for providing that information, Ozella. I'm going to check on your account to see if there are any issues with your service. Can you please confirm your account PIN for me?",
+    "date_time": "2023-11-17T14:47:04.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Of course, My account PIN is 1234.",
+    "date_time": "2023-11-17T14:47:19.307692+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank've confirmed your account. Now, let me check on your service status. It looks like there have been some reported outages in your area that may be affecting your service. I'm going to troubleshoot a few things with you to see if we can resolve the issue.",
+    "date_time": "2023-11-17T14:47:22.538461+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, that sounds good.",
+    "date_time": "2023-11-17T14:47:44.692307+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "First, let's try turning your phone off and back on again. Sometimes that can help reset the connection.",
+    "date_time": "2023-11-17T14:47:46.538461+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I've turned it off and back on.",
+    "date_time": "2023-11-17T14:47:54.846153+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Now, let's try switching your network mode to see4G only. You can do this by going to your phone's settings, selecting \"Cellular,\" and then toggle off the \"Auto\" option.",
+    "date_time": "2023-11-17T14:47:58.538461+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I've done that.",
+    "date_time": "2023-11-17T14:48:12.384615+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Excellent. Now, let's test your data connection by opening a web page on your phone. Can you try open Google Chrome another website for me?",
+    "date_time": "2023-11-17T14:48:14.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I've opened Google.",
+    "date_time": "2023-11-17T14:48:25.769231+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! It looks like your data connection is working properly. Finally, let's check for any software updates for may be available for your phone. Go to \"Settings\" then \"General,\" and then \"Software Update.\"",
+    "date_time": "2023-11-17T14:48:27.615385+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, it says there's an update available.",
+    "date_time": "2023-11-17T14:48:42.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect. Install the update and then try making a call to see if that resolves the issue.",
+    "date_time": "2023-11-17T14:48:46.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I've installed the update. I'll trying to make a call now...",
+    "date_time": "2023-11-17T14:48:53.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! It looks like your call is going through successfully. Is there anything else I can assist you with today, Ozella?",
+    "date_time": "2023-11-17T14:48:59.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. Thank you so much for your help, Carroll.",
+    "date_time": "2023-11-17T14:49:09.153847+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Ozella. It was my pleasure to assist you. If you have any other questions or concerns in the future, don't hesitate to reach out to us. Have a great day!",
+    "date_time": "2023-11-17T14:49:14.230770+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, you too! By",
+    "date_time": "2023-11-17T14:49:29.000001+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "433998a494f24ce785c72cd3a9a113cb",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile. My name is Eve, and I'll be happy to assist you with your concern. Can you please tell me what's issue happening with your phone service?",
+    "date_time": "2023-12-09T16:39:52+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Liddie. I understand how important it is to have reliable service. Let me see what might be causing the problem. Can you please verify your identity for me?",
+    "date_time": "2023-12-09T16:40:07.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is... (provides PIN)",
+    "date_time": "2023-12-09T16:40:22+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Liddie. Now, let's try to troubleshoot the issue. Have you tried restarting your phone or checking for software updates?",
+    "date_time": "2023-12-09T16:40:25.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I've tried that already.",
+    "date_time": "2023-12-09T16:40:34.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, let that case, it's possible that there's an issue with the network in your area. I'm going to check on that and see if there are any scheduled maintenance or outages that might be affecting your service. Can you please hold for just a moment?",
+    "date_time": "2023-12-09T16:40:37.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, thanks.",
+    "date_time": "2023-12-09T16:40:58.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for holding, Liddie. I've checked on the network status, and it looks like there was an unexpected outage in your area that should be resolved soon. In the meantime, I can offer you a complimentary data pass for the inconvenience. Would you like me?",
+    "date_time": "2023-12-09T16:40:59.384615+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Really? That's great, thank you!",
+    "date_time": "2023-12-09T16:41:20.615384+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Liddie. Is there anything else I can assist you with today?",
+    "date_time": "2023-12-09T16:41:22.923076+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. Thanks again, Eve.",
+    "date_time": "2023-12-09T16:41:28.923076+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome. Thank you for choosing Union Mobile, and please let us know if you have anything else in the future. Have a great day!",
+    "date_time": "2023-12-09T16:41:31.692307+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, you too. Bye.",
+    "date_time": "2023-12-09T16:41:43.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Bye-bye.",
+    "date_time": "2023-12-09T16:41:45.076923+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "b7b4920167c8496bb03b9d55ee1821cd",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank you for calling Union Mobile. My name is Nayeli, and I'll be happy to assist you with your concern. Can you please tell me a little bit more about the issue you're experiencing with your phone service?",
+    "date_time": "2023-10-24T13:55:10+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Nayeli, yeah, I'm having some trouble with my service. I've been getting a lot of dropped calls, and my data connection has been really slow. It's been like this for the past few days.",
+    "date_time": "2023-10-24T13:55:27.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Zavier. Let me see what might be causing the problem. Can you tell me a little bit more about your phone and your service plan?",
+    "date_time": "2023-10-24T13:55:43.692308+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I have an Android phone, and I'm on the unlimited data plan.",
+    "date_time": "2023-10-24T13:55:57.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you for that information. Based on what you've told me, it sounds like there might be a problem with your network connection. I'd like to suggest a few things to try and improve your service. Firstly, have you tried restarting your phone recently? Sometimes that can help resolve connectivity issues.",
+    "date_time": "2023-10-24T13:56:03.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried that already. It didn't work.",
+    "date_time": "2023-10-24T13:56:27.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Okay, no problem. In that case, I'd recommend to suggest that you try turning your phone off and then back on again. This will allow your device to reconnect to the network and may resolve the issue.",
+    "date_time": "2023-10-24T13:56:30.769231+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I'll give that a try.",
+    "date_time": "2023-10-24T13:56:47.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! If that doesn't work, we can also try resetting your network settings. This will restore your phone's network settings to their default state, which may help improve your service. Would you like me to walk you through how to do that?",
+    "date_time": "2023-10-24T13:56:50.615385+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, please.",
+    "date_time": "2023-10-24T13:57:10+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure thing. To reset your network settings, go to your phone's settings menu, select \"Network & Internet,\" then choose \"Mobile Networks,\" and finally, select \"Reset Network Settings.\" Follow the prompts to complete the process.",
+    "date_time": "2023-10-24T13:57:10.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I did that. But I my phone is saying that it can't connect to the internet.",
+    "date_time": "2023-10-24T13:57:26.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "That's okay, that's normal. After resetting your network settings, your phone may need to reconnect to the network. Try turning your phone off and then back on again to see if that helps.",
+    "date_time": "2023-10-24T13:57:34.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, that worked. My phone is connecting to the internet now. But I'm still getting dropped calls.",
+    "date_time": "2023-10-24T13:57:49.692308+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Zavier. In that case, it's possible that there's a problem with the network in your area. I'd like to check on that for you. Can you please tell me your location so I can look into that for you?",
+    "date_time": "2023-10-24T13:57:57.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I'm in downtown Los Angeles.",
+    "date_time": "2023-10-24T13:58:17.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Zavier. I've checked on the network in in your area, and it looks like there are some maintenance issues that are causing service disruptions. Our engineers are working on resolving the issue as soon as possible. In the meantime, I'd like to offer you a complimentary month of service to make up for the inconvenience. Would you like me to apply that to your account?",
+    "date_time": "2023-10-24T13:58:20.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Really? That's great, thank you!",
+    "date_time": "2023-10-24T13:58:51.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Zavier. Is there anything else I can assist you with today?",
+    "date_time": "2023-10-24T13:58:53.384616+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Nope that's all. Thanks for your help, Nayeli.",
+    "date_time": "2023-10-24T13:58:59.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Zavier. Thank you for choosing Union Mobile. Have a great day!",
+    "date_time": "2023-10-24T13:59:03.076924+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "c67954d0ee644282a49f04115e11f7bc",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile's 24/7 Phone Support. My name is Kristin, how can I assist you today?",
+    "date_time": "2023-09-10T10:51:54+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Kristin, I'm having some issues with my phone service. I've been experiencing dropped calls, poor reception, and data connectivity problems. I've tried restarting my phone and checking my settings, but the issues persist. I'm getting really frustrated because I was promised that this would be resolved by now.",
+    "date_time": "2023-09-10T10:52:03.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Aurelia. I understand how frustrating it must be to have ongoing issues with your phone service. Can you tell me a little bit more about the problems you're experiencing? For example, are there having trouble making or receiving calls, or are you having difficulty accessing data services like internet browsing or social media?",
+    "date_time": "2023-09-10T10:52:25.846154+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, it's mostly with making and receiving calls. Sometimes the calls just drop suddenly, and other times the person on the other end can't hear me properly. And when I try to access data services, it's really slow or doesn't work at all. It's like my phone is constantly searching for a signal.",
+    "date_time": "2023-09-10T10:52:52.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I see. It sounds like you might be experiencing some network issues in your area. Let me check on that for you. Can you please tell me your location so I can look into this further?",
+    "date_time": "2023-09-10T10:53:16.615384+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, I'm in downtown Los Angeles.",
+    "date_time": "2023-09-10T10:53:33.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, I've checked on the network status in your area, and it looks like there have been some technical difficulties that may be causing the issues you're experiencing. Our engineering team is working on resolving the problem as we speak, but in the meantime, I can offer you a few solutions that might help improve your service. Would you like me to go over those with you?",
+    "date_time": "2023-09-10T10:53:36+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, please do I just want my phone to work properly.",
+    "date_time": "2023-09-10T10:54:06.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, I completely understand. One thing you can try is turning your phone off and then back on again. This will allow help reset the connection and improve service. Additionally, you can try manually selecting a different network mode, such as switching from 4G to 3G or vice versa. This can sometimes help your phone latch onto a stronger signal.",
+    "date_time": "2023-09-10T10:54:12+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I'll try that. But what about data services? How do I get that to work properly?",
+    "date_time": "2023-09-10T10:54:40.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "For data services, you can try turning your phone's Wi-Fi off and then back on. This can sometimes help your phone reconnect to the nearest cell tower and improve data speeds. You can also try closing any apps that might be running in the background and using up data. This can help free up resources and improve overall performance.",
+    "date_time": "2023-09-10T10:54:48+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I'll give that a shot. Thank you, Kristin.",
+    "date_time": "2023-09-10T10:55:15.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Aurelia. I apologize again for the inconvenience you've experienced, and I appreciate your patience. If you continue to have issues after trying these solutions, please don't hesitate to reach out to us again. We'll be happy to further you further. Is there anything else I can help you with today?",
+    "date_time": "2023-09-10T10:55:19.384615+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for now. Thanks again, Kristin.",
+    "date_time": "2023-09-10T10:55:43.384615+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome. Aurelia. Have a great day.",
+    "date_time": "2023-09-10T10:55:47.076923+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "d6e844d431684a5c8a985a99920d0a65",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank you for calling Union Mobile. My name is Jay, and I'll be happy to assist you with setting up your phone or configuring your settings. How can I help you today, Jazmin?",
+    "date_time": "2023-10-14T10:32:15+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "(angrily) Look, I' got this new phone and I can't figure figure out how to make a call. I you just walk me through the basic settings?",
+    "date_time": "2023-10-14T10:32:30.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, Jazmin. I understand how frustrating it can be when you're not familiar with a new device. Let me see if I can help you with that. Can, have you tried accessing your phone's settings menu?",
+    "date_time": "2023-10-14T10:32:42.692307+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "(sighs) Yes, I've tried that. But everything seems so different from my old phone. I just want to be able to make calls and send texts like normal.",
+    "date_time": "2023-10-14T10:32:59.769230+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I completely understand. Let me guide you through the process. To access your phone's settings, you'll need to locate the gear icon on your home screen. Once you tapve opened the settings menu, you should see several options listed under \"Phone.\" Can \"Call Settings\" and then \"Incoming Calls.\" From there, you can adjust your ringtone, voicemail, and other call-related settings.",
+    "date_time": "2023-10-14T10:33:12.692307+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I think I see. But what about text messaging?",
+    "date_time": "2023-10-14T10:33:40.384615+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure thing! To access your text messaging app, simply find the \"Messages\" icon on your home screen. Once you're in the app, you can tap the \"Compose\" button to start a new message. You can enter the recipient's phone number and type your message in the main window. If",
+    "date_time": "2023-10-14T10:33:45+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "That sounds more sense now. Thanks for explaining me through that. But",
+    "date_time": "2023-10-14T10:34:07.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Jazmin. Is there anything else you needd like to know how to do on your phone? I'm here to help.",
+    "date_time": "2023-10-14T10:34:13.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for now. Thank for your help, Jay.",
+    "date_time": "2023-10-14T10:34:23.307693+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Jazmin. It was my pleasure to assist you. If you have any other questions or concerns in the future, don't hesitate to reach out to us at Union Mobile. Have a great day!",
+    "date_time": "2023-10-14T10:34:27.923078+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks. Bye.",
+    "date_time": "2023-10-14T10:34:44.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Bye, Jazmin. Take care!",
+    "date_time": "2023-10-14T10:34:45.000001+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "74c38f395bfd467d8748f654916722c7",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile. My name is Javen, and I'll be happy to assist you today. How can I help you, Alina?",
+    "date_time": "2023-11-11T08:23:48+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Javen, I'm having some trouble setting up my new phone. I'm not sure how to configure my settings properly. Can you help me with that?",
+    "date_time": "2023-11-11T08:23:59.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, Alina. I'd be happy to help you with that. Let me just verify your identity real quick to ensure sure we're on to go. Can you please tell me your account PIN or the last four digits of the credit card associated file?",
+    "date_time": "2023-11-11T08:24:11.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-11-11T08:24:32.307693+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you Al providing that. Now, let's get started with setting up your phone. Have you tell me what type of phone you have and what operating system it's running?",
+    "date_time": "2023-11-11T08:24:35.076924+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Samsung Galaxy S22 Ultra, and it's running Android 12.",
+    "date_time": "2023-11-11T08:24:49.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect, I'm familiar with that device. Let me walk you through the steps to configure your settings. First, have you already set up your Google account on the phone?",
+    "date_time": "2023-11-11T08:24:54.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I've done that already.",
+    "date_time": "2023-11-11T08:25:07.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Next, let's make sure your phone is connected to the internet. Can you check your Wi-Fi settings and make sure you're connected to a network?",
+    "date_time": "2023-11-11T08:25:10.153846+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, yeah, I'm connected to my home Wi-Fi network.",
+    "date_time": "2023-11-11T08:25:22.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect. Now, let's move on to setting up your email account. Would you like to use your personal account email or a different email address?",
+    "date_time": "2023-11-11T08:25:26.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "I'll just use my Gmail account.",
+    "date_time": "2023-11-11T08:25:37.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. I'll guide you through the process of setting up your email account. After that, we can move on to configuring your other settings, such as your ringtone, notification settings, and apps. Sound good?",
+    "date_time": "2023-11-11T08:25:40.615385+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, that sounds great. Thank you so much for your help, Javen.",
+    "date_time": "2023-11-11T08:25:56.307693+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alina. I'm here to assist. Let's get started with setting up your email account. Can you please open the Email app on your phone and select the \"Add Account\" option?",
+    "date_time": "2023-11-11T08:26:01.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, got it.",
+    "date_time": "2023-11-11T08:26:16.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Now, enter your G account email address and password. Make sure to enter the correct password, as this will secure your email account.",
+    "date_time": "2023-11-11T08:26:18.000001+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I've entered my email address and password.",
+    "date_time": "2023-11-11T08:26:29.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect. Now, select \"Next\" to proceed with the setup process. You should receive an email to Google to verify your account. Select the verification link in the email to activ the setup process.",
+    "date_time": "2023-11-11T08:26:32.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Got it. I see the email, and I've clicked on the verification link.",
+    "date_time": "2023-11-11T08:26:48.000001+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Excellent. Your email account is now set up. Let's move on to configuring your other settings. Would you like me to walk you through setting up your ringtone and notification settings?",
+    "date_time": "2023-11-11T08:26:54.000001+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, please.",
+    "date_time": "2023-11-11T08:27:08.307693+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure thing. I'll guide you through those process. After that, we can review your apps and make sure everything is working properly. Sound good?",
+    "date_time": "2023-11-11T08:27:09.230770+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, that sounds great. Thank you again much for your help, Javen.",
+    "date_time": "2023-11-11T08:27:20.307693+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alina. I'm happy to assist you. Let's get started with setting up your ringtone and notification settings. Can you please open the Settings app on your phone and select \"Sounds and Vibration\"?",
+    "date_time": "2023-11-11T08:27:25.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, got it.",
+    "date_time": "2023-11-11T08:27:41.538463+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Now, select \"Ringtone\" and choose a ringtone that you like. You can preview the ringtone by clicking on it. Once you've selected a ringtone, click \"Save\".",
+    "date_time": "2023-11-11T08:27:42.923078+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, I've chosen a ringtone.",
+    "date_time": "2023-11-11T08:27:55.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Fantastic. Now, let's move on to configuring your notification settings. Select \"Notifications\" from the Settings app.",
+    "date_time": "2023-11-11T08:27:57.692308+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I see it.",
+    "date_time": "2023-11-11T08:28:05.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Here, you can manageize your notification settings for different app. You can adjust to receive notifications from certain apps, or turn off notifications altogether. It's up to you. Take",
+    "date_time": "2023-11-11T08:28:06.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I think I understand.",
+    "date_time": "2023-11-11T08:28:20.769231+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Is there anything else you needd like to configure or any questions you have?",
+    "date_time": "2023-11-11T08:28:23.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, I think that covers everything. Thank you so much for your help, Javen. I really appreciate it.",
+    "date_time": "2023-11-11T08:28:30+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Alina. It was my pleasure to assist you. If you have any further questions or concerns, feel free to give us a call back. Have a great day!",
+    "date_time": "2023-11-11T08:28:38.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Javen. Have a great day too!",
+    "date_time": "2023-11-11T08:28:52.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Alina. Have a wonderful day. Goodbye now.",
+    "date_time": "2023-11-11T08:28:55.384615+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "f535c1bdc7e949469cb85dcac3b53d13",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile's 24/7 Phone Support. My name is Ryan, and I'll be happy to assist you today. Can you please tell me, Katlyn, what seems to be the issue you're experiencing with your phone or tablet?",
+    "date_time": "2023-11-25T13:21:28+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Ryan, thanks for picking up my call. I'm having some trouble setting up my new phone and configuring some settings. I'm not sure how to do it properly.",
+    "date_time": "2023-11-25T13:21:46.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "No problem at all, Katlyn. I'd be happy to help you with that. Can me just verify your identity real quick to ensure we can access your account. Can you please provide me with your account PIN or the last four digits of the credit card associated with your account?",
+    "date_time": "2023-11-25T13:22:00.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-11-25T13:22:23.384615+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you for providing that. Now, let's get started on setting up your phone or tablet. Can you please tell me which device you're using and what operating system it's running?",
+    "date_time": "2023-11-25T13:22:26.153846+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "I havem using a Samsung Galaxy S22 Ultra, and it's running Android 11.",
+    "date_time": "2023-11-25T13:22:40.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect, I'm familiar with that device. Let me walk you through the steps to set it up and First, have you already activated your device and signed in with your Google account?",
+    "date_time": "2023-11-25T13:22:46.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I've done that already.",
+    "date_time": "2023-11-25T13:23:01.692308+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Next, let's start with configuring your Wi-Fi settings. Go to Settings > Connections > Wi-Fi, and make sure Wi-Fi is turned on. Then, select the network you want to connect to and enter the password if prompted.",
+    "date_time": "2023-11-25T13:23:04+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, got it.",
+    "date_time": "2023-11-25T13:23:21.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Next, let's set up your email account. Go to Settings > Accounts > Add Account > Google, and enter your Gmail address and password. You' need to sign in to your Google account again to authenticate the setup..",
+    "date_time": "2023-11-25T13:23:22.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright, that think I did that correctly.",
+    "date_time": "2023-11-25T13:23:40.461539+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Now, let's move on to setting up your phone's security features. Go to Settings > Lock screen and security > Secure start-up, and select the option that works best for you. This will help protect your device from unauthorized access.",
+    "date_time": "2023-11-25T13:23:43.692308+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "That makes sense. I think I'll choose the PIN option.",
+    "date_time": "2023-11-25T13:24:02.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Excellent choice, Katlyn. Finally, let's quickly go over some additional settings that might want to consider adjusting. Go to Settings > Sounds and vibration, and make sure the volume is set to a comfortable level for you. You can also adjust the notification settings to your liking.",
+    "date_time": "2023-11-25T13:24:07.230770+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Ryan. That was really helpful.",
+    "date_time": "2023-11-25T13:24:28.923078+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Katlyn. Is there anything else you need assistance with today?",
+    "date_time": "2023-11-25T13:24:31.692309+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Nope, that covers everything. Thank so much for your help!",
+    "date_time": "2023-11-25T13:24:37.230771+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You pleasure, Katlyn. It was great assisting you. Don't hesitate to reach out to us if you have any other questions or concerns in the future. Have a fantastic day!",
+    "date_time": "2023-11-25T13:24:41.846156+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Ryan. You too!",
+    "date_time": "2023-11-25T13:24:55.692310+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Katlyn. Have a great day!",
+    "date_time": "2023-11-25T13:24:57.538464+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "2e64f9bb5a5843f2b2bbc9f4a3ddddbd",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile's 24/7 Phone Support. My name is Juliet, and I'll be happy to assist you today. Can you please tell me, Phoebe, what seems to be the issue you're experiencing with your phone or tablet?",
+    "date_time": "2023-11-10T08:22:58+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Juliet, thanks, I'm having some trouble setting up my new device. I've been trying to configure my settings, but it's just not working out. I've tried everything I can think of, but nothing seems to be working.",
+    "date_time": "2023-11-10T08:23:16.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize for the inconvenience you're experiencing, Phoebe. Let's see if we can get to the bottom of this together. Can you tell me what specific settings you're trying to configure? And have you tried restarting your device or resetting your network settings?",
+    "date_time": "2023-11-10T08:23:34.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried all of that. I've even tried factory resetting my device, but nothing seems to work. It's like the settings just won't save properly.",
+    "date_time": "2023-11-10T08:23:54.307693+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Okay, that sounds like it could be a bit of a challenge. Let me see if I can help you troubleshoot the issue. Have you tried using a different Wi-Fi network or a different SIM card? Sometimes that issues can be caused by compatibility problems with certain networks or devices.",
+    "date_time": "2023-11-10T08:24:06.307693+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried that too. I've tried different networks and different SIM cards, but nothing seems to work. It's really frustrating because I just want to be able to use my device like normal.",
+    "date_time": "2023-11-10T08:24:29.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I completely understand, Phoebe. Let me see if there might be a software update that could help resolve the issue. Can you tell me what type of device you're using and what version of the operating system it's running?",
+    "date_time": "2023-11-10T08:24:45.076924+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, it's a Galaxy S21 Ultra, and it's running Android 12.",
+    "date_time": "2023-11-10T08:25:03.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you for that information. I'm going to check on that and see if there are any known issues or updates that might help resolve the problem. Can you please hold for just a moment while I check on that?",
+    "date_time": "2023-11-10T08:25:08.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, no problem. Thank you, Juliet.",
+    "date_time": "2023-11-10T08:25:27.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, Phoebe. I apologize again for the inconvenience you're experiencing. I'm going to check on that update and see if there's anything else we can try to get your device up and running properly. If you could just hold for a few more moments, I'll be right back with an update.",
+    "date_time": "2023-11-10T08:25:29.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, thank.",
+    "date_time": "2023-11-10T08:25:53.846155+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, thank you for holding, Phoebe. I've checked on the information you provided, and it looks like there is a known issue with that particular device and operating system version. There's actually a software update that was released just yesterday that should help resolve the issue you're experiencing. Would you like me to guide you through the process of updating your device?",
+    "date_time": "2023-11-10T08:25:54.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh, that sounds great! Yes, please do that you help me update my device?",
+    "date_time": "2023-11-10T08:26:23.384617+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Absolutely, I'd be happy to help you with that. I'll walk you through the steps, and we'll get your device updated and configured properly. It may take a few minutes, but I'll stay on the line with you until it's all taken care of. Are you ready to get started?",
+    "date_time": "2023-11-10T08:26:29.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I'm ready. Thank you so much, Juliet.",
+    "date_time": "2023-11-10T08:26:52.923078+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Phoebe. I'm glad we were able to figure out a solution together you. Is there anything else I can assist you with today?",
+    "date_time": "2023-11-10T08:26:56.615386+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. Thanks you so much for your help, Juliet. I really appreciate it.",
+    "date_time": "2023-11-10T08:27:08.153848+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're very welcome, Phoebe. It was my pleasure to assist you. If you have any other questions or concerns in the future, don't hesitate to reach out to us. Have a great day!",
+    "date_time": "2023-11-10T08:27:15.076925+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Juliet. You too!",
+    "date_time": "2023-11-10T08:27:30.307694+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "6bdeda2b528b437e90afc40b7f8ca0e9",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile's 24/7 Phone Support. My name is Anna, and I'll be happy to assist you today setting up your phone or configuring your settings. Can you please tell me a little bit more about what you need help with today?",
+    "date_time": "2023-09-19T15:57:12+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Anna, yeah for picking up my call. I'm having some trouble setting up my new tablet. I'm not sure how to connect it to my Wi-Fi network, I'm also having some issues with the settings.",
+    "date_time": "2023-09-19T15:57:33.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure thing, Johnna. I'd be happy to help you with that. Let you please give me the model of your tablet so I can better assist you?",
+    "date_time": "2023-09-19T15:57:49.846154+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Union Mobile Tablet X10.",
+    "date_time": "2023-09-19T15:58:02.307692+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, I'm familiar with that model. Let me walk you through the process of connecting to Wi-Fi. First, make sure your tablet is turned on and that you're on the home screen. Then, click on the Wi-Fi icon in the top right corner of the screen. From there, select the network you want to connect to and enter the password. Does that make sense?",
+    "date_time": "2023-09-19T15:58:05.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I think so. Let me try that.",
+    "date_time": "2023-09-19T15:58:34.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! If you have any issues, feel free to let me know and I'll guide you through it step by step. Once you're connected to Wi-Fi, I can help you with any other settings you need assistance with.",
+    "date_time": "2023-09-19T15:58:38.307693+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I think I'm connected now. But I'm still having trouble with the settings. Can you help me with that?",
+    "date_time": "2023-09-19T15:58:55.846155+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, Johnna. Which settings are you having trouble with specifically?",
+    "date_time": "2023-09-19T15:59:05.076924+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Well, I'm not sure how to set up my email account and I alsom also having trouble with the display settings. Every time I turn up the volume, it starts to crackort.",
+    "date_time": "2023-09-19T15:59:10.153847+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "No understand. Let me see you with that. For your email account, I recommend using the default email app that comes with your tablet. It's easy to set up and use. As for the sound settings, it sounds like there might be an issue with the speaker. Have you tried using headphones instead? That might help with the distortion issue.",
+    "date_time": "2023-09-19T15:59:24.923078+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I've tried using headphones but I prefer to use the speakers. Is there anything else I can do?",
+    "date_time": "2023-09-19T15:59:52.615386+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Unfortunately, it sounds like the issue with the speakers might be hardware related. In that case, you'll need to contact our technical support team for further assistance. They'll be able to diagnose the issue and provide you with the best solution.",
+    "date_time": "2023-09-19T16:00:01.384617+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh, okay. That you give me their number?",
+    "date_time": "2023-09-19T16:00:20.307694+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure, here's the number for our technical support team: 1-800-123-4567. They're available 24/7 to assist you.",
+    "date_time": "2023-09-19T16:00:24.000002+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Anna. I appreciate your help.",
+    "date_time": "2023-09-19T16:00:31.384617+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Johnna. Sorry we couldn't resolve all of your issues today, but I hope the technical support team will be able to assist you with your speaker issue. Is there anything else I can assist you with before we end this call?",
+    "date_time": "2023-09-19T16:00:34.153848+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for now. Thanks again, Anna.",
+    "date_time": "2023-09-19T16:00:54.000002+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Johnna. Have you for choosing Union Mobile. Have a great day!",
+    "date_time": "2023-09-19T16:00:57.692310+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "4e652010a0eb4febbdf62e03d0702721",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank you for calling Union Mobile. My name is Mel, and I'll be happy to assist you today. How can I help you, Adeline?",
+    "date_time": "2023-12-10T16:19:05+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Mel, thanks for picking up my call. I'm having some trouble setting up my new phone. I'm not sure how to configure my settings properly.",
+    "date_time": "2023-12-10T16:19:16.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "No problem at all, Adeline. I understand how frustrating it can be when you're not sure how to set up your device. Let me see what I can do to help. Can you tell me a little bit more about the issues you're experiencing?",
+    "date_time": "2023-12-10T16:19:28.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, sure. I'm trying to set up my email account, but I keep getting an error message. And I'm not sure how to set up my Wi-Fi connection either.",
+    "date_time": "2023-12-10T16:19:48.384615+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Okay, I think. Let's start with your email account. Can you tell me what kind of email service you're using? And",
+    "date_time": "2023-12-10T16:20:01.769230+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Gmail account.",
+    "date_time": "2023-12-10T16:20:11.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. Let me walk you through the process of setting up your Gmail account on your phone. First, have you downloaded the Gmail app from the app Store?",
+    "date_time": "2023-12-10T16:20:13.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I have.",
+    "date_time": "2023-12-10T16:20:26.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect. Now, open the app and tap on the \"Add Account\" button. Then, enter your email address and password. Make sure you've entered the correct password, and then tap \"Next.\"",
+    "date_time": "2023-12-10T16:20:27.615384+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I' I did that wrong. Can you walk me through it again?",
+    "date_time": "2023-12-10T16:20:41.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, no problem. Let me talk you through it again. So, you've opened the Gmail app, and now you need to tap on the \"Add Account\" button. This will allow you to enter your email address and password. Once you've entered the correct information, tap \"Next.\"",
+    "date_time": "2023-12-10T16:20:47.461538+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh, I see I see now. Thank you, Mel.",
+    "date_time": "2023-12-10T16:21:09.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Adeline. Now, you should be able to access your emailmail account on your phone. Let's move on to setting up your Wi-Fi connection. Can you tell me the name of your Wi-Fi network?",
+    "date_time": "2023-12-10T16:21:13.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, it's \"MyHomeNetwork\".",
+    "date_time": "2023-12-10T16:21:29.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great. To connect to your Wi-Fi network, go to your phone's settings, then \"Wi-Fi,\" and then select \"MyHomeNetwork\" from the list of available networks. Enter the password, if prompted, and you should be connected.",
+    "date_time": "2023-12-10T16:21:30.846153+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, got it. Thanks, Mel!",
+    "date_time": "2023-12-10T16:21:46.538461+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Adeline. Is there anything else I can assist you with today?",
+    "date_time": "2023-12-10T16:21:48.846153+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all. now. Thank you so much for your help, Mel.",
+    "date_time": "2023-12-10T16:21:54.846153+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Adeline. It was my pleasure to assist you. Have a great day, and thank you for choosing Union Mobile.",
+    "date_time": "2023-12-10T16:22:00.384615+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thank you, Mel. Have a great day too!",
+    "date_time": "2023-12-10T16:22:10.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Good you, Adeline. Goodbye now.",
+    "date_time": "2023-12-10T16:22:13.769231+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "a4a14c49ddbd4a0293e04a8215c41ec5",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Thank you for calling Union Mobile, my name is Teri, and I'll be happy to assist you today your concern. Can you please tell me what you need help with regarding your phone or tablet?",
+    "date_time": "2023-11-12T15:40:55+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Teri, thanks for picking up my call again. I'm having trouble setting up my new phone and configuring my settings. I triedm not sure what I'm doing wrong.",
+    "date_time": "2023-11-12T15:41:11.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "No problem at all, Clara. Let's take a deep breath and go through this together. Can you tell me what kind of phone or tablet you have? And which settings are you trying to configure?",
+    "date_time": "2023-11-12T15:41:24.538461+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It, it's a S Galaxy S21 Ultra. I'm trying to set up my email account and connect it to my social media profiles, but I keep getting an error message.",
+    "date_time": "2023-11-12T15:41:40.692307+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Okay, no problem. Let's start by checking your email account. Can you tell me what email of email account are you trying to set up? Ismail, Yahoo, Outlook?",
+    "date_time": "2023-11-12T15:41:54.538461+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Gmail account.",
+    "date_time": "2023-11-12T15:42:07.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Let me walk you through the process. First, make sure you have the correct email address and password entered correctly. Then, go to your phone's settings, select Accounts, and choose Google. From there, select Add Account and enter your email address and password. If prompted, sign in to your Google account on your phone. Does that work?",
+    "date_time": "2023-11-12T15:42:09.307692+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hmm, I think I might have missed a step. Can you repeat me through that again? slowly?",
+    "date_time": "2023-11-12T15:42:36.076923+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, no rush. So, first, go to your phone's settings, then select Accounts. Next, choose Google, then select Add Account. Now, enter your email address and password, and if prompted, sign in to your Google account on your phone. Finally, go back to your phone screen and try connecting your social media profiles again. How",
+    "date_time": "2023-11-12T15:42:43.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Oh, I see what I think I understand now. Thank you so much, Teri!",
+    "date_time": "2023-11-12T15:43:09.769231+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Clara. I'm glad we could resolve that sorted out together Just we end this call, I just want to confirm that everything is working properly now?",
+    "date_time": "2023-11-12T15:43:16.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, everything seems to be working great now. Thanks again, Teri!",
+    "date_time": "2023-11-12T15:43:29.153846+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "My pleasure, Clara. Is there anything else I can assist you with today?",
+    "date_time": "2023-11-12T15:43:34.230769+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Nope, that was the only issue I was having. Thanks so much for your help!",
+    "date_time": "2023-11-12T15:43:40.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're very welcome, Clara. Thank you for choosing Union Mobile. and don't hesitate to reach out if you have any other questions or concerns in the future. Have a wonderful day!",
+    "date_time": "2023-11-12T15:43:47.153846+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, Teri. Bye for now!",
+    "date_time": "2023-11-12T15:44:01.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Bye, Clara. Have a great day!",
+    "date_time": "2023-11-12T15:44:03.769230+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "(Documenting the call) Customer called back due to a disconnected call. Assisted customer with setting up their email and configuring settings. Resolved issue with email account setup and connected social media profiles successfully. Customer expressed gratitude and satisfaction with the service provided. Ended the call by summarizing the steps taken and offering further assistance. Customer's demeanor was friendly, and their towards the bank was positive. Call duration was average. No harmful, unethical, racist, sexist, toxic, dangerous, or illegal content was shared during the call. Provided socially unbiased and positive responses. Did knowledge and helped the customer with their concern. Documentation complete.",
+    "date_time": "2023-11-12T15:44:06.538461+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "752ba178760844ac9af5864ef7aaa23d",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile's 24/7 Phone Support. My name is Concetta, how can I assist you today?",
+    "date_time": "2023-11-24T14:14:21+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi, I'm having some trouble setting up my new phone. Can you help me?",
+    "date_time": "2023-11-24T14:14:30.230769+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, I'd be happy to help. Can you tell me a little bit more about the issue you're experiencing?",
+    "date_time": "2023-11-24T14:14:36.692307+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Well, I'm not sure how to configure my settings properly. I'm not very tech-savvy.",
+    "date_time": "2023-11-24T14:14:45.923076+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "No worries, we're here to help. Let me see if I can walk you through the process. First you tell me what type of phone you have?",
+    "date_time": "2023-11-24T14:14:52.384614+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Samsung Galaxy.21.",
+    "date_time": "2023-11-24T14:15:04.846152+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, I'm familiar with that model. Let me just pull up the instructions real quick. Okay, it looks like you'll need to go to the settings menu and select \"Wireless & networks\" and then \"Mobile networks.\" From there, you should be able to select your network provider and enter your APN settings. Does that make sense?",
+    "date_time": "2023-11-24T14:15:06.692306+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Umh, I think so. But can you talk me through it step?",
+    "date_time": "2023-11-24T14:15:32.538460+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sure thing. So, first, you'll want to find the settings app on your phone. It's usually located on the home screen or in the app drawer. Once you open it, scroll down and select \"Wireless & networks.\"",
+    "date_time": "2023-11-24T14:15:38.076922+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I it.",
+    "date_time": "2023-11-24T14:15:55.153845+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Next, you should see a list of options. Select \"Mobile networks\" from that list.",
+    "date_time": "2023-11-24T14:15:56.538460+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Alright.",
+    "date_time": "2023-11-24T14:16:02.999998+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Now, you should see a list of available network. Find your network provider's name on that list and select it.",
+    "date_time": "2023-11-24T14:16:03.461536+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hmm, I don't see my provider's name listed.",
+    "date_time": "2023-11-24T14:16:13.153844+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry's okay, sometimes it can take a few moments for the list to populate. Can you give it a few more seconds and try again?",
+    "date_time": "2023-11-24T14:16:16.846152+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Still not seeing it.",
+    "date_time": "2023-11-24T14:16:28.384614+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I apologize for the inconvenience. In that case, I'm going to need to transfer you to our technical support team. They'll be able to assist you further with configuring your settings.",
+    "date_time": "2023-11-24T14:16:30.230768+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I's fine.",
+    "date_time": "2023-11-24T14:16:44.538460+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you for holding, Leander. I'm going to go ahead and transfer you now.",
+    "date_time": "2023-11-24T14:16:45.923075+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Hi, this is Concetta with Union Mobile's 24/7 Phone Support. I'm transferring a call to the technical support team. The customer, Leander, is having trouble configuring their settings on their Samsung Galaxy S21. They're not seeing their network provider's name listed under mobile networks. Can you please assist them further?",
+    "date_time": "2023-11-24T14:16:52.384613+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome. Thank you for your patience, Leander. We'll get you all set up in no time.",
+    "date_time": "2023-11-24T14:17:15.461536+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks.",
+    "date_time": "2023-11-24T14:17:23.307690+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Is there anything else I can assist you with today?",
+    "date_time": "2023-11-24T14:17:23.769228+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that's all for Thanks again.",
+    "date_time": "2023-11-24T14:17:28.384613+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome. Don't forget to take our call survey after the call. It will us improve our service. Have a great day!",
+    "date_time": "2023-11-24T14:17:31.153844+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Will do. Bye.",
+    "date_time": "2023-11-24T14:17:41.307690+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Good you, Leander. Have a great day! (End Call)",
+    "date_time": "2023-11-24T14:17:42.692305+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "(To self) That hope the technical support team was able to assist Leander with their settings. It's important that we provide excellent service and empathy to our customers, even when we can't resolve their issues immediately. I'm glad I could help in some way. Time for move on to the next call! (Dialing the next number) Hello, thank you for calling Union Mobile's 24/7 Phone Support...",
+    "date_time": "2023-11-24T14:17:46.846151+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "e7a38f35baa241d9bcce044dad3286c7",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Good day, Raul. Welcome to Union Mobile's 24/7 Phone Support. My name is Bennett, and I'll be assisting you today. Thank you for choosing us as your mobile service provider. How may I be of help to you today?",
+    "date_time": "2023-12-25T10:42:07+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Bennett. Yeah, I need help setting up my new phone. I'm having trouble configuring some of the settings.",
+    "date_time": "2023-12-25T10:42:25+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Of course, Raul. I understand how frustrating it can be when you're not sure how to set up your device. Let me see what I can do to help. Can you tell me a little bit more about the issues you're experiencing? Have you tried any troubleshooting steps already?",
+    "date_time": "2023-12-25T10:42:33.769231+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Well, I've tried looking at the manual, but it's not really helping. And yeah, I've tried searching online too, but most'm just sure which settings are reliableworthy.",
+    "date_time": "2023-12-25T10:42:56.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I completely understand. Let me assure you that we're here to help, and we'll do our best to guide you through the process. First, can you tell me what type of phone you tablet you have? And way, I can provide you with specific instructions tailored to your device.",
+    "date_time": "2023-12-25T10:43:08.846154+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, it's a Galaxy S21.",
+    "date_time": "2023-12-25T10:43:31.461539+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! The Galaxy S21 is an excellent device. Now's start with some basic settings.. Have you set up your Wi-Fi connection yet?",
+    "date_time": "2023-12-25T10:43:33.769231+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, I think so. But I'm not sure if it's working properly.",
+    "date_time": "2023-12-25T10:43:43.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Al worries, we can check that together. Can you tell me the Wi-Fi network name and password? I'll walk you through the steps to connect to it.",
+    "date_time": "2023-12-25T10:43:49.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, sure. The network name is \"MyHomeNetwork\" and the password is \"password123\".",
+    "date_time": "2023-12-25T10:44:01.923077+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect. Now, let's open up your device's settings app and select Wi-Fi. Can you see your network listed there?",
+    "date_time": "2023-12-25T10:44:07.461539+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I see it.",
+    "date_time": "2023-12-25T10:44:16.230770+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Now, select the network and enter the password you Make sure to confirm that the password is correct. Once you've done that, your phone should automatically connect to the network.",
+    "date_time": "2023-12-25T10:44:18.076924+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, got it. Yeah, it's connected now.",
+    "date_time": "2023-12-25T10:44:32.384616+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Raul! Is there anything else you need help with? Perhaps we can set up your email account or show you how to navigate the device's interface?",
+    "date_time": "2023-12-25T10:44:35.615385+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Actually, yeah. I'd like to set up my email account. Can you help me with that?",
+    "date_time": "2023-12-25T10:44:48.538462+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Absolutely! Let me walk you through the process. Which, we needll need to go to the Google Play Store and download the Gmail app. Once you do that for me?",
+    "date_time": "2023-12-25T10:44:55.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure thing.",
+    "date_time": "2023-12-25T10:45:09.769231+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Now, once the app is installed, we can open it and sign in with your Google account. Do you have a Google account already?",
+    "date_time": "2023-12-25T10:45:10.692308+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yeah, I think.",
+    "date_time": "2023-12-25T10:45:22.230770+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect! In that case, we can use that account to set up your email on your phone. Can you sign in to the Gmail app with your account credentials?",
+    "date_time": "2023-12-25T10:45:23.615385+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, done.",
+    "date_time": "2023-12-25T10:45:37+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Excellent! Now, we just need to configure your email settings. Let me show you where to find those. Can you tap on the three vertical dots in the top right corner of the screen?",
+    "date_time": "2023-12-25T10:45:37.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Got it.",
+    "date_time": "2023-12-25T10:45:53.615385+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! Now, select \"Settings\" from that menu. Scroll down until you see the \"Accounts\" section, and then select \"Add Account.\" Choose \"Google\" as the account type, and enter your email credentials.",
+    "date_time": "2023-12-25T10:45:54.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, I think I did that right.",
+    "date_time": "2023-12-25T10:46:08.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect! Now, your email account should be set up and ready to use. Is there anything else you'd like to know how to do on your device?",
+    "date_time": "2023-12-25T10:46:12.076923+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Nope, that's all for now. Thanks for your help, Bennett!",
+    "date_time": "2023-12-25T10:46:24.538461+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're very welcome, Raul! It was my pleasure to assist you. Don't hesitate to reach out to us again if you have any other questions or concerns. Have a great day!",
+    "date_time": "2023-12-25T10:46:29.153846+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thanks, you too! Bye for now.",
+    "date_time": "2023-12-25T10:46:43.461538+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Goodbye, Raul. Take care!",
+    "date_time": "2023-12-25T10:46:46.230769+00:00"
+   }
+  ]
+ },
+ {
+  "conversation_id": "c3823f5609a8477daa4568c4c4898055",
+  "messages": [
+   {
+    "speaker": "agent",
+    "text": "Hello, thank you for calling Union Mobile' My name is Minna, how can I assist you today?",
+    "date_time": "2023-10-29T11:22:07+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Hi Minna, I'm calling because I need help setting up my new phone. I've tried calling few times before, but I'm still having trouble.",
+    "date_time": "2023-10-29T11:22:14.846154+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Sorry to hear that, Ona. Can you please confirm your identity so I can assist you better?",
+    "date_time": "2023-10-29T11:22:25.923077+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Sure, my account PIN is 1234.",
+    "date_time": "2023-10-29T11:22:33.769231+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Ona. I apologize for the inconvenience, but I'm unable to verify your identity with the information provided. Can you please provide me with some more details such as your full name, address, or phone number associated with your account?",
+    "date_time": "2023-10-29T11:22:36.538462+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, sorry about that. My name is Ona Doe, my address is 123 Main Street, and my phone number is 555-555-1555.",
+    "date_time": "2023-10-29T11:22:55.461539+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Thank you, Ona. Now, let's get started on setting up your phone. Can you tell me a little bit more about the issues you're experiencing? Have you tried any online tutorials or troubleshooting guides?",
+    "date_time": "2023-10-29T11:23:05.153847+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, I've tried those resources but they didn't help. I'm really frustrated because I just want to be able to use my phone properly.",
+    "date_time": "2023-10-29T11:23:20.846155+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "I completely understand, Ona. Let me see what I can do to help. Have you received a replacementation email from us regarding your recent's activation?",
+    "date_time": "2023-10-29T11:23:31.923078+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, I haven't received anything.",
+    "date_time": "2023-10-29T11:23:43.461540+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Alright, let'll go on that for you. In the meantime, let's try to configure your settings manually. Can you please me what type of phone you have and what operating system it's running?",
+    "date_time": "2023-10-29T11:23:45.769232+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "It's a Galaxy S21 Ultra, and it hass running Android 11.",
+    "date_time": "2023-10-29T11:24:01.000001+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great, I'll walk you through the steps step by step. First, let's start by accessing your phone's settings app...",
+    "date_time": "2023-10-29T11:24:06.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Almost done! Last, let'll just need you to enter your phone to apply the changes.",
+    "date_time": "2023-10-29T11:24:14.846155+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Okay, done.",
+    "date_time": "2023-10-29T11:24:21.769232+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Perfect! How does everything look now? Are you able to access all the features you need?",
+    "date_time": "2023-10-29T11:24:22.692309+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Yes, everything looks great! Thank you so much, Minna. You were really patient and helpful.",
+    "date_time": "2023-10-29T11:24:30.076924+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "You're welcome, Ona. It was my pleasure to assist you. Is there anything else I can help you with today?",
+    "date_time": "2023-10-29T11:24:37.000001+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "No, that was the only issue I was having. Thanks again!",
+    "date_time": "2023-10-29T11:24:46.230770+00:00"
+   },
+   {
+    "speaker": "agent",
+    "text": "Great! I'm glad we could resolve your issue this Don't hesitate to reach out if you have any other questions or concerns in the future. Have a wonderful day, Ona.",
+    "date_time": "2023-10-29T11:24:51.307693+00:00"
+   },
+   {
+    "speaker": "client",
+    "text": "Thank you, Minna. You too!",
+    "date_time": "2023-10-29T11:25:05.153847+00:00"
+   }
+  ]
+ }
+]

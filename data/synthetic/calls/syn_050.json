@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_050",
+ "agent_id": "agent_05",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-29T14:34:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?\nCustomer: Hi Arjun, I'm calling because my internet connection has been dropping constantly for the last three days. It's incredibly frustrating.\nAgent: I am sorry to hear that you are experiencing these connectivity issues. I can certainly look into this for you.\nAgent: Before we dive into the account details, could you please provide your account number?\nCustomer: Yes, it's 85980310. My name is Vivek Sharma.\nAgent: Thank you, Mr. Sharma. I see your account is active. Let me check the network status in your area.\nCustomer: I've already tried restarting the router several times. It's just not working and I'm paying for a service I'm not working.\nAgent: I've checked the system and there is a network instability in your neighborhood. I will raise a network ticket to have our engineers investigate the fault.\nCustomer: A ticket? I'm tired of this. I just want to cancel my service entirely and switch to another provider who actually works.\nAgent: I understand your frustration, but I can help you process the cancellation request for your account now.\nCustomer: Just do it. I'm done with Nimbus Telecom. This is the worst service I've ever had.\nAgent: I have initiated the request. However, since this is a cancellation, I need to escalate this to our loyalty team for final approval. They will contact you at 96775 44838 or vivek.21@examplemail.com.\nCustomer: This is ridiculous! Why can't you just cancel it right now? I'm absolutely disgusted with this company!\nAgent: I apologize, but the process requires a supervisor's review. Is there anything else I can assist you with today? I've raised the network ticket and sent the request to the loyalty team. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?",
+   "ts": "2026-09-29T14:34:21+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Arjun, I'm calling because my internet connection has been dropping constantly for the last three days. It's incredibly frustrating.",
+   "ts": "2026-09-29T14:34:25+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing these connectivity issues. I can certainly look into this for you.",
+   "ts": "2026-09-29T14:34:44+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide your account number?",
+   "ts": "2026-09-29T14:35:08+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Yes, it's 85980310. My name is Vivek Sharma.",
+   "ts": "2026-09-29T14:35:28+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Sharma. I see your account is active. Let me check the network status in your area.",
+   "ts": "2026-09-29T14:35:41+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "I've already tried restarting the router several times. It's just not working and I'm paying for a service I'm not working.",
+   "ts": "2026-09-29T14:36:02+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I've checked the system and there is a network instability in your neighborhood. I will raise a network ticket to have our engineers investigate the fault.",
+   "ts": "2026-09-29T14:36:19+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "A ticket? I'm tired of this. I just want to cancel my service entirely and switch to another provider who actually works.",
+   "ts": "2026-09-29T14:36:30+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I understand your frustration, but I can help you process the cancellation request for your account now.",
+   "ts": "2026-09-29T14:36:37+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Just do it. I'm done with Nimbus Telecom. This is the worst service I've ever had.",
+   "ts": "2026-09-29T14:36:52+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I have initiated the request. However, since this is a cancellation, I need to escalate this to our loyalty team for final approval. They will contact you at 96775 44838 or vivek.21@examplemail.com.",
+   "ts": "2026-09-29T14:37:15+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "This is ridiculous! Why can't you just cancel it right now? I'm absolutely disgusted with this company!",
+   "ts": "2026-09-29T14:37:21+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "I apologize, but the process requires a supervisor's review. Is there anything else I can assist you with today? I've raised the network ticket and sent the request to the loyalty team. Goodbye.",
+   "ts": "2026-09-29T14:37:35+00:00"
+  }
+ ]
+}

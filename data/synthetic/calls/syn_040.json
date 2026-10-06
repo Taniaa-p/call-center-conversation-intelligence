@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_040",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "hinglish",
+ "started_at": "2026-09-28T15:41:00+00:00",
+ "transcript": "Customer: Hello? Mera phone kaam nahi kar raha hai, I am very frustrated with this service!\nAgent: Welcome to Nimbus Telecom, I am Lucy. How can I help you?\nCustomer: Listen, mera device completely dead hai. I have tried everything, but it is not turning on. Bahut problem ho rahi hai!\nAgent: Tell me your name and phone number.\nCustomer: My name is Vivek Khan and my number is 99349 80388.\nAgent: I see your account. What is the exact issue with the device?\nCustomer: Screen black hai and charging nahi ho rahi. I paid a lot for this phone, yeh toh bilkul bekar hai!\nAgent: Provide your address for the record.\nCustomer: It is 387 Station Road.\nAgent: The device is under warranty, but I cannot fix this over the phone.\nCustomer: Toh main kya karoon? Please help me, I need my phone for work!\nAgent: I am escalating this to the technical hardware team for a deeper look.\nCustomer: Thank you so much, I am glad you are taking care of it. Shukriya!\nAgent: I will book a device check for you at the nearest center.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "Hello? Mera phone kaam nahi kar raha hai, I am very frustrated with this service!",
+   "ts": "2026-09-28T15:41:06+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Welcome to Nimbus Telecom, I am Lucy. How can I help you?",
+   "ts": "2026-09-28T15:41:22+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "Listen, mera device completely dead hai. I have tried everything, but it is not turning on. Bahut problem ho rahi hai!",
+   "ts": "2026-09-28T15:41:27+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Tell me your name and phone number.",
+   "ts": "2026-09-28T15:41:49+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "My name is Vivek Khan and my number is 99349 80388.",
+   "ts": "2026-09-28T15:42:11+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "I see your account. What is the exact issue with the device?",
+   "ts": "2026-09-28T15:42:22+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Screen black hai and charging nahi ho rahi. I paid a lot for this phone, yeh toh bilkul bekar hai!",
+   "ts": "2026-09-28T15:42:46+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Provide your address for the record.",
+   "ts": "2026-09-28T15:43:06+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "It is 387 Station Road.",
+   "ts": "2026-09-28T15:43:14+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "The device is under warranty, but I cannot fix this over the phone.",
+   "ts": "2026-09-28T15:43:36+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Toh main kya karoon? Please help me, I need my phone for work!",
+   "ts": "2026-09-28T15:43:57+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I am escalating this to the technical hardware team for a deeper look.",
+   "ts": "2026-09-28T15:44:02+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "Thank you so much, I am glad you are taking care of it. Shukriya!",
+   "ts": "2026-09-28T15:44:06+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "I will book a device check for you at the nearest center.",
+   "ts": "2026-09-28T15:44:12+00:00"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "call_id": "syn_031",
+ "agent_id": "agent_05",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T17:29:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?\nCustomer: Hi Arjun, I'm really upset. My internet has been dropping out every ten minutes and my latest bill is way higher than it should be.\nAgent: I am very sorry to hear that you're experiencing these issues with your connection and your billing. I can certainly help you get this sorted out.\nAgent: Before we dive into the account details, could you please provide me with your account number?\nCustomer: Yes, it is 60024878. My name is Vivek Brown and my phone number is 93101 48272.\nAgent: Thank you, Mr. Brown. I've accessed your account. Looking at the billing, I see the error in the charge. I guarantee you'll get a full refund on this.\nAgent: I will now raise a refund request for the wrong charge to correct your balance.\nCustomer: I appreciate that. But what about the network? I can't work from home if the signal keeps cutting out.\nAgent: I've run a diagnostic on your line and it shows some instability. I'm going to raise a network ticket right now to have our engineers investigate the local cabinet.\nCustomer: That's a relief. I was worried I'd have to spend hours on the phone again. Thank you for fixing this so quickly.\nAgent: You're very welcome. Is there anything else I can assist you with today? To recap, I've requested your refund and opened a network ticket for your connection. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?",
+   "ts": "2026-09-30T17:29:25+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Arjun, I'm really upset. My internet has been dropping out every ten minutes and my latest bill is way higher than it should be.",
+   "ts": "2026-09-30T17:29:48+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you're experiencing these issues with your connection and your billing. I can certainly help you get this sorted out.",
+   "ts": "2026-09-30T17:29:54+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide me with your account number?",
+   "ts": "2026-09-30T17:30:17+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Yes, it is 60024878. My name is Vivek Brown and my phone number is 93101 48272.",
+   "ts": "2026-09-30T17:30:42+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Brown. I've accessed your account. Looking at the billing, I see the error in the charge. I guarantee you'll get a full refund on this.",
+   "ts": "2026-09-30T17:31:06+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I will now raise a refund request for the wrong charge to correct your balance.",
+   "ts": "2026-09-30T17:31:26+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "I appreciate that. But what about the network? I can't work from home if the signal keeps cutting out.",
+   "ts": "2026-09-30T17:31:31+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I've run a diagnostic on your line and it shows some instability. I'm going to raise a network ticket right now to have our engineers investigate the local cabinet.",
+   "ts": "2026-09-30T17:31:55+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "That's a relief. I was worried I'd have to spend hours on the phone again. Thank you for fixing this so quickly.",
+   "ts": "2026-09-30T17:32:10+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "You're very welcome. Is there anything else I can assist you with today? To recap, I've requested your refund and opened a network ticket for your connection. Goodbye!",
+   "ts": "2026-09-30T17:32:28+00:00"
+  }
+ ]
+}

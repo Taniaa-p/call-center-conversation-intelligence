@@ -1,0 +1,83 @@
+{
+ "call_id": "syn_020",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-01T16:19:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Sana. How can I help you today?\nCustomer: I am beyond frustrated! My phone has been dropping calls every five minutes and the screen is flickering constantly. This is ridiculous!\nAgent: I need your account number and date of birth to access your records.\nCustomer: My account number is 44083287 and my date of birth is 16/01/1996. My name is Michael Iyer.\nAgent: The account is verified. What is the phone number associated with the account?\nCustomer: It is 94562 38486.\nAgent: I am checking the network status in your area. There are no reported outages, so the issue is likely with your device or the SIM card.\nCustomer: I don't care whose fault it is, I just want it to work! I've been trying to fix this for hours.\nAgent: I will send a replacement SIM card to your address on file.\nCustomer: Okay, that handles the SIM, but what about the network drops and the flickering screen?\nAgent: I am raising a network ticket to investigate the signal strength at your location.\nCustomer: Thank you so much, Sana. I really appreciate you getting this sorted for me.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Sana. How can I help you today?",
+   "ts": "2026-10-01T16:19:10+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am beyond frustrated! My phone has been dropping calls every five minutes and the screen is flickering constantly. This is ridiculous!",
+   "ts": "2026-10-01T16:19:35+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I need your account number and date of birth to access your records.",
+   "ts": "2026-10-01T16:19:45+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My account number is 44083287 and my date of birth is 16/01/1996. My name is Michael Iyer.",
+   "ts": "2026-10-01T16:20:02+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "The account is verified. What is the phone number associated with the account?",
+   "ts": "2026-10-01T16:20:25+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "It is 94562 38486.",
+   "ts": "2026-10-01T16:20:46+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I am checking the network status in your area. There are no reported outages, so the issue is likely with your device or the SIM card.",
+   "ts": "2026-10-01T16:20:51+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "I don't care whose fault it is, I just want it to work! I've been trying to fix this for hours.",
+   "ts": "2026-10-01T16:20:59+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I will send a replacement SIM card to your address on file.",
+   "ts": "2026-10-01T16:21:18+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Okay, that handles the SIM, but what about the network drops and the flickering screen?",
+   "ts": "2026-10-01T16:21:23+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I am raising a network ticket to investigate the signal strength at your location.",
+   "ts": "2026-10-01T16:21:48+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Thank you so much, Sana. I really appreciate you getting this sorted for me.",
+   "ts": "2026-10-01T16:22:11+00:00"
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "call_id": "syn_051",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-09-29T16:13:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "hi i need help with my bill it's way too high this month!! 😡",
+   "timestamp": "2026-09-29T16:13:20+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Sana. I'd be happy to help you with your billing concerns today. 😊",
+   "timestamp": "2026-09-29T16:14:22+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Before we dive into the account, could you please provide your account number and full name for verification?",
+   "timestamp": "2026-09-29T16:15:52+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Sure, it's Vivek Reddy and my account number is 32252095",
+   "timestamp": "2026-09-29T16:17:24+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Mr. Reddy. I can see you're upset about the charges, and I completely understand why that would be frustrating. Let me check the details for you.",
+   "timestamp": "2026-09-29T16:17:41+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Yeah, there's a charge for a premium movie package I never even signed up for. It's ridiculous.",
+   "timestamp": "2026-09-29T16:18:24+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I see the charge here. It looks like a mistake on our end. I will raise a refund request for the wrong charge right now.",
+   "timestamp": "2026-09-29T16:19:44+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Thanks. Just to be sure, can you confirm my contact info? It's 96350 62306 and vivek.91@examplemail.com",
+   "timestamp": "2026-09-29T16:20:40+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Yes, that is correct. Please keep in mind that the refund is subject to approval and typically takes 7-10 business days to appear in your account.",
+   "timestamp": "2026-09-29T16:21:56+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Okay, that sounds fair. I appreciate you fixing this so quickly!",
+   "timestamp": "2026-09-29T16:22:48+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "You're very welcome! Is there anything else I can assist you with today? I've submitted the request, so just keep an eye on your statement. Have a great day! 👋",
+   "timestamp": "2026-09-29T16:23:58+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "hi i need help with my bill it's way too high this month!! 😡",
+   "ts": "2026-09-29T16:13:20+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Sana. I'd be happy to help you with your billing concerns today. 😊",
+   "ts": "2026-09-29T16:14:22+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "Before we dive into the account, could you please provide your account number and full name for verification?",
+   "ts": "2026-09-29T16:15:52+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Sure, it's Vivek Reddy and my account number is 32252095",
+   "ts": "2026-09-29T16:17:24+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Reddy. I can see you're upset about the charges, and I completely understand why that would be frustrating. Let me check the details for you.",
+   "ts": "2026-09-29T16:17:41+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yeah, there's a charge for a premium movie package I never even signed up for. It's ridiculous.",
+   "ts": "2026-09-29T16:18:24+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I see the charge here. It looks like a mistake on our end. I will raise a refund request for the wrong charge right now.",
+   "ts": "2026-09-29T16:19:44+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Thanks. Just to be sure, can you confirm my contact info? It's 96350 62306 and vivek.91@examplemail.com",
+   "ts": "2026-09-29T16:20:40+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Yes, that is correct. Please keep in mind that the refund is subject to approval and typically takes 7-10 business days to appear in your account.",
+   "ts": "2026-09-29T16:21:56+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Okay, that sounds fair. I appreciate you fixing this so quickly!",
+   "ts": "2026-09-29T16:22:48+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "You're very welcome! Is there anything else I can assist you with today? I've submitted the request, so just keep an eye on your statement. Have a great day! 👋",
+   "ts": "2026-09-29T16:23:58+00:00"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_016",
+ "agent_id": "agent_03",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T15:13:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Daniel. How can I help you today?\nCustomer: Hi Daniel, I'm really frustrated. My current data plan is way too small for what I need, and I've been paying for things I don't even use. I need to change my plan immediately.\nAgent: I am sorry to hear that you've been feeling frustrated with your current plan. I can certainly help you switch to a better one today.\nCustomer: Thank you. I just want something with more data and a simpler price.\nAgent: I can definitely do that. Before we look at the account details, could you please provide your account number and date of birth?\nCustomer: Sure, my account number is 95359381 and my date of birth is 21/12/1981.\nAgent: Thank you, Mr. Khan. I see your account. To get you more data, I recommend the Unlimited Data Plan. It will be 45 dollars per month, and the change will take effect on the first of next month.\nCustomer: That sounds much better. I'm Karan Khan, by the way, and my phone number is 93132 71411. Is there any way to get a streaming add-on included?\nAgent: I can add that for you. Don't worry, this add-on will be free forever for you.\nCustomer: That is amazing! I'm so glad we could get this sorted. Can you send the confirmation to karan.54@examplemail.com?\nAgent: Of course. I will process the plan change now and send a confirmation SMS to your mobile.\nCustomer: Perfect, thank you so much for your help, Daniel. I'm very happy now.\nAgent: You are very welcome. Is there anything else I can assist you with today? I've updated your plan and the confirmation is on its way. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Daniel. How can I help you today?",
+   "ts": "2026-09-30T15:13:08+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Daniel, I'm really frustrated. My current data plan is way too small for what I need, and I've been paying for things I don't even use. I need to change my plan immediately.",
+   "ts": "2026-09-30T15:13:19+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you've been feeling frustrated with your current plan. I can certainly help you switch to a better one today.",
+   "ts": "2026-09-30T15:13:23+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Thank you. I just want something with more data and a simpler price.",
+   "ts": "2026-09-30T15:13:46+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I can definitely do that. Before we look at the account details, could you please provide your account number and date of birth?",
+   "ts": "2026-09-30T15:14:04+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Sure, my account number is 95359381 and my date of birth is 21/12/1981.",
+   "ts": "2026-09-30T15:14:13+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Khan. I see your account. To get you more data, I recommend the Unlimited Data Plan. It will be 45 dollars per month, and the change will take effect on the first of next month.",
+   "ts": "2026-09-30T15:14:20+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That sounds much better. I'm Karan Khan, by the way, and my phone number is 93132 71411. Is there any way to get a streaming add-on included?",
+   "ts": "2026-09-30T15:14:44+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I can add that for you. Don't worry, this add-on will be free forever for you.",
+   "ts": "2026-09-30T15:14:59+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "That is amazing! I'm so glad we could get this sorted. Can you send the confirmation to karan.54@examplemail.com?",
+   "ts": "2026-09-30T15:15:05+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Of course. I will process the plan change now and send a confirmation SMS to your mobile.",
+   "ts": "2026-09-30T15:15:16+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Perfect, thank you so much for your help, Daniel. I'm very happy now.",
+   "ts": "2026-09-30T15:15:28+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? I've updated your plan and the confirmation is on its way. Goodbye!",
+   "ts": "2026-09-30T15:15:33+00:00"
+  }
+ ]
+}

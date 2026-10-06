@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_065",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-03T09:31:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?\nCustomer: I am so tired of the constant signal drops in my area. I want to cancel my service immediately.\nAgent: I am very sorry to hear that you have been experiencing these connectivity issues, Emily. I understand how frustrating it is when your service doesn't work as expected.\nCustomer: It's just not working for me. I'm Emily Iyer, and I just want this over with.\nAgent: I can certainly help you with that request. Before we proceed with the account details, could you please provide your account number?\nCustomer: My account number is 14595725.\nAgent: Thank you. I have your account open now. Since you are on a contract, there is an early-termination fee of forty-five dollars, and your final bill will arrive in the next billing cycle.\nCustomer: Forty-five dollars? That's ridiculous! I'm switching to a different provider who doesn't charge me to leave.\nAgent: I understand. To make things right, I can waive that fee for you today. I'll also process the cancellation request right now so you'll be able to port out your number, 95528 87885, to your new provider.\nCustomer: Oh, that's much better. But what about the overcharge on my last statement?\nAgent: I see the error. I've issued a refund for the overcharge. Trust me, the money will definitely be back in your account by tomorrow.\nCustomer: Thank you, Nisha. I really appreciate you sorting this out so quickly.\nCustomer: I'm actually quite happy with how you handled this.\nAgent: You are very welcome. Is there anything else I can assist you with today? I have processed the cancellation and waived the fee. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?",
+   "ts": "2026-10-03T09:31:14+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am so tired of the constant signal drops in my area. I want to cancel my service immediately.",
+   "ts": "2026-10-03T09:31:34+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you have been experiencing these connectivity issues, Emily. I understand how frustrating it is when your service doesn't work as expected.",
+   "ts": "2026-10-03T09:31:57+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It's just not working for me. I'm Emily Iyer, and I just want this over with.",
+   "ts": "2026-10-03T09:32:01+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I can certainly help you with that request. Before we proceed with the account details, could you please provide your account number?",
+   "ts": "2026-10-03T09:32:13+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "My account number is 14595725.",
+   "ts": "2026-10-03T09:32:21+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you. I have your account open now. Since you are on a contract, there is an early-termination fee of forty-five dollars, and your final bill will arrive in the next billing cycle.",
+   "ts": "2026-10-03T09:32:31+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Forty-five dollars? That's ridiculous! I'm switching to a different provider who doesn't charge me to leave.",
+   "ts": "2026-10-03T09:32:43+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I understand. To make things right, I can waive that fee for you today. I'll also process the cancellation request right now so you'll be able to port out your number, 95528 87885, to your new provider.",
+   "ts": "2026-10-03T09:32:49+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Oh, that's much better. But what about the overcharge on my last statement?",
+   "ts": "2026-10-03T09:32:59+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I see the error. I've issued a refund for the overcharge. Trust me, the money will definitely be back in your account by tomorrow.",
+   "ts": "2026-10-03T09:33:19+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Thank you, Nisha. I really appreciate you sorting this out so quickly.",
+   "ts": "2026-10-03T09:33:24+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "I'm actually quite happy with how you handled this.",
+   "ts": "2026-10-03T09:33:47+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? I have processed the cancellation and waived the fee. Goodbye!",
+   "ts": "2026-10-03T09:33:57+00:00"
+  }
+ ]
+}

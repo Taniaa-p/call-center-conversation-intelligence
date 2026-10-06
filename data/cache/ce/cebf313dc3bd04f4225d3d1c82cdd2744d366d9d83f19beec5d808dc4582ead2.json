@@ -1,0 +1,1 @@
+{"text": "{\n  \"rolling_summary\": \"Customer [PERSON_2] has no mobile signal due to a faulty SIM. A replacement SIM is being sent, and the outstanding balance was paid using card [CARD_NUMBER_1]. The customer expressed ongoing dissatisfaction.\",\n  \"deltas\": []\n}", "input_tokens": 813, "output_tokens": 62}

@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_010",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "hinglish",
+ "started_at": "2026-09-29T08:57:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Lucy. How can I help you today?\nCustomer: Hello Lucy, main Anjali Brown bol rahi hoon. Mera current plan nahi chal raha hai, it is too expensive and I need to change it to a cheaper one.\nAgent: I am sorry to hear that you are finding the current plan expensive, Anjali. I can certainly help you with a plan change.\nCustomer: Haan, please check karo. My number is 97647 54893. I want the basic plan with 2GB data per day.\nAgent: Let me check the options for you. Yes, the basic plan is available for your account.\nCustomer: Theek hai, please change it now. I don't want to pay extra money every month.\nAgent: I have updated your account. The new monthly price will be 499 rupees and the change takes effect from the 1st of next month.\nCustomer: Wait, 499? Maine toh suna tha it was 399. Why is it so expensive still?\nAgent: That is the standard rate for the basic plan. I cannot change the price further.\nCustomer: Yeh toh bahut galat hai! I am very disappointed with your service. You people always confuse the customer.\nAgent: I understand your frustration, but this is the price listed on our website. I will process the plan change and send a confirmation SMS to your phone.\nCustomer: SMS toh theek hai, but I am not happy with this price. This is totally unfair!\nAgent: Is there anything else I can help you with today? I have processed the change and you will receive the SMS shortly. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Lucy. How can I help you today?",
+   "ts": "2026-09-29T08:57:15+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hello Lucy, main Anjali Brown bol rahi hoon. Mera current plan nahi chal raha hai, it is too expensive and I need to change it to a cheaper one.",
+   "ts": "2026-09-29T08:57:34+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are finding the current plan expensive, Anjali. I can certainly help you with a plan change.",
+   "ts": "2026-09-29T08:57:53+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Haan, please check karo. My number is 97647 54893. I want the basic plan with 2GB data per day.",
+   "ts": "2026-09-29T08:58:06+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Let me check the options for you. Yes, the basic plan is available for your account.",
+   "ts": "2026-09-29T08:58:23+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Theek hai, please change it now. I don't want to pay extra money every month.",
+   "ts": "2026-09-29T08:58:34+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I have updated your account. The new monthly price will be 499 rupees and the change takes effect from the 1st of next month.",
+   "ts": "2026-09-29T08:58:52+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Wait, 499? Maine toh suna tha it was 399. Why is it so expensive still?",
+   "ts": "2026-09-29T08:58:56+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "That is the standard rate for the basic plan. I cannot change the price further.",
+   "ts": "2026-09-29T08:59:13+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Yeh toh bahut galat hai! I am very disappointed with your service. You people always confuse the customer.",
+   "ts": "2026-09-29T08:59:38+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I understand your frustration, but this is the price listed on our website. I will process the plan change and send a confirmation SMS to your phone.",
+   "ts": "2026-09-29T08:59:50+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "SMS toh theek hai, but I am not happy with this price. This is totally unfair!",
+   "ts": "2026-09-29T09:00:01+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with today? I have processed the change and you will receive the SMS shortly. Goodbye!",
+   "ts": "2026-09-29T09:00:25+00:00"
+  }
+ ]
+}

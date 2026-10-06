@@ -1,0 +1,83 @@
+{
+ "call_id": "syn_035",
+ "agent_id": "agent_05",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-27T14:58:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?\nCustomer: I am so sick of this! My internet has been dropping every ten minutes for the last three days. It is completely unusable!\nAgent: I am very sorry to hear that you are experiencing these drops. I know how frustrating it is when your connection is unstable.\nAgent: Before we look into the account, could you please provide your account number?\nCustomer: My name is Karan Nair and my account number is 41055424.\nAgent: Thank you, Mr. Nair. I see your address is 239 MG Road. Is that correct?\nCustomer: Yes, that is correct. I just want this fixed now.\nAgent: I have run a diagnostic on your line and it looks like there is a signal instability issue at the local exchange. I can see the drops in the logs.\nCustomer: Finally, someone sees it. I also need to pay my outstanding balance so it doesn't get cut off. My phone number is 96651 19718.\nAgent: I can help with that. Please go ahead and provide the card details for the payment.\nCustomer: It is four seven three seven five zero four three one zero three nine nine three one nine.\nAgent: The payment has been processed successfully. Now, regarding the network issue, I am going to raise a network ticket to have the exchange port reset and monitored.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?",
+   "ts": "2026-09-27T14:58:16+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am so sick of this! My internet has been dropping every ten minutes for the last three days. It is completely unusable!",
+   "ts": "2026-09-27T14:58:30+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you are experiencing these drops. I know how frustrating it is when your connection is unstable.",
+   "ts": "2026-09-27T14:58:41+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we look into the account, could you please provide your account number?",
+   "ts": "2026-09-27T14:58:50+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "My name is Karan Nair and my account number is 41055424.",
+   "ts": "2026-09-27T14:59:06+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Nair. I see your address is 239 MG Road. Is that correct?",
+   "ts": "2026-09-27T14:59:28+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Yes, that is correct. I just want this fixed now.",
+   "ts": "2026-09-27T14:59:41+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I have run a diagnostic on your line and it looks like there is a signal instability issue at the local exchange. I can see the drops in the logs.",
+   "ts": "2026-09-27T15:00:02+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Finally, someone sees it. I also need to pay my outstanding balance so it doesn't get cut off. My phone number is 96651 19718.",
+   "ts": "2026-09-27T15:00:14+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I can help with that. Please go ahead and provide the card details for the payment.",
+   "ts": "2026-09-27T15:00:30+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "It is four seven three seven five zero four three one zero three nine nine three one nine.",
+   "ts": "2026-09-27T15:00:52+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "The payment has been processed successfully. Now, regarding the network issue, I am going to raise a network ticket to have the exchange port reset and monitored.",
+   "ts": "2026-09-27T15:00:56+00:00"
+  }
+ ]
+}

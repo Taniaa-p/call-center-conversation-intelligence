@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_022",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T15:58:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?\nCustomer: Hi Nisha, I'm Vivek Iyer. I've been having terrible network issues at my home on 171 MG Road, and it's getting ridiculous.\nAgent: I am sorry to hear that you are experiencing network problems, Mr. Iyer. Before we look into your account, could you please provide your account number?\nCustomer: Sure, it is 56165549. My phone number is 95468 71154.\nAgent: Thank you for that information. I can see your account is active. I understand how frustrating it is when your connection is unstable, and I really want to get this sorted for you.\nCustomer: It's just not working. I've had enough. I want to cancel my service and switch to another provider immediately.\nAgent: I'm sorry to see you go. To proceed with the cancellation, I must inform you that there is an early-termination fee of fifty dollars, and your final bill will arrive within thirty days of the closing date.\nCustomer: Fifty dollars? You're charging me to leave because your network is broken? This is absolutely outrageous!\nAgent: I understand your frustration. I will raise a network ticket right now to have our engineers investigate the signal strength in your area.\nCustomer: I don't care about a ticket! I told you I want to cancel. Just do it now!\nAgent: I can certainly process the cancellation request for you, but since you are requesting a termination due to service failure, I need to escalate this to my supervisor for approval of the fee waiver request.\nCustomer: This is a joke. I've wasted my time and I'm still not getting a resolution. I am beyond dissatisfied with Nimbus Telecom!\nAgent: I apologize for the inconvenience. I have logged the ticket and the escalation to my supervisor. Is there anything else I can help you with today? Thank you for calling, and goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Nisha. How can I help you today?",
+   "ts": "2026-09-30T15:58:07+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Nisha, I'm Vivek Iyer. I've been having terrible network issues at my home on 171 MG Road, and it's getting ridiculous.",
+   "ts": "2026-09-30T15:58:15+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing network problems, Mr. Iyer. Before we look into your account, could you please provide your account number?",
+   "ts": "2026-09-30T15:58:36+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Sure, it is 56165549. My phone number is 95468 71154.",
+   "ts": "2026-09-30T15:58:59+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you for that information. I can see your account is active. I understand how frustrating it is when your connection is unstable, and I really want to get this sorted for you.",
+   "ts": "2026-09-30T15:59:08+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "It's just not working. I've had enough. I want to cancel my service and switch to another provider immediately.",
+   "ts": "2026-09-30T15:59:19+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I'm sorry to see you go. To proceed with the cancellation, I must inform you that there is an early-termination fee of fifty dollars, and your final bill will arrive within thirty days of the closing date.",
+   "ts": "2026-09-30T15:59:27+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Fifty dollars? You're charging me to leave because your network is broken? This is absolutely outrageous!",
+   "ts": "2026-09-30T15:59:51+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I understand your frustration. I will raise a network ticket right now to have our engineers investigate the signal strength in your area.",
+   "ts": "2026-09-30T16:00:09+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I don't care about a ticket! I told you I want to cancel. Just do it now!",
+   "ts": "2026-09-30T16:00:26+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I can certainly process the cancellation request for you, but since you are requesting a termination due to service failure, I need to escalate this to my supervisor for approval of the fee waiver request.",
+   "ts": "2026-09-30T16:00:36+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "This is a joke. I've wasted my time and I'm still not getting a resolution. I am beyond dissatisfied with Nimbus Telecom!",
+   "ts": "2026-09-30T16:00:46+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "I apologize for the inconvenience. I have logged the ticket and the escalation to my supervisor. Is there anything else I can help you with today? Thank you for calling, and goodbye.",
+   "ts": "2026-09-30T16:00:54+00:00"
+  }
+ ]
+}

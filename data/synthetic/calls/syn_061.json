@@ -1,0 +1,155 @@
+{
+ "call_id": "syn_061",
+ "agent_id": "agent_05",
+ "team_id": "team_south",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-03T14:56:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hi! Thanks for contacting Nimbus Telecom. I'm Arjun. How can I help you today? 😊",
+   "timestamp": "2026-10-03T14:56:24+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Hey Arjun, I'm seeing a weird charge on my bill this month. It's way higher than usual and I'm pretty annoyed about it.",
+   "timestamp": "2026-10-03T14:56:53+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry to hear that you're frustrated with the billing issue. I'll definitely look into this for you.",
+   "timestamp": "2026-10-03T14:58:46+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Before we dive into the account details, could you please provide your account number and your full name?",
+   "timestamp": "2026-10-03T14:59:53+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Sure, my name is Vivek Gupta and my account number is 99295127.",
+   "timestamp": "2026-10-03T15:01:07+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thanks, Vivek. Just to be sure, can you confirm your phone number and email address as well?",
+   "timestamp": "2026-10-03T15:02:15+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Yeah, it's 96343 00904 and vivek.69@examplemail.com.",
+   "timestamp": "2026-10-03T15:03:04+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Perfect. I've got your account open. I see the extra charge you're talking about. It looks like a mistake on our end.",
+   "timestamp": "2026-10-03T15:04:35+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'll raise a refund request for the wrong charge right now.",
+   "timestamp": "2026-10-03T15:05:44+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Thanks. Also, my internet speed has been super slow lately. Can you fix that too?",
+   "timestamp": "2026-10-03T15:07:01+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Your speed will be fixed by tonight, that's certain.",
+   "timestamp": "2026-10-03T15:08:35+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Okay, cool. I just hope it actually happens.",
+   "timestamp": "2026-10-03T15:09:25+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else I can help you with today? I've requested the refund and we're working on the speed issue. Have a great day! 👋",
+   "timestamp": "2026-10-03T15:10:06+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hi! Thanks for contacting Nimbus Telecom. I'm Arjun. How can I help you today? 😊",
+   "ts": "2026-10-03T14:56:24+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hey Arjun, I'm seeing a weird charge on my bill this month. It's way higher than usual and I'm pretty annoyed about it.",
+   "ts": "2026-10-03T14:56:53+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I'm sorry to hear that you're frustrated with the billing issue. I'll definitely look into this for you.",
+   "ts": "2026-10-03T14:58:46+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide your account number and your full name?",
+   "ts": "2026-10-03T14:59:53+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Sure, my name is Vivek Gupta and my account number is 99295127.",
+   "ts": "2026-10-03T15:01:07+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thanks, Vivek. Just to be sure, can you confirm your phone number and email address as well?",
+   "ts": "2026-10-03T15:02:15+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Yeah, it's 96343 00904 and vivek.69@examplemail.com.",
+   "ts": "2026-10-03T15:03:04+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Perfect. I've got your account open. I see the extra charge you're talking about. It looks like a mistake on our end.",
+   "ts": "2026-10-03T15:04:35+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I'll raise a refund request for the wrong charge right now.",
+   "ts": "2026-10-03T15:05:44+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Thanks. Also, my internet speed has been super slow lately. Can you fix that too?",
+   "ts": "2026-10-03T15:07:01+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Your speed will be fixed by tonight, that's certain.",
+   "ts": "2026-10-03T15:08:35+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Okay, cool. I just hope it actually happens.",
+   "ts": "2026-10-03T15:09:25+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with today? I've requested the refund and we're working on the speed issue. Have a great day! 👋",
+   "ts": "2026-10-03T15:10:06+00:00"
+  }
+ ]
+}

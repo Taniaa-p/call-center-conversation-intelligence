@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_057",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-28T11:10:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Sana. How can I help you today?\nCustomer: Hi Sana, I'm Sneha Patel. My phone has been acting up for the last few days and I can't get any signal on it.\nAgent: I am sorry to hear that you are experiencing signal issues with your device, Ms. Patel. I know how frustrating it is to be disconnected.\nCustomer: It's incredibly annoying. I've tried restarting it and resetting the network settings, but nothing works. I just want it fixed now.\nAgent: Let me check the line. It seems the SIM card might be faulty. I can send you a replacement SIM to your address on file.\nCustomer: A replacement SIM? I don't have time to wait for the mail. I need my phone working right now. This is ridiculous.\nAgent: I understand, but a replacement SIM is the standard procedure for this specific error. I can't fix it remotely from here.\nCustomer: This is a joke. I've been a customer for years and you're just telling me to wait for a few days? I'm getting more and more angry about this.\nAgent: I apologize for the inconvenience. While I can't speed up the delivery, I can help you pay your outstanding balance to ensure the service remains active.\nCustomer: Fine, just take the payment. My number is 98828 72121 and the card is four four six six zero zero one six six five nine four one three four seven.\nAgent: Thank you. The payment has been processed successfully.\nCustomer: That doesn't change the fact that my phone is useless. I'm absolutely dissatisfied with this service.\nAgent: I understand your frustration. Is there anything else I can assist you with today? I'll have that replacement SIM sent out immediately, and you can activate it once it arrives.\nCustomer: No, there is nothing else. This is a disaster.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Sana. How can I help you today?",
+   "ts": "2026-09-28T11:10:18+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Sana, I'm Sneha Patel. My phone has been acting up for the last few days and I can't get any signal on it.",
+   "ts": "2026-09-28T11:10:36+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing signal issues with your device, Ms. Patel. I know how frustrating it is to be disconnected.",
+   "ts": "2026-09-28T11:10:49+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It's incredibly annoying. I've tried restarting it and resetting the network settings, but nothing works. I just want it fixed now.",
+   "ts": "2026-09-28T11:11:01+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Let me check the line. It seems the SIM card might be faulty. I can send you a replacement SIM to your address on file.",
+   "ts": "2026-09-28T11:11:20+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "A replacement SIM? I don't have time to wait for the mail. I need my phone working right now. This is ridiculous.",
+   "ts": "2026-09-28T11:11:45+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I understand, but a replacement SIM is the standard procedure for this specific error. I can't fix it remotely from here.",
+   "ts": "2026-09-28T11:11:51+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "This is a joke. I've been a customer for years and you're just telling me to wait for a few days? I'm getting more and more angry about this.",
+   "ts": "2026-09-28T11:12:07+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I apologize for the inconvenience. While I can't speed up the delivery, I can help you pay your outstanding balance to ensure the service remains active.",
+   "ts": "2026-09-28T11:12:13+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Fine, just take the payment. My number is 98828 72121 and the card is four four six six zero zero one six six five nine four one three four seven.",
+   "ts": "2026-09-28T11:12:19+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Thank you. The payment has been processed successfully.",
+   "ts": "2026-09-28T11:12:44+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "That doesn't change the fact that my phone is useless. I'm absolutely dissatisfied with this service.",
+   "ts": "2026-09-28T11:12:54+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "I understand your frustration. Is there anything else I can assist you with today? I'll have that replacement SIM sent out immediately, and you can activate it once it arrives.",
+   "ts": "2026-09-28T11:13:07+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "No, there is nothing else. This is a disaster.",
+   "ts": "2026-09-28T11:13:13+00:00"
+  }
+ ]
+}

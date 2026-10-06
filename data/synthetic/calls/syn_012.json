@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_012",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-27T14:11:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?\nCustomer: Hi Lucy, I am absolutely furious. I just saw my latest bill and there is a charge I don't recognize. This is ridiculous!\nAgent: I am very sorry to hear that you are upset, and I understand how frustrating it is to see an unexpected charge on your statement.\nAgent: Before we look into the account details, could you please provide your account number?\nCustomer: Yes, it is 72778440. My name is Anjali Johnson.\nAgent: Thank you, Ms. Johnson. Just to confirm, could you please provide your phone number and email address for the record?\nCustomer: My phone is 92473 76007 and my email is anjali.22@examplemail.com.\nAgent: Thank you. I have accessed your account. I see the charge you are referring to. It looks like a system error occurred during the last billing cycle.\nAgent: I can assure you there won't be any more outages in your area.\nCustomer: I don't know why you're mentioning outages, but I just want this charge removed.\nAgent: Of course. I will raise a refund request for the wrong charge right now.\nCustomer: Thank you, I appreciate you fixing this so quickly. I feel much better now.\nAgent: You are very welcome. Is there anything else I can assist you with today? I have submitted the request, and you will see the credit on your next statement. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?",
+   "ts": "2026-09-27T14:11:09+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Lucy, I am absolutely furious. I just saw my latest bill and there is a charge I don't recognize. This is ridiculous!",
+   "ts": "2026-09-27T14:11:16+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you are upset, and I understand how frustrating it is to see an unexpected charge on your statement.",
+   "ts": "2026-09-27T14:11:41+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we look into the account details, could you please provide your account number?",
+   "ts": "2026-09-27T14:11:59+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Yes, it is 72778440. My name is Anjali Johnson.",
+   "ts": "2026-09-27T14:12:13+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Johnson. Just to confirm, could you please provide your phone number and email address for the record?",
+   "ts": "2026-09-27T14:12:24+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "My phone is 92473 76007 and my email is anjali.22@examplemail.com.",
+   "ts": "2026-09-27T14:12:34+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Thank you. I have accessed your account. I see the charge you are referring to. It looks like a system error occurred during the last billing cycle.",
+   "ts": "2026-09-27T14:12:53+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I can assure you there won't be any more outages in your area.",
+   "ts": "2026-09-27T14:13:17+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I don't know why you're mentioning outages, but I just want this charge removed.",
+   "ts": "2026-09-27T14:13:36+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Of course. I will raise a refund request for the wrong charge right now.",
+   "ts": "2026-09-27T14:13:45+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Thank you, I appreciate you fixing this so quickly. I feel much better now.",
+   "ts": "2026-09-27T14:14:04+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? I have submitted the request, and you will see the credit on your next statement. Goodbye!",
+   "ts": "2026-09-27T14:14:17+00:00"
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "call_id": "syn_001",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-03T08:30:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "my internet is down again!! this is ridiculous 😡",
+   "timestamp": "2026-10-03T08:30:56+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello, welcome to Nimbus Telecom. I am Sana. How can I help you today?",
+   "timestamp": "2026-10-03T08:31:30+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "i just told u my net is out. i need it for work and im so annoyed",
+   "timestamp": "2026-10-03T08:32:35+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Please provide your account number and full name for verification.",
+   "timestamp": "2026-10-03T08:34:13+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Karan Das, account 88248519",
+   "timestamp": "2026-10-03T08:34:34+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you. What is the phone number associated with the account?",
+   "timestamp": "2026-10-03T08:34:58+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "It is 97737 01293",
+   "timestamp": "2026-10-03T08:36:58+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I see a network outage in your area. I promise this will never happen again.",
+   "timestamp": "2026-10-03T08:38:21+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "well i hope so because this is the third time this month",
+   "timestamp": "2026-10-03T08:38:48+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I will raise a network ticket to prioritize the repair for your street.",
+   "timestamp": "2026-10-03T08:39:49+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "oh okay, thanks. that sounds good",
+   "timestamp": "2026-10-03T08:41:18+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "The ticket is now open. Is there anything else I can assist you with? I have raised the ticket and the team will update you. Goodbye.",
+   "timestamp": "2026-10-03T08:41:40+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "no that's all, thanks Sana! 😊",
+   "timestamp": "2026-10-03T08:42:59+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "my internet is down again!! this is ridiculous 😡",
+   "ts": "2026-10-03T08:30:56+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello, welcome to Nimbus Telecom. I am Sana. How can I help you today?",
+   "ts": "2026-10-03T08:31:30+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "i just told u my net is out. i need it for work and im so annoyed",
+   "ts": "2026-10-03T08:32:35+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Please provide your account number and full name for verification.",
+   "ts": "2026-10-03T08:34:13+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Karan Das, account 88248519",
+   "ts": "2026-10-03T08:34:34+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you. What is the phone number associated with the account?",
+   "ts": "2026-10-03T08:34:58+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "It is 97737 01293",
+   "ts": "2026-10-03T08:36:58+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I see a network outage in your area. I promise this will never happen again.",
+   "ts": "2026-10-03T08:38:21+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "well i hope so because this is the third time this month",
+   "ts": "2026-10-03T08:38:48+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I will raise a network ticket to prioritize the repair for your street.",
+   "ts": "2026-10-03T08:39:49+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "oh okay, thanks. that sounds good",
+   "ts": "2026-10-03T08:41:18+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "The ticket is now open. Is there anything else I can assist you with? I have raised the ticket and the team will update you. Goodbye.",
+   "ts": "2026-10-03T08:41:40+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "no that's all, thanks Sana! 😊",
+   "ts": "2026-10-03T08:42:59+00:00"
+  }
+ ]
+}

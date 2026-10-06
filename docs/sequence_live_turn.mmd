@@ -1,0 +1,23 @@
+sequenceDiagram
+    autonumber
+    participant C as Caller app / dashboard
+    participant API as API (WebSocket handler)
+    participant PII as Redactor
+    participant DB as Postgres
+    participant LS as LiveSession (per call)
+    participant LLM as Gemini fast model
+
+    C->>API: {"type":"turn","turn_id":7,"speaker":"customer","text":"... my number is 98765 43210 ..."}
+    API->>PII: redact (per-call RedactionContext)
+    PII-->>API: "... my number is [PHONE_1] ...", entities
+    API->>DB: INSERT turn ON CONFLICT DO NOTHING (idempotent)<br/>INSERT pii_vault.entities
+    API->>API: fast path: sentiment + policy regex
+    API-->>C: {"type":"turn", sentiment, flags, latency_ms≈3}
+    API->>LS: add_turn(turn 7) → queue (customer turn ⇒ trigger)
+    Note over LS: one consumer per call ⇒ ordered.<br/>If turns 7 and 8 are both waiting,<br/>they go in ONE LLM call (coalescing).
+    LS->>LLM: prev summary + tracked actions + context + new turns
+    LLM-->>LS: {rolling_summary, deltas:[{op, action_id, text, evidence}]}
+    LS->>LS: ActionTracker.apply: code assigns IDs,<br/>duplicate add ⇒ update, unknown id ⇒ rejected,<br/>quotes grounded
+    LS->>DB: UPSERT actions
+    LS-->>C: {"type":"actions", changes, actions, summary, latency_ms≈1300}
+    Note over C,API: on {"type":"end"}: flush queue → enqueue arq job "analyze:{call_id}"<br/>(job id = idempotent) → worker → {"type":"analysis"}

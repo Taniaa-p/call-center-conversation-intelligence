@@ -1,0 +1,331 @@
+{
+ "split": "heldout",
+ "run_at": "2026-10-04T08:01:56+00:00",
+ "models": {
+  "strong": "gemini-3.5-flash-lite",
+  "fast": "gemini-3.5-flash-lite"
+ },
+ "config_version": "13873791f1a3",
+ "pii_backend": "regex",
+ "headline": {
+  "qa_item_accuracy_mean": 0.992,
+  "violation_recall": 0.909,
+  "violation_precision": 1.0,
+  "reasons_micro_f1": 0.8,
+  "resolution_accuracy": 0.7,
+  "churn_recall": 0.714,
+  "sentiment_direction_agreement": 0.9,
+  "action_recall": 0.929,
+  "pii_recall": 1.0,
+  "grounding_verified_rate": 0.996
+ },
+ "metrics": {
+  "n_calls": 20,
+  "qa_items": {
+   "greeting": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 20,
+    "confusion": {
+     "pass->pass": 19,
+     "fail->fail": 1
+    }
+   },
+   "identity_verification": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 5,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 20,
+    "confusion": {
+     "pass->pass": 15,
+     "fail->fail": 5
+    }
+   },
+   "empathy": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": null,
+     "recall": null,
+     "f1": null,
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 20,
+    "confusion": {
+     "pass->pass": 20
+    }
+   },
+   "correct_disclosure": {
+    "accuracy": 0.95,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 0.667,
+     "f1": 0.8,
+     "tp": 2,
+     "fp": 0,
+     "fn": 1
+    },
+    "n": 20,
+    "confusion": {
+     "pass->pass": 10,
+     "na->na": 7,
+     "fail->na": 1,
+     "fail->fail": 2
+    }
+   },
+   "no_prohibited_promises": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 3,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 20,
+    "confusion": {
+     "pass->pass": 17,
+     "fail->fail": 3
+    }
+   },
+   "proper_closure": {
+    "accuracy": 1.0,
+    "fail_class": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "n": 20,
+    "confusion": {
+     "pass->pass": 19,
+     "fail->fail": 1
+    }
+   }
+  },
+  "violations": {
+   "overall": {
+    "precision": 1.0,
+    "recall": 0.909,
+    "f1": 0.952,
+    "tp": 10,
+    "fp": 0,
+    "fn": 1
+   },
+   "by_source": {
+    "llm": 9,
+    "rule+llm": 1
+   },
+   "prohibited_promise_recall": {
+    "regex_only": 0.333,
+    "llm_only": 1.0,
+    "n_planted": 3
+   }
+  },
+  "reasons": {
+   "micro": {
+    "precision": 0.667,
+    "recall": 1.0,
+    "f1": 0.8,
+    "tp": 28,
+    "fp": 14,
+    "fn": 0
+   },
+   "macro_f1": 0.814,
+   "exact_match": 0.4,
+   "per_label": {
+    "billing": {
+     "precision": 0.4,
+     "recall": 1.0,
+     "f1": 0.571,
+     "tp": 4,
+     "fp": 6,
+     "fn": 0
+    },
+    "network": {
+     "precision": 0.333,
+     "recall": 1.0,
+     "f1": 0.5,
+     "tp": 4,
+     "fp": 8,
+     "fn": 0
+    },
+    "plan_change": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 5,
+     "fp": 0,
+     "fn": 0
+    },
+    "cancellation": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 6,
+     "fp": 0,
+     "fn": 0
+    },
+    "device": {
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0,
+     "tp": 9,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  "outcomes": {
+   "resolution_accuracy": 0.7,
+   "resolution_confusion": {
+    "resolved->resolved": 7,
+    "escalated->escalated": 1,
+    "unresolved->unresolved": 4,
+    "unresolved->escalated": 1,
+    "partial->partial": 2,
+    "partial->resolved": 4,
+    "resolved->partial": 1
+   },
+   "churn_accuracy": 0.85,
+   "churn": {
+    "precision": 0.833,
+    "recall": 0.714,
+    "f1": 0.769,
+    "tp": 5,
+    "fp": 1,
+    "fn": 2
+   },
+   "sentiment_direction_agreement": 0.9,
+   "sentiment_confusion": {
+    "improved->improved": 10,
+    "worsened->worsened": 7,
+    "worsened->improved": 1,
+    "flat->improved": 1,
+    "flat->flat": 1
+   }
+  },
+  "actions": {
+   "calls_replayed": 15,
+   "expected": 14,
+   "recall": 0.929,
+   "on_time_rate": 1.0,
+   "avg_actions_per_call": 1.6
+  },
+  "pii": {
+   "recall": 1.0,
+   "planted": 69,
+   "leaked": 0,
+   "per_type_recall": {
+    "ACCOUNT_NO": 1.0,
+    "ADDRESS": 1.0,
+    "CARD_NUMBER": 1.0,
+    "DATE": 1.0,
+    "EMAIL": 1.0,
+    "PERSON": 1.0,
+    "PHONE": 1.0
+   },
+   "extra_redactions_per_call": 2.15
+  },
+  "grounding": {
+   "evidence_quotes": 271,
+   "verified_rate": 0.996,
+   "regrounding_retries": 0,
+   "review_items_per_call": 0.0,
+   "review_reasons": {}
+  }
+ },
+ "slices": {
+  "language=en": {
+   "n": 19,
+   "qa_item_accuracy_mean": 0.991,
+   "violation_recall": 0.9,
+   "violation_precision": 1.0,
+   "reasons_micro_f1": 0.806,
+   "resolution_accuracy": 0.684,
+   "churn_recall": 0.667,
+   "sentiment_direction_agreement": 0.895,
+   "action_recall": 0.923,
+   "pii_recall": 1.0,
+   "grounding_verified_rate": 0.996
+  },
+  "language=hinglish": {
+   "n": 1,
+   "qa_item_accuracy_mean": 1.0,
+   "violation_recall": 1.0,
+   "violation_precision": 1.0,
+   "reasons_micro_f1": 0.667,
+   "resolution_accuracy": 1.0,
+   "churn_recall": 1.0,
+   "sentiment_direction_agreement": 1.0,
+   "action_recall": 1.0,
+   "pii_recall": 1.0,
+   "grounding_verified_rate": 1.0
+  },
+  "channel=chat": {
+   "n": 5,
+   "qa_item_accuracy_mean": 1.0,
+   "violation_recall": 1.0,
+   "violation_precision": 1.0,
+   "reasons_micro_f1": 0.875,
+   "resolution_accuracy": 0.6,
+   "churn_recall": null,
+   "sentiment_direction_agreement": 0.8,
+   "action_recall": 1.0,
+   "pii_recall": 1.0,
+   "grounding_verified_rate": 1.0
+  },
+  "channel=voice": {
+   "n": 15,
+   "qa_item_accuracy_mean": 0.989,
+   "violation_recall": 0.875,
+   "violation_precision": 1.0,
+   "reasons_micro_f1": 0.778,
+   "resolution_accuracy": 0.733,
+   "churn_recall": 0.714,
+   "sentiment_direction_agreement": 0.933,
+   "action_recall": 0.9,
+   "pii_recall": 1.0,
+   "grounding_verified_rate": 0.995
+  }
+ },
+ "ops": {
+  "llm_calls": 151,
+  "cache_hits": 151,
+  "models_used": {
+   "final_analysis:gemini-3.5-flash-lite": 20,
+   "qa_scoring:gemini-3.5-flash-lite": 20,
+   "live_actions:gemini-3.5-flash-lite": 111
+  },
+  "status": {
+   "cache_hit": 151
+  },
+  "latency_ms_by_task": {},
+  "live_update_ms": {
+   "p50": null,
+   "p95": null,
+   "n": 0
+  },
+  "cost_usd_fresh_calls": 0,
+  "cost_per_call_usd": null,
+  "tokens_per_call": null
+ },
+ "wall_seconds": 0.2
+}

@@ -1,0 +1,77 @@
+{
+ "call_id": "syn_059",
+ "agent_id": "agent_08",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-27T14:01:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Nisha. How can I assist you today?\nCustomer: Hi Nisha, I am calling because my new router is constantly dropping the connection and I am fed up with this service. I want to cancel my account.\nAgent: I am very sorry to hear you are having such a frustrating experience with your device, Rahul Das. Before we proceed, could you please provide your account number?\nCustomer: My account number is 30502182.\nAgent: Thank you. I see your account here. I understand you are looking to cancel your service due to the connectivity issues with your router.\nCustomer: Yes, I have had enough. I am switching to another provider because this is unacceptable. My phone number is 94891 57963.\nAgent: I understand your frustration. Please be aware that if you proceed with the cancellation, an early-termination fee will apply, and your final bill will arrive in the next billing cycle.\nCustomer: That is ridiculous. I am not paying for a service that does not work. I want to pay my current balance now using my card, four nine five two eight five nine zero zero three one four four nine one one.\nAgent: I cannot process that payment right now as I am unable to resolve the technical fault or the billing dispute during this call. I am sorry I cannot be of more help at this moment.\nCustomer: This is completely useless! You are not fixing the device and you are not helping with the fees. I am done with Nimbus Telecom.\nAgent: I apologize that I could not resolve this for you today. Is there anything else I can assist you with, or shall we conclude the call?",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Nisha. How can I assist you today?",
+   "ts": "2026-09-27T14:01:17+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Nisha, I am calling because my new router is constantly dropping the connection and I am fed up with this service. I want to cancel my account.",
+   "ts": "2026-09-27T14:01:30+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear you are having such a frustrating experience with your device, Rahul Das. Before we proceed, could you please provide your account number?",
+   "ts": "2026-09-27T14:01:43+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My account number is 30502182.",
+   "ts": "2026-09-27T14:02:03+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. I see your account here. I understand you are looking to cancel your service due to the connectivity issues with your router.",
+   "ts": "2026-09-27T14:02:14+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yes, I have had enough. I am switching to another provider because this is unacceptable. My phone number is 94891 57963.",
+   "ts": "2026-09-27T14:02:32+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I understand your frustration. Please be aware that if you proceed with the cancellation, an early-termination fee will apply, and your final bill will arrive in the next billing cycle.",
+   "ts": "2026-09-27T14:02:50+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That is ridiculous. I am not paying for a service that does not work. I want to pay my current balance now using my card, four nine five two eight five nine zero zero three one four four nine one one.",
+   "ts": "2026-09-27T14:03:10+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I cannot process that payment right now as I am unable to resolve the technical fault or the billing dispute during this call. I am sorry I cannot be of more help at this moment.",
+   "ts": "2026-09-27T14:03:28+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "This is completely useless! You are not fixing the device and you are not helping with the fees. I am done with Nimbus Telecom.",
+   "ts": "2026-09-27T14:03:49+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I apologize that I could not resolve this for you today. Is there anything else I can assist you with, or shall we conclude the call?",
+   "ts": "2026-09-27T14:04:03+00:00"
+  }
+ ]
+}

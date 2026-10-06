@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_036",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "hinglish",
+ "started_at": "2026-10-03T14:32:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?\nCustomer: Hello Lucy, mera network signal bahut kharab hai. I am not getting any calls on my phone 93184 43959.\nAgent: I need your account number to check the status. Please provide it.\nCustomer: My account number is 11527375 and my name is Vivek Das.\nAgent: One moment. I am checking the network coverage in your area.\nCustomer: Please jaldi karo, it is very frustrating. I have been facing this for three days now.\nAgent: The system shows the network is working fine in your location.\nCustomer: Kya baat kar rahe ho? Signal bilkul nahi hai! I am paying for a service that I am not getting.\nAgent: The system is correct. You should restart your device.\nCustomer: Maine restart kar liya hai multiple times. This is ridiculous. I want a solution right now!\nAgent: There is nothing more I can do from my end if the system shows no outage.\nCustomer: This is the worst service ever. Main switch kar raha hoon, I will port out to another provider immediately.\nAgent: Is there anything else I can assist you with today? I have checked your account and found no issues. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?",
+   "ts": "2026-10-03T14:32:24+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hello Lucy, mera network signal bahut kharab hai. I am not getting any calls on my phone 93184 43959.",
+   "ts": "2026-10-03T14:32:31+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I need your account number to check the status. Please provide it.",
+   "ts": "2026-10-03T14:32:35+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My account number is 11527375 and my name is Vivek Das.",
+   "ts": "2026-10-03T14:32:47+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "One moment. I am checking the network coverage in your area.",
+   "ts": "2026-10-03T14:32:58+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Please jaldi karo, it is very frustrating. I have been facing this for three days now.",
+   "ts": "2026-10-03T14:33:09+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "The system shows the network is working fine in your location.",
+   "ts": "2026-10-03T14:33:17+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Kya baat kar rahe ho? Signal bilkul nahi hai! I am paying for a service that I am not getting.",
+   "ts": "2026-10-03T14:33:24+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "The system is correct. You should restart your device.",
+   "ts": "2026-10-03T14:33:49+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Maine restart kar liya hai multiple times. This is ridiculous. I want a solution right now!",
+   "ts": "2026-10-03T14:34:10+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "There is nothing more I can do from my end if the system shows no outage.",
+   "ts": "2026-10-03T14:34:16+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "This is the worst service ever. Main switch kar raha hoon, I will port out to another provider immediately.",
+   "ts": "2026-10-03T14:34:38+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? I have checked your account and found no issues. Goodbye.",
+   "ts": "2026-10-03T14:34:55+00:00"
+  }
+ ]
+}

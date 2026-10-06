@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_029",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-03T14:30:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?\nCustomer: I am absolutely livid! My latest bill is completely wrong. I've been overcharged by forty dollars and I want it fixed right now!\nAgent: I need your account number and date of birth to access your records.\nCustomer: Fine. My account number is 55372513 and my date of birth is 10/12/1997. My name is Karan Brown and my phone is 91366 11830.\nAgent: I see the error. There was a duplicate charge for the premium data package.\nCustomer: This is ridiculous. Why does this keep happening? I'm tired of these mistakes!\nAgent: I can assure you there won't be any more outages in your area.\nCustomer: What does that have to do with my bill? Just give me my money back!\nAgent: I will raise a refund request for the wrong charge now.\nCustomer: Thank you. Will it be back in my account immediately?\nAgent: The refund is subject to approval and will take 7-10 business days to process.\nCustomer: Okay, that's fair enough. I appreciate you sorting this out for me.\nAgent: Is there anything else I can help you with? I have submitted the refund request and it will be processed within the timeframe mentioned. Goodbye.\nCustomer: No, that's all. Thanks, Lucy. Bye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?",
+   "ts": "2026-10-03T14:30:21+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am absolutely livid! My latest bill is completely wrong. I've been overcharged by forty dollars and I want it fixed right now!",
+   "ts": "2026-10-03T14:30:35+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I need your account number and date of birth to access your records.",
+   "ts": "2026-10-03T14:30:43+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Fine. My account number is 55372513 and my date of birth is 10/12/1997. My name is Karan Brown and my phone is 91366 11830.",
+   "ts": "2026-10-03T14:30:57+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I see the error. There was a duplicate charge for the premium data package.",
+   "ts": "2026-10-03T14:31:05+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "This is ridiculous. Why does this keep happening? I'm tired of these mistakes!",
+   "ts": "2026-10-03T14:31:18+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I can assure you there won't be any more outages in your area.",
+   "ts": "2026-10-03T14:31:35+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "What does that have to do with my bill? Just give me my money back!",
+   "ts": "2026-10-03T14:31:47+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I will raise a refund request for the wrong charge now.",
+   "ts": "2026-10-03T14:32:09+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Thank you. Will it be back in my account immediately?",
+   "ts": "2026-10-03T14:32:14+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "The refund is subject to approval and will take 7-10 business days to process.",
+   "ts": "2026-10-03T14:32:34+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Okay, that's fair enough. I appreciate you sorting this out for me.",
+   "ts": "2026-10-03T14:32:46+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with? I have submitted the refund request and it will be processed within the timeframe mentioned. Goodbye.",
+   "ts": "2026-10-03T14:33:10+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "No, that's all. Thanks, Lucy. Bye!",
+   "ts": "2026-10-03T14:33:25+00:00"
+  }
+ ]
+}

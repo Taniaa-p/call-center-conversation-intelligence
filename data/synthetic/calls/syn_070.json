@@ -1,0 +1,107 @@
+{
+ "call_id": "syn_070",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T08:47:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Vikram. How can I help you today?\nCustomer: Hi Vikram, I'm Emily Gupta. I've been having terrible network issues at my house for the last three days. I can't even make a simple phone call.\nAgent: I am sorry to hear that you are experiencing connectivity problems, Ms. Gupta. I can certainly look into this for you. Before we proceed, could you please provide your account number for verification?\nCustomer: Yes, my account number is 63082563.\nAgent: Thank you. And just to confirm, is your address 132 Station Road?\nCustomer: That is correct.\nAgent: I am checking the network status in your area. Please hold for a moment.\nCustomer: I've already waited long enough. I just want my service to work.\nAgent: I see there are no reported outages in your area, so the issue might be related to your specific connection. Have you tried restarting your device?\nCustomer: Of course I have! I've restarted it five times. My phone number is 91618 05305, and it's not working regardless of where I am in the house.\nAgent: I understand. I will run a remote diagnostic on your line now. One moment please.\nAgent: The diagnostic didn't show any immediate errors. I cannot determine the cause of the problem from here.\nCustomer: What do you mean you can't determine the cause? This is ridiculous! I'm paying for a service that doesn't work!\nAgent: I apologize, but without a clear error code, I cannot fix this remotely. You may need to check your hardware.\nCustomer: My hardware is fine! You are completely useless. I am beyond frustrated with this entire experience!\nAgent: Is there anything else I can assist you with today? Since we couldn't find a remote fix, I suggest monitoring the connection. Thank you for calling Nimbus Telecom. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Vikram. How can I help you today?",
+   "ts": "2026-09-30T08:47:15+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Vikram, I'm Emily Gupta. I've been having terrible network issues at my house for the last three days. I can't even make a simple phone call.",
+   "ts": "2026-09-30T08:47:33+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing connectivity problems, Ms. Gupta. I can certainly look into this for you. Before we proceed, could you please provide your account number for verification?",
+   "ts": "2026-09-30T08:47:49+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Yes, my account number is 63082563.",
+   "ts": "2026-09-30T08:47:59+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. And just to confirm, is your address 132 Station Road?",
+   "ts": "2026-09-30T08:48:12+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "That is correct.",
+   "ts": "2026-09-30T08:48:17+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I am checking the network status in your area. Please hold for a moment.",
+   "ts": "2026-09-30T08:48:34+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "I've already waited long enough. I just want my service to work.",
+   "ts": "2026-09-30T08:48:45+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I see there are no reported outages in your area, so the issue might be related to your specific connection. Have you tried restarting your device?",
+   "ts": "2026-09-30T08:48:58+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Of course I have! I've restarted it five times. My phone number is 91618 05305, and it's not working regardless of where I am in the house.",
+   "ts": "2026-09-30T08:49:11+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I understand. I will run a remote diagnostic on your line now. One moment please.",
+   "ts": "2026-09-30T08:49:29+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "The diagnostic didn't show any immediate errors. I cannot determine the cause of the problem from here.",
+   "ts": "2026-09-30T08:49:48+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "What do you mean you can't determine the cause? This is ridiculous! I'm paying for a service that doesn't work!",
+   "ts": "2026-09-30T08:49:59+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "I apologize, but without a clear error code, I cannot fix this remotely. You may need to check your hardware.",
+   "ts": "2026-09-30T08:50:05+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "customer",
+   "text": "My hardware is fine! You are completely useless. I am beyond frustrated with this entire experience!",
+   "ts": "2026-09-30T08:50:19+00:00"
+  },
+  {
+   "turn_id": 16,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? Since we couldn't find a remote fix, I suggest monitoring the connection. Thank you for calling Nimbus Telecom. Goodbye.",
+   "ts": "2026-09-30T08:50:32+00:00"
+  }
+ ]
+}

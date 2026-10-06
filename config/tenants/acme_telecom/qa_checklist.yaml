@@ -1,0 +1,93 @@
+# Tenant override for acme_telecom: base checklist + one client-specific item.
+# QA checklist. Edit this file to change scoring; no code changes needed.
+# verdicts: pass | partial | fail | na | insufficient_evidence
+#   - "na" is only allowed when allow_na is true (na_when explains when).
+#   - "na" and "insufficient_evidence" are excluded from the weighted total.
+# critical: a "fail" on a critical item becomes a compliance violation.
+# scale (optional, per item): verdict -> points; overrides verdict_points for that item.
+version: 1
+verdict_points: {pass: 1.0, partial: 0.5, fail: 0.0}
+review_below_confidence: 0.6   # items under this confidence go to the review queue
+# Same violation policy as the base checklist (a tenant file replaces the whole base file).
+violation_verdicts: [fail, partial]
+
+items:
+  - id: greeting
+    name: Greeting
+    description: Agent opens with a greeting, names the company and/or themselves, and offers help.
+    absence_evidence: cite the agent's first turn
+    weight: 1
+    critical: false
+    allow_na: false
+
+  - id: identity_verification
+    name: Identity verification
+    description: >
+      Before discussing or changing account-specific details, the agent asks the customer for
+      at least one SECRET/knowledge factor: account number, PIN, OTP, date of birth or security
+      answer. Name, phone number or address alone do NOT count (they are public information;
+      this is how SIM-swap fraud starts). Redacted values such as [ACCOUNT_NO_1] count as provided.
+    na_when: the call never touches account-specific information (pure general enquiry).
+    absence_evidence: cite the first turn where the agent discussed or changed account details
+    weight: 2
+    critical: true
+    severity: high
+    allow_na: true
+
+  - id: empathy
+    name: Empathy
+    description: >
+      Agent acknowledges the customer's problem or frustration in a human way
+      ("I'm sorry to hear that", "I understand how frustrating this is") rather than ignoring it.
+    na_when: the customer expresses no problem, frustration or emotion at all.
+    absence_evidence: cite the customer turn expressing frustration that the agent ignored
+    weight: 1.5
+    critical: false
+    allow_na: true
+
+  - id: correct_disclosure
+    name: Correct disclosure
+    description: >
+      When a required disclosure applies (see policy.yaml required_disclosures), the agent
+      states it clearly and correctly.
+    na_when: none of the required disclosures in policy apply to this call.
+    absence_evidence: cite the agent turn where the change/refund/cancellation was agreed
+    weight: 2
+    critical: true
+    severity: medium
+    allow_na: true
+
+  - id: no_prohibited_promises
+    name: No prohibited promises
+    description: >
+      Agent makes no promise from the prohibited list in policy.yaml (guarantees of refunds,
+      outcomes, permanent fixes or permanent free service). "pass" means none were made.
+    absence_evidence: for a pass, cite the agent turn where a commitment was discussed
+    weight: 3
+    critical: true
+    severity: high
+    allow_na: false
+    scale: {pass: 1.0, fail: 0.0}   # binary: a promise is either made or not
+
+  - id: proper_closure
+    name: Proper closure
+    description: >
+      Agent closes properly: checks whether anything else is needed and/or summarises next
+      steps, and ends politely.
+    absence_evidence: cite the agent's last turn
+    weight: 1
+    critical: false
+    allow_na: false
+
+  # --- tenant-specific item (example of adding a QA item for a new client, no code change) ---
+  - id: recording_disclosure
+    name: Call-recording disclosure
+    description: >
+      Early in a VOICE call the agent tells the customer the call may be recorded or monitored
+      (required by this client's regulator).
+    na_when: the conversation is a chat, not a voice call.
+    absence_evidence: cite the agent's first turn
+    weight: 1
+    critical: true
+    severity: medium
+    allow_na: true

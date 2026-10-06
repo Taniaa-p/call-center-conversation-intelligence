@@ -1,0 +1,65 @@
+{
+ "call_id": "syn_063",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T08:33:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Lucy. How can I assist you today?\nCustomer: I am really frustrated because my current bill is way too high and I need to change my plan immediately.\nAgent: I am sorry to hear that you are feeling frustrated with your current billing, I would be happy to look into this for you. Could you please provide your account number and date of birth for verification?\nCustomer: My account number is 97853442 and my date of birth is 21/02/1967. My name is Sneha Khan and I live at 100 Linking Road.\nAgent: Thank you for verifying those details, Sneha. I see your current plan details here. I can switch you to our Value Plan which is 45 dollars per month, and this change will take effect on the first of next month.\nCustomer: That sounds much better than what I am paying now. Will that definitely lower my bill?\nAgent: Yes, based on your usage, this plan is designed to be more cost-effective for you. I will now process the plan change and send a confirmation SMS to 93185 40283 once it is complete.\nCustomer: That is perfect, thank you so much for your help.\nAgent: You are very welcome. Is there anything else I can help you with today? To summarize, I have processed your plan change to the Value Plan starting next month and you will receive a confirmation text shortly. Thank you for choosing Nimbus Telecom, have a great day.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Lucy. How can I assist you today?",
+   "ts": "2026-09-30T08:33:25+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am really frustrated because my current bill is way too high and I need to change my plan immediately.",
+   "ts": "2026-09-30T08:33:30+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are feeling frustrated with your current billing, I would be happy to look into this for you. Could you please provide your account number and date of birth for verification?",
+   "ts": "2026-09-30T08:33:37+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My account number is 97853442 and my date of birth is 21/02/1967. My name is Sneha Khan and I live at 100 Linking Road.",
+   "ts": "2026-09-30T08:33:46+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you for verifying those details, Sneha. I see your current plan details here. I can switch you to our Value Plan which is 45 dollars per month, and this change will take effect on the first of next month.",
+   "ts": "2026-09-30T08:33:52+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "That sounds much better than what I am paying now. Will that definitely lower my bill?",
+   "ts": "2026-09-30T08:34:15+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Yes, based on your usage, this plan is designed to be more cost-effective for you. I will now process the plan change and send a confirmation SMS to 93185 40283 once it is complete.",
+   "ts": "2026-09-30T08:34:30+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That is perfect, thank you so much for your help.",
+   "ts": "2026-09-30T08:34:44+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can help you with today? To summarize, I have processed your plan change to the Value Plan starting next month and you will receive a confirmation text shortly. Thank you for choosing Nimbus Telecom, have a great day.",
+   "ts": "2026-09-30T08:35:05+00:00"
+  }
+ ]
+}

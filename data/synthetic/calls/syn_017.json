@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_017",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-02T09:24:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hi! Welcome to Nimbus Telecom. I'm Ravi. How can I help you today? 😊",
+   "timestamp": "2026-10-02T09:25:54+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Hey Ravi. I'm James Nair. I'm really fed up with the constant drops in my connection. It's unusable.",
+   "timestamp": "2026-10-02T09:26:46+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry to hear that you're experiencing connection issues, James. I can certainly look into this for you. Could you please provide your account number and date of birth for verification?",
+   "timestamp": "2026-10-02T09:27:11+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Sure. Account number is 42809053 and my DOB is 09/09/1977.",
+   "timestamp": "2026-10-02T09:27:28+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you. I've accessed your account. I see you're at 95 MG Road. Is that correct?",
+   "timestamp": "2026-10-02T09:28:58+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Yeah, that's right. Look, I've had enough. I just want to cancel my service now.",
+   "timestamp": "2026-10-02T09:29:52+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry to see you go. I can help you with that request. I'll go ahead and process the cancellation request for your account.",
+   "timestamp": "2026-10-02T09:31:01+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Fine. Just make sure it's done. My phone is 94473 91878 and my email is james.49@examplemail.com if you need to send confirmation.",
+   "timestamp": "2026-10-02T09:32:04+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I've noted those details. However, I'm seeing a system error on my end that's preventing me from completing the cancellation right now.",
+   "timestamp": "2026-10-02T09:33:26+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'll need to escalate this to my supervisor to get the account closed properly.",
+   "timestamp": "2026-10-02T09:34:26+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Are you kidding me?? I just want to leave and you can't even do a simple cancellation! This is ridiculous!",
+   "timestamp": "2026-10-02T09:34:57+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I apologize for the frustration. Is there anything else I can assist you with today? I've escalated the request to the supervisor team, and they will handle the final steps. Goodbye!",
+   "timestamp": "2026-10-02T09:36:44+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hi! Welcome to Nimbus Telecom. I'm Ravi. How can I help you today? 😊",
+   "ts": "2026-10-02T09:25:54+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hey Ravi. I'm James Nair. I'm really fed up with the constant drops in my connection. It's unusable.",
+   "ts": "2026-10-02T09:26:46+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I'm sorry to hear that you're experiencing connection issues, James. I can certainly look into this for you. Could you please provide your account number and date of birth for verification?",
+   "ts": "2026-10-02T09:27:11+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Sure. Account number is 42809053 and my DOB is 09/09/1977.",
+   "ts": "2026-10-02T09:27:28+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. I've accessed your account. I see you're at 95 MG Road. Is that correct?",
+   "ts": "2026-10-02T09:28:58+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yeah, that's right. Look, I've had enough. I just want to cancel my service now.",
+   "ts": "2026-10-02T09:29:52+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I'm sorry to see you go. I can help you with that request. I'll go ahead and process the cancellation request for your account.",
+   "ts": "2026-10-02T09:31:01+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Fine. Just make sure it's done. My phone is 94473 91878 and my email is james.49@examplemail.com if you need to send confirmation.",
+   "ts": "2026-10-02T09:32:04+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I've noted those details. However, I'm seeing a system error on my end that's preventing me from completing the cancellation right now.",
+   "ts": "2026-10-02T09:33:26+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I'll need to escalate this to my supervisor to get the account closed properly.",
+   "ts": "2026-10-02T09:34:26+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Are you kidding me?? I just want to leave and you can't even do a simple cancellation! This is ridiculous!",
+   "ts": "2026-10-02T09:34:57+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I apologize for the frustration. Is there anything else I can assist you with today? I've escalated the request to the supervisor team, and they will handle the final steps. Goodbye!",
+   "ts": "2026-10-02T09:36:44+00:00"
+  }
+ ]
+}

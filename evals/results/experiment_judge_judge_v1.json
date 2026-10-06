@@ -1,0 +1,40 @@
+{
+ "judge_prompt": "judge.v1",
+ "calls_judged": 20,
+ "judge_models": [
+  "gemini-3.1-flash-lite",
+  "gemma-4-31b-it"
+ ],
+ "mean_faithfulness": 1.0,
+ "system_errors": 22,
+ "judge_caught_errors": 0,
+ "judge_recall_on_errors": 0.0,
+ "correct_claims": 174,
+ "judge_false_alarms": 0,
+ "false_alarm_rate": 0.0,
+ "missed_errors": [
+  "syn_055 reason:network",
+  "syn_055 reason:billing",
+  "syn_056 reason:network",
+  "syn_057 reason:network",
+  "syn_057 reason:billing",
+  "syn_058 resolution",
+  "syn_058 reason:network",
+  "syn_059 reason:billing",
+  "syn_060 resolution",
+  "syn_061 resolution",
+  "syn_061 reason:network",
+  "syn_062 reason:network",
+  "syn_063 reason:billing",
+  "syn_064 churn",
+  "syn_064 reason:billing",
+  "syn_065 reason:network",
+  "syn_065 reason:billing",
+  "syn_066 reason:network",
+  "syn_067 resolution",
+  "syn_068 resolution",
+  "syn_068 reason:billing",
+  "syn_069 qa:correct_disclosure"
+ ],
+ "false_alarm_examples": []
+}

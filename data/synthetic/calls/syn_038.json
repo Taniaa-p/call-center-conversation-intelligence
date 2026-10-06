@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_038",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-09-29T15:20:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "hey my internet is barely working and i'm paying way too much for this plan!! 😡",
+   "timestamp": "2026-09-29T15:21:07+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Ravi. I'm sorry to hear you're having trouble. I can definitely help you with that today.",
+   "timestamp": "2026-09-29T15:22:28+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Before we dive in, could you please provide your account number for verification?",
+   "timestamp": "2026-09-29T15:23:52+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "it's 15838113. name is Karan Johnson.",
+   "timestamp": "2026-09-29T15:25:36+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Karan. I can see how frustrating it is when your connection isn't performing as expected, especially when you feel the cost is too high.",
+   "timestamp": "2026-09-29T15:26:05+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "exactly!! and my phone is acting weird too, i think the sim card is dying 🙄",
+   "timestamp": "2026-09-29T15:26:42+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry about that. Let's get you on a cheaper plan first. I can move you to the Basic Connect plan which is $35 per month, starting from your next billing cycle on October 1st.",
+   "timestamp": "2026-09-29T15:27:45+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "that sounds way better. please do that. also can u fix the sim thing?",
+   "timestamp": "2026-09-29T15:28:28+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Of course. I will process the plan change now and send a confirmation SMS to 92359 89781 shortly. I'll also order a replacement SIM card to be sent to your home address immediately.",
+   "timestamp": "2026-09-29T15:29:20+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "thanks ravi! you've been great. i just need to pay my current balance too, here is my card: four six one nine two three nine six nine three seven two nine three zero two",
+   "timestamp": "2026-09-29T15:29:38+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Payment received, thank you! Is there anything else I can assist you with today? To recap, I've lowered your plan and a new SIM is on its way. Have a wonderful day!",
+   "timestamp": "2026-09-29T15:30:21+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "nope that's all. thanks again! 😊",
+   "timestamp": "2026-09-29T15:30:50+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "hey my internet is barely working and i'm paying way too much for this plan!! 😡",
+   "ts": "2026-09-29T15:21:07+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Ravi. I'm sorry to hear you're having trouble. I can definitely help you with that today.",
+   "ts": "2026-09-29T15:22:28+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "Before we dive in, could you please provide your account number for verification?",
+   "ts": "2026-09-29T15:23:52+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "it's 15838113. name is Karan Johnson.",
+   "ts": "2026-09-29T15:25:36+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you, Karan. I can see how frustrating it is when your connection isn't performing as expected, especially when you feel the cost is too high.",
+   "ts": "2026-09-29T15:26:05+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "exactly!! and my phone is acting weird too, i think the sim card is dying 🙄",
+   "ts": "2026-09-29T15:26:42+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I'm sorry about that. Let's get you on a cheaper plan first. I can move you to the Basic Connect plan which is $35 per month, starting from your next billing cycle on October 1st.",
+   "ts": "2026-09-29T15:27:45+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "that sounds way better. please do that. also can u fix the sim thing?",
+   "ts": "2026-09-29T15:28:28+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Of course. I will process the plan change now and send a confirmation SMS to 92359 89781 shortly. I'll also order a replacement SIM card to be sent to your home address immediately.",
+   "ts": "2026-09-29T15:29:20+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "thanks ravi! you've been great. i just need to pay my current balance too, here is my card: four six one nine two three nine six nine three seven two nine three zero two",
+   "ts": "2026-09-29T15:29:38+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Payment received, thank you! Is there anything else I can assist you with today? To recap, I've lowered your plan and a new SIM is on its way. Have a wonderful day!",
+   "ts": "2026-09-29T15:30:21+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "nope that's all. thanks again! 😊",
+   "ts": "2026-09-29T15:30:50+00:00"
+  }
+ ]
+}

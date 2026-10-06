@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_025",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-27T08:17:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Lucy. How can I help you today?\nCustomer: I am extremely frustrated. I have been charged for international roaming on my bill, but I never left the country. This is ridiculous.\nAgent: I am very sorry to hear about this billing error, I understand how upsetting it is to see unexpected charges. Before we look into this, could you please provide your account number?\nCustomer: My account number is 42760619.\nAgent: Thank you. For security, could you please confirm your full name, phone number, and email address?\nCustomer: Yes, it is Anjali Nair, my phone number is 93065 95549, and my email is anjali.53@examplemail.com.\nAgent: Thank you for confirming those details. I have reviewed your account and I can see the roaming charges were applied in error. I will raise a refund request for the wrong charge now.\nAgent: Please note that this refund is subject to approval and will be processed within 7-10 business days.\nAgent: I'll make sure you're never charged for roaming again.\nCustomer: That is a relief to hear, thank you for sorting that out for me.\nAgent: You are very welcome. Is there anything else I can assist you with today?\nCustomer: No, that is all, thank you.\nAgent: Perfect. To summarize, I have submitted the refund request for your roaming charges, which you will see within 7-10 business days, and I have updated your account to prevent future roaming fees. Thank you for choosing Nimbus Telecom and have a wonderful day.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Lucy. How can I help you today?",
+   "ts": "2026-09-27T08:17:04+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am extremely frustrated. I have been charged for international roaming on my bill, but I never left the country. This is ridiculous.",
+   "ts": "2026-09-27T08:17:23+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear about this billing error, I understand how upsetting it is to see unexpected charges. Before we look into this, could you please provide your account number?",
+   "ts": "2026-09-27T08:17:30+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My account number is 42760619.",
+   "ts": "2026-09-27T08:17:46+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. For security, could you please confirm your full name, phone number, and email address?",
+   "ts": "2026-09-27T08:17:54+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yes, it is Anjali Nair, my phone number is 93065 95549, and my email is anjali.53@examplemail.com.",
+   "ts": "2026-09-27T08:18:19+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you for confirming those details. I have reviewed your account and I can see the roaming charges were applied in error. I will raise a refund request for the wrong charge now.",
+   "ts": "2026-09-27T08:18:24+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Please note that this refund is subject to approval and will be processed within 7-10 business days.",
+   "ts": "2026-09-27T08:18:32+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I'll make sure you're never charged for roaming again.",
+   "ts": "2026-09-27T08:18:39+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "That is a relief to hear, thank you for sorting that out for me.",
+   "ts": "2026-09-27T08:19:00+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today?",
+   "ts": "2026-09-27T08:19:11+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "No, that is all, thank you.",
+   "ts": "2026-09-27T08:19:19+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Perfect. To summarize, I have submitted the refund request for your roaming charges, which you will see within 7-10 business days, and I have updated your account to prevent future roaming fees. Thank you for choosing Nimbus Telecom and have a wonderful day.",
+   "ts": "2026-09-27T08:19:27+00:00"
+  }
+ ]
+}

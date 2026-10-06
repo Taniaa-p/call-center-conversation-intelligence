@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_037",
+ "agent_id": "agent_02",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T15:47:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Meera. How can I help you today?\nCustomer: Hi Meera, I am so frustrated. My current data plan is way too small and I keep hitting the limit every single month, which is costing me a fortune in overage charges!\nAgent: I am very sorry to hear that you've been dealing with those overage charges. I can certainly help you find a plan that better fits your needs.\nCustomer: I just want something with more data so I don't have to worry about this anymore.\nAgent: I can definitely look into that for you. Before we access your account details, could you please provide your account number?\nCustomer: Yes, it is 86037035. My name is Fatima Sharma.\nAgent: Thank you, Ms. Sharma. I see your current plan. I recommend our Unlimited Data Plan, which will stop those overage fees entirely.\nCustomer: That sounds perfect. How much will that cost me per month?\nAgent: The new monthly price will be 55 dollars, and the change will take effect starting from your next billing cycle on October 1st.\nCustomer: That is a fair price. Let's go ahead and do that. I also need to pay my current outstanding balance of 20 dollars first.\nAgent: Of course. Please go ahead and provide the card details for that payment.\nCustomer: It is four five three six six three zero six two six one one six nine five seven.\nAgent: Thank you. The payment has been processed successfully. I will now process the plan change and send a confirmation SMS to your phone number 94353 96017.\nCustomer: Thank you so much, Meera. I feel much better now that this is sorted out.\nAgent: You are very welcome. Is there anything else I can assist you with today? To recap, we have paid your balance and updated your plan to Unlimited. Have a wonderful day. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Meera. How can I help you today?",
+   "ts": "2026-10-02T15:47:05+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Meera, I am so frustrated. My current data plan is way too small and I keep hitting the limit every single month, which is costing me a fortune in overage charges!",
+   "ts": "2026-10-02T15:47:18+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you've been dealing with those overage charges. I can certainly help you find a plan that better fits your needs.",
+   "ts": "2026-10-02T15:47:26+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "I just want something with more data so I don't have to worry about this anymore.",
+   "ts": "2026-10-02T15:47:44+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I can definitely look into that for you. Before we access your account details, could you please provide your account number?",
+   "ts": "2026-10-02T15:47:59+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Yes, it is 86037035. My name is Fatima Sharma.",
+   "ts": "2026-10-02T15:48:24+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Sharma. I see your current plan. I recommend our Unlimited Data Plan, which will stop those overage fees entirely.",
+   "ts": "2026-10-02T15:48:31+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That sounds perfect. How much will that cost me per month?",
+   "ts": "2026-10-02T15:48:49+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "The new monthly price will be 55 dollars, and the change will take effect starting from your next billing cycle on October 1st.",
+   "ts": "2026-10-02T15:49:12+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "That is a fair price. Let's go ahead and do that. I also need to pay my current outstanding balance of 20 dollars first.",
+   "ts": "2026-10-02T15:49:31+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Of course. Please go ahead and provide the card details for that payment.",
+   "ts": "2026-10-02T15:49:54+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "It is four five three six six three zero six two six one one six nine five seven.",
+   "ts": "2026-10-02T15:49:58+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Thank you. The payment has been processed successfully. I will now process the plan change and send a confirmation SMS to your phone number 94353 96017.",
+   "ts": "2026-10-02T15:50:18+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "Thank you so much, Meera. I feel much better now that this is sorted out.",
+   "ts": "2026-10-02T15:50:35+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "You are very welcome. Is there anything else I can assist you with today? To recap, we have paid your balance and updated your plan to Unlimited. Have a wonderful day. Goodbye!",
+   "ts": "2026-10-02T15:50:57+00:00"
+  }
+ ]
+}

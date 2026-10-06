@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_066",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T15:56:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Vikram. How can I help you today?\nCustomer: Hi Vikram, I'm really frustrated. My phone has been dropping calls constantly for the week and I'm just tired of it.\nAgent: I am sorry to hear that you are experiencing these connectivity issues, Rahul. I can certainly help you look into this.\nAgent: Before we dive into the account details, could you please provide your account number and date of birth for verification?\nCustomer: Sure, my account number is 38491325 and my date of birth is 22/02/1970. My name is Rahul Das.\nAgent: Thank you for the verification. Now, about the phone, have you tried restarting the device?\nCustomer: Yes, I've tried everything. I think the device is faulty. I'm just going to cancel my service and switch to another provider.\nAgent: I'm sorry to see you go, Rahul. I promise this will never happen again.\nAgent: Regarding the cancellation, there is no early-termination fee for your current plan, and your final bill will arrive within thirty days of the closing date.\nAgent: I can process the cancellation request for you right now so you'll be able to port out your number 96070 12857.\nAgent: However, if you've decided to stay, I can book a device check for you with our technical team to see if it's a hardware issue.\nCustomer: I'll take the device check, but I'm still leaning towards leaving. Let's see if that helps first.\nAgent: Perfect. I have scheduled that check. Is there anything else I can assist you with today? Your cancellation request is on hold and the device check is arranged. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Vikram. How can I help you today?",
+   "ts": "2026-10-02T15:56:06+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Vikram, I'm really frustrated. My phone has been dropping calls constantly for the week and I'm just tired of it.",
+   "ts": "2026-10-02T15:56:29+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing these connectivity issues, Rahul. I can certainly help you look into this.",
+   "ts": "2026-10-02T15:56:38+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide your account number and date of birth for verification?",
+   "ts": "2026-10-02T15:56:53+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Sure, my account number is 38491325 and my date of birth is 22/02/1970. My name is Rahul Das.",
+   "ts": "2026-10-02T15:57:14+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you for the verification. Now, about the phone, have you tried restarting the device?",
+   "ts": "2026-10-02T15:57:37+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Yes, I've tried everything. I think the device is faulty. I'm just going to cancel my service and switch to another provider.",
+   "ts": "2026-10-02T15:57:52+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I'm sorry to see you go, Rahul. I promise this will never happen again.",
+   "ts": "2026-10-02T15:58:05+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Regarding the cancellation, there is no early-termination fee for your current plan, and your final bill will arrive within thirty days of the closing date.",
+   "ts": "2026-10-02T15:58:30+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I can process the cancellation request for you right now so you'll be able to port out your number 96070 12857.",
+   "ts": "2026-10-02T15:58:53+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "However, if you've decided to stay, I can book a device check for you with our technical team to see if it's a hardware issue.",
+   "ts": "2026-10-02T15:59:01+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "I'll take the device check, but I'm still leaning towards leaving. Let's see if that helps first.",
+   "ts": "2026-10-02T15:59:15+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Perfect. I have scheduled that check. Is there anything else I can assist you with today? Your cancellation request is on hold and the device check is arranged. Goodbye!",
+   "ts": "2026-10-02T15:59:26+00:00"
+  }
+ ]
+}

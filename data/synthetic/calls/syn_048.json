@@ -1,0 +1,83 @@
+{
+ "call_id": "syn_048",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-27T08:54:00+00:00",
+ "transcript": "Customer: I am so tired of these hidden charges on my bill! This is absolutely ridiculous and I'm done with this service.\nAgent: Yeah, what's the problem?\nCustomer: I'm Vivek Patel and I'm paying for a plan I don't even use. I want to change my plan to the basic one immediately or I'm switching to another provider today.\nAgent: Which phone number are we talking about?\nCustomer: It is 98911 17158.\nAgent: I see the account. Which plan do you want?\nCustomer: The basic one. I've already sent emails from vivek.85@examplemail.com and nobody replied to me for three days!\nAgent: I am switching you to the basic plan now.\nCustomer: Finally! I just wanted this sorted out without all the stress.\nAgent: I will process the plan change and send a confirmation SMS to your device.\nCustomer: Thank you, I appreciate you actually getting it done quickly.\nAgent: Is there anything else? I have updated the plan and you will receive the SMS shortly. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "I am so tired of these hidden charges on my bill! This is absolutely ridiculous and I'm done with this service.",
+   "ts": "2026-09-27T08:54:08+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Yeah, what's the problem?",
+   "ts": "2026-09-27T08:54:26+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "I'm Vivek Patel and I'm paying for a plan I don't even use. I want to change my plan to the basic one immediately or I'm switching to another provider today.",
+   "ts": "2026-09-27T08:54:47+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Which phone number are we talking about?",
+   "ts": "2026-09-27T08:55:00+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "It is 98911 17158.",
+   "ts": "2026-09-27T08:55:19+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "I see the account. Which plan do you want?",
+   "ts": "2026-09-27T08:55:38+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "The basic one. I've already sent emails from vivek.85@examplemail.com and nobody replied to me for three days!",
+   "ts": "2026-09-27T08:55:54+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "I am switching you to the basic plan now.",
+   "ts": "2026-09-27T08:56:05+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Finally! I just wanted this sorted out without all the stress.",
+   "ts": "2026-09-27T08:56:23+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I will process the plan change and send a confirmation SMS to your device.",
+   "ts": "2026-09-27T08:56:37+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Thank you, I appreciate you actually getting it done quickly.",
+   "ts": "2026-09-27T08:56:59+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "Is there anything else? I have updated the plan and you will receive the SMS shortly. Goodbye.",
+   "ts": "2026-09-27T08:57:15+00:00"
+  }
+ ]
+}

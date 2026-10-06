@@ -1,0 +1,166 @@
+{
+ "call_id": "syn_069",
+ "agent_id": "agent_03",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-01T15:36:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "hi my phone is barely working and im so annoyed 😡",
+   "timestamp": "2026-10-01T15:37:12+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Daniel. How can I help you today?",
+   "timestamp": "2026-10-01T15:38:41+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "my screen is flickering and i cant even use the apps. its so frustrating",
+   "timestamp": "2026-10-01T15:39:51+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I am sorry to hear that you're having such a frustrating experience with your device, I can definitely help you look into this.",
+   "timestamp": "2026-10-01T15:41:04+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "i just want it fixed now. im Fatima Iyer and my number is 97299 03137",
+   "timestamp": "2026-10-01T15:41:24+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thanks Fatima. Let me check the system. It looks like you have the latest model, right?",
+   "timestamp": "2026-10-01T15:43:12+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "yeah its the pro model. i tried restarting it but it didnt work",
+   "timestamp": "2026-10-01T15:45:05+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Got it. Since the restart didn't work, it sounds like a hardware issue with the display.",
+   "timestamp": "2026-10-01T15:46:25+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "so what do we do? i cant keep using it like this",
+   "timestamp": "2026-10-01T15:48:06+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I can arrange for a replacement device to be sent to your home address so you can swap it out.",
+   "timestamp": "2026-10-01T15:49:46+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "oh wow really? that would be great! thank you so much",
+   "timestamp": "2026-10-01T15:51:01+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "You're very welcome! I've processed that request now.",
+   "timestamp": "2026-10-01T15:52:42+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "thanks daniel you've been a huge help 😊",
+   "timestamp": "2026-10-01T15:54:23+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else I can assist you with today? I'll get that replacement device shipped out immediately. Have a great day!",
+   "timestamp": "2026-10-01T15:56:06+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "hi my phone is barely working and im so annoyed 😡",
+   "ts": "2026-10-01T15:37:12+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Daniel. How can I help you today?",
+   "ts": "2026-10-01T15:38:41+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "my screen is flickering and i cant even use the apps. its so frustrating",
+   "ts": "2026-10-01T15:39:51+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you're having such a frustrating experience with your device, I can definitely help you look into this.",
+   "ts": "2026-10-01T15:41:04+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "i just want it fixed now. im Fatima Iyer and my number is 97299 03137",
+   "ts": "2026-10-01T15:41:24+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thanks Fatima. Let me check the system. It looks like you have the latest model, right?",
+   "ts": "2026-10-01T15:43:12+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "yeah its the pro model. i tried restarting it but it didnt work",
+   "ts": "2026-10-01T15:45:05+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Got it. Since the restart didn't work, it sounds like a hardware issue with the display.",
+   "ts": "2026-10-01T15:46:25+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "so what do we do? i cant keep using it like this",
+   "ts": "2026-10-01T15:48:06+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I can arrange for a replacement device to be sent to your home address so you can swap it out.",
+   "ts": "2026-10-01T15:49:46+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "oh wow really? that would be great! thank you so much",
+   "ts": "2026-10-01T15:51:01+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "You're very welcome! I've processed that request now.",
+   "ts": "2026-10-01T15:52:42+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "thanks daniel you've been a huge help 😊",
+   "ts": "2026-10-01T15:54:23+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? I'll get that replacement device shipped out immediately. Have a great day!",
+   "ts": "2026-10-01T15:56:06+00:00"
+  }
+ ]
+}

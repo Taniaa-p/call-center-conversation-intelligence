@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_041",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-01T17:23:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Ravi. How can I help you today?\nCustomer: Hi Ravi, I'm Emily Iyer. I'm really frustrated because my current data plan is way too expensive for what I actually use, and I need to change it immediately.\nAgent: I am sorry to hear that you are feeling frustrated with your current plan costs, Ms. Iyer. I can certainly help you look at some more affordable options.\nAgent: Before we look at the account details, could you please provide your account number and date of birth for verification?\nCustomer: Sure, my account number is 92346833 and my date of birth is 17/04/1985.\nAgent: Thank you. I see your account is registered at 259 Brigade Road. Is that still correct?\nCustomer: Yes, that's correct. I also want to make sure my email is still emily.68@examplemail.com and my phone is 94477 19486.\nAgent: Yes, those details are correct in our system. Now, based on your usage, I recommend the Basic Connect plan. It will be 25 dollars per month, and the change will take effect on the first of next month.\nCustomer: That sounds better, but I've had so many issues with this company lately. If this doesn't work out, I'm just going to cancel my service and switch to another provider.\nAgent: I understand your concerns. I will process the plan change now and send a confirmation SMS to your phone.\nAgent: However, I've noticed a billing discrepancy on your account that I cannot resolve here. I need to escalate this to my supervisor to ensure the credit is applied correctly.\nCustomer: Fine, as long as it gets sorted. I just want a plan that makes sense.\nAgent: Is there anything else I can assist you with today? To recap, I have updated your plan and escalated the billing issue to my manager. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Ravi. How can I help you today?",
+   "ts": "2026-10-01T17:23:15+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Ravi, I'm Emily Iyer. I'm really frustrated because my current data plan is way too expensive for what I actually use, and I need to change it immediately.",
+   "ts": "2026-10-01T17:23:21+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are feeling frustrated with your current plan costs, Ms. Iyer. I can certainly help you look at some more affordable options.",
+   "ts": "2026-10-01T17:23:38+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we look at the account details, could you please provide your account number and date of birth for verification?",
+   "ts": "2026-10-01T17:23:59+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Sure, my account number is 92346833 and my date of birth is 17/04/1985.",
+   "ts": "2026-10-01T17:24:17+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you. I see your account is registered at 259 Brigade Road. Is that still correct?",
+   "ts": "2026-10-01T17:24:39+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "Yes, that's correct. I also want to make sure my email is still emily.68@examplemail.com and my phone is 94477 19486.",
+   "ts": "2026-10-01T17:24:53+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Yes, those details are correct in our system. Now, based on your usage, I recommend the Basic Connect plan. It will be 25 dollars per month, and the change will take effect on the first of next month.",
+   "ts": "2026-10-01T17:25:05+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "That sounds better, but I've had so many issues with this company lately. If this doesn't work out, I'm just going to cancel my service and switch to another provider.",
+   "ts": "2026-10-01T17:25:25+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I understand your concerns. I will process the plan change now and send a confirmation SMS to your phone.",
+   "ts": "2026-10-01T17:25:41+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "However, I've noticed a billing discrepancy on your account that I cannot resolve here. I need to escalate this to my supervisor to ensure the credit is applied correctly.",
+   "ts": "2026-10-01T17:25:57+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Fine, as long as it gets sorted. I just want a plan that makes sense.",
+   "ts": "2026-10-01T17:26:20+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? To recap, I have updated your plan and escalated the billing issue to my manager. Goodbye!",
+   "ts": "2026-10-01T17:26:25+00:00"
+  }
+ ]
+}

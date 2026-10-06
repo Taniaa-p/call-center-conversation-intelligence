@@ -1,0 +1,26 @@
+{
+ "judge_prompt": "judge.v3",
+ "calls_judged": 20,
+ "judge_models": [
+  "gemini-3.1-flash-lite",
+  "gemma-4-31b-it"
+ ],
+ "mean_faithfulness": 0.931,
+ "system_errors": 10,
+ "judge_caught_errors": 7,
+ "judge_recall_on_errors": 0.7,
+ "correct_claims": 150,
+ "judge_false_alarms": 4,
+ "false_alarm_rate": 0.027,
+ "missed_errors": [
+  "syn_053 qa:correct_disclosure",
+  "syn_060 resolution",
+  "syn_067 resolution"
+ ],
+ "false_alarm_examples": [
+  "syn_054 resolution: The agent raised a network ticket for the internet issue and a refund request for the billing error, but neither is full",
+  "syn_061 qa:identity_verification: The agent only asked for account number, name, phone, and email, none of which are secret/knowledge factors like PIN or ",
+  "syn_069 resolution: The agent arranged for a replacement device to be sent to the customer.",
+  "syn_070 qa:proper_closure: The agent failed to properly summarize the next steps or offer meaningful assistance, and the closure felt abrupt given "
+ ]
+}

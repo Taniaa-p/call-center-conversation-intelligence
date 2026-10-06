@@ -1,0 +1,12 @@
+{
+ "qa_item_accuracy_mean": 0.993,
+ "violation_recall": 0.968,
+ "violation_precision": 0.968,
+ "reasons_micro_f1": 0.857,
+ "resolution_accuracy": 0.653,
+ "churn_recall": 0.762,
+ "sentiment_direction_agreement": 0.796,
+ "action_recall": 0.941,
+ "pii_recall": 1.0,
+ "grounding_verified_rate": 1.0
+}

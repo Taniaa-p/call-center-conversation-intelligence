@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_004",
+ "agent_id": "agent_03",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-29T14:54:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Daniel. How can I help you today?\nCustomer: I am absolutely livid. My bill is completely wrong again! I've been charged twice for the same service and I want this fixed now.\nAgent: I am very sorry to hear that you've had this experience, and I understand how frustrating it is to see incorrect charges on your statement.\nCustomer: It's just not enough to say sorry. If this doesn't get sorted, I'm switching to another provider immediately.\nAgent: I want to make sure we get this right for you. Let me look at your account. Can you confirm your name and address?\nCustomer: My name is Fatima Reddy and I live at 121 MG Road.\nAgent: Thank you. I can see the duplicate charge here. It looks like a system error. I'll need to escalate this to our billing specialists to get it corrected.\nCustomer: I just want my money back. Can you have them fix it?\nAgent: I will raise a refund request for the wrong charge right now.\nCustomer: Fine. How long will it take?\nAgent: Please keep in mind that the refund is subject to approval and typically takes 7-10 business days to appear in your account.\nCustomer: Okay, that's fair. I appreciate you actually taking care of it quickly.\nAgent: You're very welcome. I've also noted your phone number as 92620 50095 and your email as fatima.29@examplemail.com for the confirmation email.\nAgent: Is there anything else I can help you with today? I've escalated the billing error to the specialists and requested the refund. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Daniel. How can I help you today?",
+   "ts": "2026-09-29T14:54:22+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am absolutely livid. My bill is completely wrong again! I've been charged twice for the same service and I want this fixed now.",
+   "ts": "2026-09-29T14:54:27+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you've had this experience, and I understand how frustrating it is to see incorrect charges on your statement.",
+   "ts": "2026-09-29T14:54:44+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It's just not enough to say sorry. If this doesn't get sorted, I'm switching to another provider immediately.",
+   "ts": "2026-09-29T14:55:03+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I want to make sure we get this right for you. Let me look at your account. Can you confirm your name and address?",
+   "ts": "2026-09-29T14:55:25+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "My name is Fatima Reddy and I live at 121 MG Road.",
+   "ts": "2026-09-29T14:55:29+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you. I can see the duplicate charge here. It looks like a system error. I'll need to escalate this to our billing specialists to get it corrected.",
+   "ts": "2026-09-29T14:55:39+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "I just want my money back. Can you have them fix it?",
+   "ts": "2026-09-29T14:55:57+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I will raise a refund request for the wrong charge right now.",
+   "ts": "2026-09-29T14:56:16+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Fine. How long will it take?",
+   "ts": "2026-09-29T14:56:28+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Please keep in mind that the refund is subject to approval and typically takes 7-10 business days to appear in your account.",
+   "ts": "2026-09-29T14:56:52+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Okay, that's fair. I appreciate you actually taking care of it quickly.",
+   "ts": "2026-09-29T14:57:01+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "You're very welcome. I've also noted your phone number as 92620 50095 and your email as fatima.29@examplemail.com for the confirmation email.",
+   "ts": "2026-09-29T14:57:06+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with today? I've escalated the billing error to the specialists and requested the refund. Goodbye!",
+   "ts": "2026-09-29T14:57:26+00:00"
+  }
+ ]
+}

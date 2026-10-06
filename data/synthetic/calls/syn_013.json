@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_013",
+ "agent_id": "agent_03",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-03T16:34:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom, my name is Daniel. How can I help you today?\nCustomer: Hi Daniel, I'm Sneha Patel. My internet connection has been dropping every ten minutes for the last three days. It's absolutely infuriating!\nAgent: I am so sorry to hear that you've been dealing with these constant drops, Sneha. I know how frustrating it is when your connection is unstable.\nCustomer: It's making it impossible to work from home. I'm using phone number 92211 71715 and I can't get a stable signal at all.\nAgent: Let me check the network status in your area. One moment please.\nCustomer: I've already restarted the router three times today alone.\nAgent: I see a local outage affecting several houses on your street. It looks like a network fault in the local cabinet.\nCustomer: Why is this happening? I'm paying for a high-speed plan and I'm not getting it.\nAgent: I understand. By the way, I noticed a double charge on your last bill. Trust me, the money will definitely be back in your account by tomorrow.\nCustomer: Oh, I hadn't even noticed that. Thank you for pointing it out.\nAgent: I will now raise a network ticket to prioritize the repair of that cabinet for your address.\nCustomer: That sounds great. Will I be back online soon?\nAgent: Yes, the engineers are already working on it and the ticket will speed up the process. You should be stable within a few hours.\nCustomer: I'm very relieved. Thank you so much for your help, Daniel.\nAgent: You're very welcome. Is there anything else I can assist you with today? I've raised the network ticket and the refund is processing. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom, my name is Daniel. How can I help you today?",
+   "ts": "2026-10-03T16:34:25+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Daniel, I'm Sneha Patel. My internet connection has been dropping every ten minutes for the last three days. It's absolutely infuriating!",
+   "ts": "2026-10-03T16:34:30+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am so sorry to hear that you've been dealing with these constant drops, Sneha. I know how frustrating it is when your connection is unstable.",
+   "ts": "2026-10-03T16:34:50+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It's making it impossible to work from home. I'm using phone number 92211 71715 and I can't get a stable signal at all.",
+   "ts": "2026-10-03T16:34:57+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Let me check the network status in your area. One moment please.",
+   "ts": "2026-10-03T16:35:17+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "I've already restarted the router three times today alone.",
+   "ts": "2026-10-03T16:35:27+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I see a local outage affecting several houses on your street. It looks like a network fault in the local cabinet.",
+   "ts": "2026-10-03T16:35:43+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Why is this happening? I'm paying for a high-speed plan and I'm not getting it.",
+   "ts": "2026-10-03T16:35:58+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I understand. By the way, I noticed a double charge on your last bill. Trust me, the money will definitely be back in your account by tomorrow.",
+   "ts": "2026-10-03T16:36:18+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Oh, I hadn't even noticed that. Thank you for pointing it out.",
+   "ts": "2026-10-03T16:36:31+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I will now raise a network ticket to prioritize the repair of that cabinet for your address.",
+   "ts": "2026-10-03T16:36:53+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "That sounds great. Will I be back online soon?",
+   "ts": "2026-10-03T16:37:01+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Yes, the engineers are already working on it and the ticket will speed up the process. You should be stable within a few hours.",
+   "ts": "2026-10-03T16:37:24+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "I'm very relieved. Thank you so much for your help, Daniel.",
+   "ts": "2026-10-03T16:37:36+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "You're very welcome. Is there anything else I can assist you with today? I've raised the network ticket and the refund is processing. Goodbye!",
+   "ts": "2026-10-03T16:37:43+00:00"
+  }
+ ]
+}

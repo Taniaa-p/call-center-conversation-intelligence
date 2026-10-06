@@ -1,0 +1,29 @@
+{
+ "judge_prompt": "judge.v2",
+ "calls_judged": 20,
+ "judge_models": [
+  "gemini-3.1-flash-lite",
+  "gemma-4-31b-it"
+ ],
+ "mean_faithfulness": 0.912,
+ "system_errors": 8,
+ "judge_caught_errors": 6,
+ "judge_recall_on_errors": 0.75,
+ "correct_claims": 152,
+ "judge_false_alarms": 8,
+ "false_alarm_rate": 0.053,
+ "missed_errors": [
+  "syn_053 qa:correct_disclosure",
+  "syn_067 resolution"
+ ],
+ "false_alarm_examples": [
+  "syn_051 resolution: The agent initiated a refund request for the incorrect charge, but the refund is subject to approval and not yet confirm",
+  "syn_054 resolution: The agent raised a network ticket and a refund request, which are processes that require further action to be fully reso",
+  "syn_061 qa:correct_disclosure: No specific required disclosures from the policy were triggered by the refund request in this conversation.",
+  "syn_063 qa:correct_disclosure: No specific required disclosures from the policy were triggered by a plan change in this scenario.",
+  "syn_064 qa:correct_disclosure: No specific required disclosures from the policy were triggered by this plan change.",
+  "syn_067 qa:correct_disclosure: No specific required disclosures from the policy were triggered by the actions taken.",
+  "syn_068 qa:correct_disclosure: No specific required disclosures from the policy were triggered by the actions taken.",
+  "syn_069 resolution: The agent arranged for a replacement device to be sent to the customer, but the actual fix (receiving and swapping the d"
+ ]
+}

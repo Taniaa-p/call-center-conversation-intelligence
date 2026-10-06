@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_056",
+ "agent_id": "agent_04",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-10-02T09:09:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Sana. How can I help you today?\nCustomer: Hi Sana, I'm calling because my new phone has been dropping calls every single hour. It's incredibly frustrating.\nAgent: I am sorry to hear that you are experiencing these dropped calls. I can certainly look into this for you.\nAgent: Before we dive into the account details, could you please provide your account number?\nCustomer: Sure, it is 75745233. My name is James Sharma.\nAgent: Thank you, Mr. Sharma. And just to confirm, what is the phone number associated with the account?\nCustomer: It is 95173 72493. I live at 130 Station Road.\nAgent: Thank you for that information. Let me check the network status in your area.\nCustomer: I've already done that on your website and it says everything is fine. I just want this device to work properly.\nAgent: I understand. Please try restarting your device now while I stay on the line.\nCustomer: I have restarted it five times today already! This is a waste of my time. I am tired of this poor service.\nAgent: I apologize for the inconvenience. Let me check if there are any firmware updates available for your handset.\nCustomer: This is ridiculous. If you can't fix this right now, I'm going to cancel my contract and switch to another provider.\nAgent: I see. I will need to run a remote diagnostic on your device to see what is happening.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Sana. How can I help you today?",
+   "ts": "2026-10-02T09:09:22+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Sana, I'm calling because my new phone has been dropping calls every single hour. It's incredibly frustrating.",
+   "ts": "2026-10-02T09:09:31+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are experiencing these dropped calls. I can certainly look into this for you.",
+   "ts": "2026-10-02T09:09:37+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide your account number?",
+   "ts": "2026-10-02T09:09:48+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Sure, it is 75745233. My name is James Sharma.",
+   "ts": "2026-10-02T09:10:06+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Sharma. And just to confirm, what is the phone number associated with the account?",
+   "ts": "2026-10-02T09:10:19+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "It is 95173 72493. I live at 130 Station Road.",
+   "ts": "2026-10-02T09:10:44+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Thank you for that information. Let me check the network status in your area.",
+   "ts": "2026-10-02T09:10:59+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "I've already done that on your website and it says everything is fine. I just want this device to work properly.",
+   "ts": "2026-10-02T09:11:08+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I understand. Please try restarting your device now while I stay on the line.",
+   "ts": "2026-10-02T09:11:28+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "I have restarted it five times today already! This is a waste of my time. I am tired of this poor service.",
+   "ts": "2026-10-02T09:11:37+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I apologize for the inconvenience. Let me check if there are any firmware updates available for your handset.",
+   "ts": "2026-10-02T09:11:46+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "This is ridiculous. If you can't fix this right now, I'm going to cancel my contract and switch to another provider.",
+   "ts": "2026-10-02T09:11:50+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "agent",
+   "text": "I see. I will need to run a remote diagnostic on your device to see what is happening.",
+   "ts": "2026-10-02T09:12:02+00:00"
+  }
+ ]
+}

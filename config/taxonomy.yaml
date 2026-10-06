@@ -1,0 +1,15 @@
+# Call-reason taxonomy (multi-label). A call can have several reasons.
+version: 1
+reasons:
+  - id: billing
+    description: Bill amount disputes, unexpected charges, refunds, payment problems.
+  - id: network
+    description: Coverage, dropped calls, slow data, outages, signal problems.
+  - id: plan_change
+    description: Upgrading, downgrading or switching plan, adding packs or roaming.
+  - id: cancellation
+    description: Customer wants to cancel, port out or close the connection.
+  - id: device
+    description: Handset, SIM, router or modem problems, activation, eSIM.
+  - id: other
+    description: Anything that fits none of the above (use sparingly).

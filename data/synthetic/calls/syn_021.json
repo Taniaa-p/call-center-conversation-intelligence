@@ -1,0 +1,133 @@
+{
+ "call_id": "syn_021",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-10-03T15:35:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hi, welcome to Nimbus Telecom. My name is Vikram. How can I help you today?",
+   "timestamp": "2026-10-03T15:36:38+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Hi Vikram. I am really frustrated with my connection speed. It is constantly dropping and I am tired of it.",
+   "timestamp": "2026-10-03T15:37:54+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I need to verify your account first. Please provide your account number and date of birth.",
+   "timestamp": "2026-10-03T15:39:38+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "My name is Rohan Patel, account number is 77997185 and my date of birth is 07/02/2002.",
+   "timestamp": "2026-10-03T15:40:28+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you. I see your account details. What is the phone number associated with the account?",
+   "timestamp": "2026-10-03T15:41:19+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "It is 99803 58440. Honestly, this service is useless. I want to cancel my plan immediately.",
+   "timestamp": "2026-10-03T15:41:59+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "If you cancel now, there is an early-termination fee of 150 dollars. Your final bill will arrive within 30 days.",
+   "timestamp": "2026-10-03T15:42:23+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "That is ridiculous! I am not paying that for a service that never worked. I am switching to another provider today.",
+   "timestamp": "2026-10-03T15:42:46+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Trust me, the money will definitely be back in your account by tomorrow.",
+   "timestamp": "2026-10-03T15:43:33+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "What money? You just said I have to pay a fee! You are not listening to me at all, this is a total mess.",
+   "timestamp": "2026-10-03T15:45:33+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else I can assist you with today? To summarize, you are cancelling and the fee applies. Goodbye.",
+   "timestamp": "2026-10-03T15:46:57+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hi, welcome to Nimbus Telecom. My name is Vikram. How can I help you today?",
+   "ts": "2026-10-03T15:36:38+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Vikram. I am really frustrated with my connection speed. It is constantly dropping and I am tired of it.",
+   "ts": "2026-10-03T15:37:54+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I need to verify your account first. Please provide your account number and date of birth.",
+   "ts": "2026-10-03T15:39:38+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "My name is Rohan Patel, account number is 77997185 and my date of birth is 07/02/2002.",
+   "ts": "2026-10-03T15:40:28+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. I see your account details. What is the phone number associated with the account?",
+   "ts": "2026-10-03T15:41:19+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "It is 99803 58440. Honestly, this service is useless. I want to cancel my plan immediately.",
+   "ts": "2026-10-03T15:41:59+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "If you cancel now, there is an early-termination fee of 150 dollars. Your final bill will arrive within 30 days.",
+   "ts": "2026-10-03T15:42:23+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "That is ridiculous! I am not paying that for a service that never worked. I am switching to another provider today.",
+   "ts": "2026-10-03T15:42:46+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Trust me, the money will definitely be back in your account by tomorrow.",
+   "ts": "2026-10-03T15:43:33+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "What money? You just said I have to pay a fee! You are not listening to me at all, this is a total mess.",
+   "ts": "2026-10-03T15:45:33+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with today? To summarize, you are cancelling and the fee applies. Goodbye.",
+   "ts": "2026-10-03T15:46:57+00:00"
+  }
+ ]
+}

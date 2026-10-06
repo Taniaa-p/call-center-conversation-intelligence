@@ -1,0 +1,95 @@
+{
+ "call_id": "syn_055",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-28T16:20:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?\nCustomer: Hi Lucy, I'm Aisha Wilson. I'm calling because I've had enough of the constant signal drops in my area. I want to cancel my service.\nAgent: I am very sorry to hear that you've been experiencing connectivity issues, Ms. Wilson. I can certainly look into your account for you.\nCustomer: I just want it gone. I'm switching to a different provider who actually has coverage here.\nAgent: I understand. Before we proceed with any account changes, could you please provide your account number?\nCustomer: My account number is 40682998 and my phone number is 97268 08975.\nAgent: Thank you. I see your contract is still active. Please be aware that there is an early-termination fee of fifty dollars, and your final bill will arrive within thirty days of the cancellation date.\nCustomer: Fifty dollars? You're charging me to leave because your service is terrible? That is ridiculous!\nAgent: I understand your frustration, but these are the standard terms of the agreement you signed.\nCustomer: I am not paying a penny of that fee. Just cancel the line now without the charge.\nAgent: I'm afraid I don't have the authority to waive that early-termination fee, Ms. Wilson.\nCustomer: This is unbelievable. I've been a customer for years and you're treating me like this. I'm absolutely disgusted with this company!\nAgent: I apologize for the inconvenience. Is there anything else I can assist you with today?\nCustomer: No, nothing else. You've made it worse.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Lucy. How can I help you today?",
+   "ts": "2026-09-28T16:20:19+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Lucy, I'm Aisha Wilson. I'm calling because I've had enough of the constant signal drops in my area. I want to cancel my service.",
+   "ts": "2026-09-28T16:20:28+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am very sorry to hear that you've been experiencing connectivity issues, Ms. Wilson. I can certainly look into your account for you.",
+   "ts": "2026-09-28T16:20:49+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "I just want it gone. I'm switching to a different provider who actually has coverage here.",
+   "ts": "2026-09-28T16:20:59+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I understand. Before we proceed with any account changes, could you please provide your account number?",
+   "ts": "2026-09-28T16:21:13+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "My account number is 40682998 and my phone number is 97268 08975.",
+   "ts": "2026-09-28T16:21:26+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "Thank you. I see your contract is still active. Please be aware that there is an early-termination fee of fifty dollars, and your final bill will arrive within thirty days of the cancellation date.",
+   "ts": "2026-09-28T16:21:40+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Fifty dollars? You're charging me to leave because your service is terrible? That is ridiculous!",
+   "ts": "2026-09-28T16:21:44+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I understand your frustration, but these are the standard terms of the agreement you signed.",
+   "ts": "2026-09-28T16:22:03+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I am not paying a penny of that fee. Just cancel the line now without the charge.",
+   "ts": "2026-09-28T16:22:18+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "I'm afraid I don't have the authority to waive that early-termination fee, Ms. Wilson.",
+   "ts": "2026-09-28T16:22:33+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "This is unbelievable. I've been a customer for years and you're treating me like this. I'm absolutely disgusted with this company!",
+   "ts": "2026-09-28T16:22:39+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "I apologize for the inconvenience. Is there anything else I can assist you with today?",
+   "ts": "2026-09-28T16:22:55+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "No, nothing else. You've made it worse.",
+   "ts": "2026-09-28T16:23:13+00:00"
+  }
+ ]
+}

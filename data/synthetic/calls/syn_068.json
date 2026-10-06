@@ -1,0 +1,177 @@
+{
+ "call_id": "syn_068",
+ "agent_id": "agent_06",
+ "team_id": "team_south",
+ "channel": "chat",
+ "language": "en",
+ "started_at": "2026-09-27T17:45:00+00:00",
+ "messages": [
+  {
+   "sender": "customer",
+   "message": "hi, my phone is acting up and i need to change my plan",
+   "timestamp": "2026-09-27T17:46:33+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Hello! Thanks for contacting Nimbus Telecom. I'm Lucy. How can I help you today? 😊",
+   "timestamp": "2026-09-27T17:47:53+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "my screen is flickering and i think i need a new plan with more data",
+   "timestamp": "2026-09-27T17:48:22+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry to hear about the screen issue, that sounds really frustrating. I can definitely help you with both of those things.",
+   "timestamp": "2026-09-27T17:49:17+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Before we look at the account, could you please provide your account number and date of birth?",
+   "timestamp": "2026-09-27T17:49:47+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "sure, account 70767818 and dob 02/10/1986. my name is Rohan Mehta",
+   "timestamp": "2026-09-27T17:51:44+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "also my phone number is 99354 71350",
+   "timestamp": "2026-09-27T17:52:38+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Mr. Mehta. I've got your account open. For the data plan, the new monthly price will be $45 per month, and the change will take effect on the 1st of next month.",
+   "timestamp": "2026-09-27T17:53:16+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "wait, $45? that's more expensive than i thought. this is ridiculous!",
+   "timestamp": "2026-09-27T17:53:58+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I understand. I will process the plan change now and send you a confirmation SMS shortly.",
+   "timestamp": "2026-09-27T17:54:57+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "this is a joke. my phone is still broken and you're just charging me more money. 😡",
+   "timestamp": "2026-09-27T17:55:27+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I'm sorry, but I can't fix the screen remotely. I will book a device check for you at our nearest store",
+   "timestamp": "2026-09-27T17:56:38+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "i have to go to a store? i'm so tired of this service. this is terrible!",
+   "timestamp": "2026-09-27T17:58:35+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "this is a total waste of time. i'm so angry right now!",
+   "timestamp": "2026-09-27T17:59:48+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Is there anything else I can help you with today? I've processed the plan change and booked your device check. Have a kind day, goodbye!",
+   "timestamp": "2026-09-27T18:01:10+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "customer",
+   "text": "hi, my phone is acting up and i need to change my plan",
+   "ts": "2026-09-27T17:46:33+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "agent",
+   "text": "Hello! Thanks for contacting Nimbus Telecom. I'm Lucy. How can I help you today? 😊",
+   "ts": "2026-09-27T17:47:53+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "customer",
+   "text": "my screen is flickering and i think i need a new plan with more data",
+   "ts": "2026-09-27T17:48:22+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "I'm sorry to hear about the screen issue, that sounds really frustrating. I can definitely help you with both of those things.",
+   "ts": "2026-09-27T17:49:17+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Before we look at the account, could you please provide your account number and date of birth?",
+   "ts": "2026-09-27T17:49:47+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "sure, account 70767818 and dob 02/10/1986. my name is Rohan Mehta",
+   "ts": "2026-09-27T17:51:44+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "also my phone number is 99354 71350",
+   "ts": "2026-09-27T17:52:38+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Mehta. I've got your account open. For the data plan, the new monthly price will be $45 per month, and the change will take effect on the 1st of next month.",
+   "ts": "2026-09-27T17:53:16+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "wait, $45? that's more expensive than i thought. this is ridiculous!",
+   "ts": "2026-09-27T17:53:58+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I understand. I will process the plan change now and send you a confirmation SMS shortly.",
+   "ts": "2026-09-27T17:54:57+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "this is a joke. my phone is still broken and you're just charging me more money. 😡",
+   "ts": "2026-09-27T17:55:27+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "I'm sorry, but I can't fix the screen remotely. I will book a device check for you at our nearest store",
+   "ts": "2026-09-27T17:56:38+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "customer",
+   "text": "i have to go to a store? i'm so tired of this service. this is terrible!",
+   "ts": "2026-09-27T17:58:35+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "this is a total waste of time. i'm so angry right now!",
+   "ts": "2026-09-27T17:59:48+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "Is there anything else I can help you with today? I've processed the plan change and booked your device check. Have a kind day, goodbye!",
+   "ts": "2026-09-27T18:01:10+00:00"
+  }
+ ]
+}

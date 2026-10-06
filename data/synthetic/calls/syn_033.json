@@ -1,0 +1,89 @@
+{
+ "call_id": "syn_033",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-29T14:38:00+00:00",
+ "transcript": "Agent: Yeah, what's the problem?\nCustomer: Hi, I'm Anjali Gupta. I've been looking at my latest bill and there is a charge for a premium movie package that I never signed up for. It's really frustrating.\nAgent: I can help you with that. Before we look at the account, can you give me your account number?\nCustomer: Yes, it is 53996545.\nAgent: Thank you. I see the charge here. I understand how annoying it is to see unexpected charges on your statement.\nCustomer: Exactly. I just want this removed and my money back.\nAgent: I can certainly look into this for you. I will raise a refund request for the wrong charge now.\nCustomer: Will that be processed immediately?\nAgent: The refund is subject to approval and typically takes 7-10 business days to appear in your account.\nCustomer: Okay, that's fine. I just want to make sure it's fixed.\nAgent: Since this is part of a larger billing discrepancy, I'm going to escalate this to our billing specialists for a full review of your account history.\nCustomer: Alright, they will contact me at 93535 56093?\nAgent: Yes, they will. Is there anything else I can help you with today? I've raised the request and the specialists will reach out. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Yeah, what's the problem?",
+   "ts": "2026-09-29T14:38:10+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi, I'm Anjali Gupta. I've been looking at my latest bill and there is a charge for a premium movie package that I never signed up for. It's really frustrating.",
+   "ts": "2026-09-29T14:38:22+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I can help you with that. Before we look at the account, can you give me your account number?",
+   "ts": "2026-09-29T14:38:38+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Yes, it is 53996545.",
+   "ts": "2026-09-29T14:38:42+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you. I see the charge here. I understand how annoying it is to see unexpected charges on your statement.",
+   "ts": "2026-09-29T14:38:52+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Exactly. I just want this removed and my money back.",
+   "ts": "2026-09-29T14:39:03+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I can certainly look into this for you. I will raise a refund request for the wrong charge now.",
+   "ts": "2026-09-29T14:39:19+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Will that be processed immediately?",
+   "ts": "2026-09-29T14:39:41+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "The refund is subject to approval and typically takes 7-10 business days to appear in your account.",
+   "ts": "2026-09-29T14:39:45+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Okay, that's fine. I just want to make sure it's fixed.",
+   "ts": "2026-09-29T14:40:09+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Since this is part of a larger billing discrepancy, I'm going to escalate this to our billing specialists for a full review of your account history.",
+   "ts": "2026-09-29T14:40:21+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Alright, they will contact me at 93535 56093?",
+   "ts": "2026-09-29T14:40:46+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Yes, they will. Is there anything else I can help you with today? I've raised the request and the specialists will reach out. Goodbye.",
+   "ts": "2026-09-29T14:41:01+00:00"
+  }
+ ]
+}

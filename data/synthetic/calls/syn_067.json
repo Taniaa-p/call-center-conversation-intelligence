@@ -1,0 +1,83 @@
+{
+ "call_id": "syn_067",
+ "agent_id": "agent_02",
+ "team_id": "team_north",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-30T12:42:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Meera. How can I help you today?\nCustomer: I am so frustrated with my latest bill. It is way higher than it should be and I also want to change my plan because the current one is not working for me.\nAgent: I am sorry to hear that you are feeling frustrated. I can certainly help you look into the billing issue and the plan change for you.\nAgent: Before we dive into the account details, could you please provide your account number?\nCustomer: Yes, it is 14290770.\nAgent: Thank you. And just to confirm, who am I speaking with?\nCustomer: My name is Aisha Johnson.\nAgent: Thank you, Ms. Johnson. I have your account open. I see the extra charge on your bill. I will raise a refund request for the wrong charge now.\nCustomer: Thank you. I really appreciate that. Now about the plan change, I need something with more data.\nAgent: I can definitely help with that. I will process the plan change and send a confirmation SMS to your phone number 91565 44170.\nCustomer: That sounds great. Can you also double check my email address on file? It is aisha.11@examplemail.com.\nAgent: Yes, that is correct. Everything is updated. Is there anything else I can assist you with today? I have requested the refund and updated your plan. Goodbye!",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Meera. How can I help you today?",
+   "ts": "2026-09-30T12:42:12+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "I am so frustrated with my latest bill. It is way higher than it should be and I also want to change my plan because the current one is not working for me.",
+   "ts": "2026-09-30T12:42:19+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are feeling frustrated. I can certainly help you look into the billing issue and the plan change for you.",
+   "ts": "2026-09-30T12:42:39+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "agent",
+   "text": "Before we dive into the account details, could you please provide your account number?",
+   "ts": "2026-09-30T12:42:58+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "customer",
+   "text": "Yes, it is 14290770.",
+   "ts": "2026-09-30T12:43:20+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "agent",
+   "text": "Thank you. And just to confirm, who am I speaking with?",
+   "ts": "2026-09-30T12:43:29+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "customer",
+   "text": "My name is Aisha Johnson.",
+   "ts": "2026-09-30T12:43:47+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Thank you, Ms. Johnson. I have your account open. I see the extra charge on your bill. I will raise a refund request for the wrong charge now.",
+   "ts": "2026-09-30T12:44:00+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Thank you. I really appreciate that. Now about the plan change, I need something with more data.",
+   "ts": "2026-09-30T12:44:22+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "I can definitely help with that. I will process the plan change and send a confirmation SMS to your phone number 91565 44170.",
+   "ts": "2026-09-30T12:44:28+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "That sounds great. Can you also double check my email address on file? It is aisha.11@examplemail.com.",
+   "ts": "2026-09-30T12:44:47+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "Yes, that is correct. Everything is updated. Is there anything else I can assist you with today? I have requested the refund and updated your plan. Goodbye!",
+   "ts": "2026-09-30T12:45:03+00:00"
+  }
+ ]
+}

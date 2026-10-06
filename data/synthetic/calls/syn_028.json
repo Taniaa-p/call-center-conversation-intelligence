@@ -1,0 +1,144 @@
+{
+ "call_id": "syn_028",
+ "agent_id": "agent_07",
+ "team_id": "team_west",
+ "channel": "chat",
+ "language": "hinglish",
+ "started_at": "2026-09-28T13:52:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hello! Welcome to Nimbus Telecom, my name is Vikram. How can I help you today?",
+   "timestamp": "2026-09-28T13:53:22+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Hi Vikram, mera bill is month bahut zyada aaya hai. I am really frustrated with this extra charge!",
+   "timestamp": "2026-09-28T13:54:22+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I am sorry to hear that you are frustrated, Fatima Johnson. I will definitely look into this for you. Could you please provide your account number and date of birth for verification?",
+   "timestamp": "2026-09-28T13:55:51+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Sure, my account number is 90673028 and my DOB is 12-05-1990.",
+   "timestamp": "2026-09-28T13:56:09+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you for verifying. I see an extra charge for a premium data add-on on your account 90673028. Is this the charge you are referring to?",
+   "timestamp": "2026-09-28T13:56:53+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Haan, exactly! Maine ye add-on kabhi select nahi kiya tha. Please isse remove karo.",
+   "timestamp": "2026-09-28T13:57:11+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I understand. I will raise a refund/credit request for the wrong charge of 500 rupees immediately.",
+   "timestamp": "2026-09-28T13:58:15+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Please note that this refund is subject to approval and will be processed within 7-10 business days.",
+   "timestamp": "2026-09-28T13:59:16+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Okay, that sounds fair. But what about the add-on itself? Will it be charged again?",
+   "timestamp": "2026-09-28T13:59:39+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Don't worry, this add-on will be free forever for you.",
+   "timestamp": "2026-09-28T14:00:48+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Oh, that is great! Thank you so much for the help, Vikram. My number is 93400 70455 and email is fatima.78@examplemail.com if you need to reach me.",
+   "timestamp": "2026-09-28T14:01:42+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "You are most welcome! Is there anything else I can assist you with today? To summarize, I have raised the refund request which will reflect in 7-10 business days, and the add-on is now free. Have a wonderful day!",
+   "timestamp": "2026-09-28T14:02:40+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hello! Welcome to Nimbus Telecom, my name is Vikram. How can I help you today?",
+   "ts": "2026-09-28T13:53:22+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Vikram, mera bill is month bahut zyada aaya hai. I am really frustrated with this extra charge!",
+   "ts": "2026-09-28T13:54:22+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I am sorry to hear that you are frustrated, Fatima Johnson. I will definitely look into this for you. Could you please provide your account number and date of birth for verification?",
+   "ts": "2026-09-28T13:55:51+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Sure, my account number is 90673028 and my DOB is 12-05-1990.",
+   "ts": "2026-09-28T13:56:09+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you for verifying. I see an extra charge for a premium data add-on on your account 90673028. Is this the charge you are referring to?",
+   "ts": "2026-09-28T13:56:53+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Haan, exactly! Maine ye add-on kabhi select nahi kiya tha. Please isse remove karo.",
+   "ts": "2026-09-28T13:57:11+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I understand. I will raise a refund/credit request for the wrong charge of 500 rupees immediately.",
+   "ts": "2026-09-28T13:58:15+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "agent",
+   "text": "Please note that this refund is subject to approval and will be processed within 7-10 business days.",
+   "ts": "2026-09-28T13:59:16+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "customer",
+   "text": "Okay, that sounds fair. But what about the add-on itself? Will it be charged again?",
+   "ts": "2026-09-28T13:59:39+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "agent",
+   "text": "Don't worry, this add-on will be free forever for you.",
+   "ts": "2026-09-28T14:00:48+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "customer",
+   "text": "Oh, that is great! Thank you so much for the help, Vikram. My number is 93400 70455 and email is fatima.78@examplemail.com if you need to reach me.",
+   "ts": "2026-09-28T14:01:42+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "agent",
+   "text": "You are most welcome! Is there anything else I can assist you with today? To summarize, I have raised the refund request which will reflect in 7-10 business days, and the add-on is now free. Have a wonderful day!",
+   "ts": "2026-09-28T14:02:40+00:00"
+  }
+ ]
+}

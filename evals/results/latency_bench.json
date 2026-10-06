@@ -1,0 +1,26 @@
+{
+ "calls": 5,
+ "end_of_call_wall_s": {
+  "p50": 8.96,
+  "max": 49.02
+ },
+ "fast_path_ms_per_turn": 0.089,
+ "api_ms_by_task": {
+  "final_analysis": {
+   "p50": 7580,
+   "max": 9221,
+   "n": 5
+  },
+  "qa_scoring": {
+   "p50": 7524,
+   "max": 8949,
+   "n": 5
+  },
+  "live_actions": {
+   "p50": 6615,
+   "max": 11744,
+   "n": 5
+  }
+ },
+ "model": "gemini-3.1-flash-lite"
+}

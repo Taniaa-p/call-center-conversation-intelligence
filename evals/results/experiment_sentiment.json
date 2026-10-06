@@ -1,0 +1,12 @@
+{
+ "lexicon": {
+  "direction_agreement": 0.826,
+  "hinglish_agreement": 1.0,
+  "ms_per_turn_p50": 0.01
+ },
+ "roberta_xlm": {
+  "direction_agreement": 0.797,
+  "hinglish_agreement": 1.0,
+  "ms_per_turn_p50": 11.79
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "call_id": "syn_006",
+ "agent_id": "agent_01",
+ "team_id": "team_north",
+ "channel": "chat",
+ "language": "hinglish",
+ "started_at": "2026-10-02T14:41:00+00:00",
+ "messages": [
+  {
+   "sender": "agent",
+   "message": "Hello! Welcome to Nimbus Telecom. I'm Ravi. How can I help you today? 😊",
+   "timestamp": "2026-10-02T14:42:15+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Hi Ravi, mera plan change karna hai. Current plan bahut expensive hai and data limit khatam ho jati hai jaldi.",
+   "timestamp": "2026-10-02T14:43:04+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I can certainly help you with that. Before we proceed, could you please provide your account number for verification?",
+   "timestamp": "2026-10-02T14:44:43+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Haan, account number hai 31667923. My name is Vivek Johnson.",
+   "timestamp": "2026-10-02T14:46:05+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Thank you, Mr. Johnson. I understand it's frustrating when your data runs out too quickly. Let me check the best options for you.",
+   "timestamp": "2026-10-02T14:47:45+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Please jaldi karo, I need a cheaper plan with more data. Address is 272 Linking Road.",
+   "timestamp": "2026-10-02T14:48:44+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I have a great plan for you. The new monthly price will be 599 rupees and the change takes effect from the 1st of next month.",
+   "timestamp": "2026-10-02T14:49:17+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "The price is okay, but network issues are also there. Signal bahut weak hai mere area mein.",
+   "timestamp": "2026-10-02T14:50:20+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "I can assure you there won't be any more outages in your area.",
+   "timestamp": "2026-10-02T14:50:36+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "I hope so. Abhi payment pending hai, let me give you my card details: four eight zero eight four one four eight five two five three eight eight eight two.",
+   "timestamp": "2026-10-02T14:51:38+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Got it. I will now process the plan change and send a confirmation SMS to your number 96139 16392.",
+   "timestamp": "2026-10-02T14:52:54+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Wait, why is the SMS not coming? It's been 2 minutes. Yeh kya mazaak hai? I'm getting angry now!",
+   "timestamp": "2026-10-02T14:53:44+00:00"
+  },
+  {
+   "sender": "agent",
+   "message": "Please bear with me, the system is a bit slow. Is there anything else I can help you with? I'll ensure the plan is updated and the SMS is sent. Goodbye!",
+   "timestamp": "2026-10-02T14:55:21+00:00"
+  },
+  {
+   "sender": "customer",
+   "message": "Nahi, nothing else! Your service is pathetic. I am very dissatisfied with this experience. 😡",
+   "timestamp": "2026-10-02T14:57:19+00:00"
+  }
+ ],
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Hello! Welcome to Nimbus Telecom. I'm Ravi. How can I help you today? 😊",
+   "ts": "2026-10-02T14:42:15+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Ravi, mera plan change karna hai. Current plan bahut expensive hai and data limit khatam ho jati hai jaldi.",
+   "ts": "2026-10-02T14:43:04+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I can certainly help you with that. Before we proceed, could you please provide your account number for verification?",
+   "ts": "2026-10-02T14:44:43+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "Haan, account number hai 31667923. My name is Vivek Johnson.",
+   "ts": "2026-10-02T14:46:05+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "Thank you, Mr. Johnson. I understand it's frustrating when your data runs out too quickly. Let me check the best options for you.",
+   "ts": "2026-10-02T14:47:45+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "Please jaldi karo, I need a cheaper plan with more data. Address is 272 Linking Road.",
+   "ts": "2026-10-02T14:48:44+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I have a great plan for you. The new monthly price will be 599 rupees and the change takes effect from the 1st of next month.",
+   "ts": "2026-10-02T14:49:17+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "The price is okay, but network issues are also there. Signal bahut weak hai mere area mein.",
+   "ts": "2026-10-02T14:50:20+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "I can assure you there won't be any more outages in your area.",
+   "ts": "2026-10-02T14:50:36+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "I hope so. Abhi payment pending hai, let me give you my card details: four eight zero eight four one four eight five two five three eight eight eight two.",
+   "ts": "2026-10-02T14:51:38+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Got it. I will now process the plan change and send a confirmation SMS to your number 96139 16392.",
+   "ts": "2026-10-02T14:52:54+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "Wait, why is the SMS not coming? It's been 2 minutes. Yeh kya mazaak hai? I'm getting angry now!",
+   "ts": "2026-10-02T14:53:44+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Please bear with me, the system is a bit slow. Is there anything else I can help you with? I'll ensure the plan is updated and the SMS is sent. Goodbye!",
+   "ts": "2026-10-02T14:55:21+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "Nahi, nothing else! Your service is pathetic. I am very dissatisfied with this experience. 😡",
+   "ts": "2026-10-02T14:57:19+00:00"
+  }
+ ]
+}

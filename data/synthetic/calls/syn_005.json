@@ -1,0 +1,101 @@
+{
+ "call_id": "syn_005",
+ "agent_id": "agent_05",
+ "team_id": "team_south",
+ "channel": "voice",
+ "language": "en",
+ "started_at": "2026-09-29T17:34:00+00:00",
+ "transcript": "Agent: Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?\nCustomer: Hi Arjun, I'm Aisha Nair. I'm calling because my latest bill is completely wrong and I'm honestly fed up with these constant errors.\nAgent: I need your account number to access the details.\nCustomer: It is 63428001.\nAgent: I see the charge. What is the issue?\nCustomer: You've charged me twice for the international roaming package. I'm tired of this. I'm just going to cancel my service and switch to another provider.\nAgent: I will raise a refund request for the duplicate charge now.\nCustomer: Fine, but I still want to cancel. I live at 326 Brigade Road and my phone is 95213 13640.\nAgent: Any refund or credit is subject to approval and will take 7 to 10 business days to process. Regarding the cancellation, there is no early termination fee, and your final bill will arrive in the next billing cycle.\nCustomer: Okay. I also have an outstanding balance of twenty dollars that I want to pay now so there are no issues.\nAgent: Provide the card details.\nCustomer: It is four one three seven two one five nine zero one zero nine two eight one nine.\nAgent: Payment processed. I will now process the cancellation request for your account.\nCustomer: Alright, that's all I needed.\nAgent: Is there anything else I can assist you with? I have requested the refund and processed your cancellation. Goodbye.",
+ "turns": [
+  {
+   "turn_id": 1,
+   "speaker": "agent",
+   "text": "Thank you for calling Nimbus Telecom. My name is Arjun. How can I help you today?",
+   "ts": "2026-09-29T17:34:18+00:00"
+  },
+  {
+   "turn_id": 2,
+   "speaker": "customer",
+   "text": "Hi Arjun, I'm Aisha Nair. I'm calling because my latest bill is completely wrong and I'm honestly fed up with these constant errors.",
+   "ts": "2026-09-29T17:34:39+00:00"
+  },
+  {
+   "turn_id": 3,
+   "speaker": "agent",
+   "text": "I need your account number to access the details.",
+   "ts": "2026-09-29T17:34:57+00:00"
+  },
+  {
+   "turn_id": 4,
+   "speaker": "customer",
+   "text": "It is 63428001.",
+   "ts": "2026-09-29T17:35:15+00:00"
+  },
+  {
+   "turn_id": 5,
+   "speaker": "agent",
+   "text": "I see the charge. What is the issue?",
+   "ts": "2026-09-29T17:35:35+00:00"
+  },
+  {
+   "turn_id": 6,
+   "speaker": "customer",
+   "text": "You've charged me twice for the international roaming package. I'm tired of this. I'm just going to cancel my service and switch to another provider.",
+   "ts": "2026-09-29T17:35:57+00:00"
+  },
+  {
+   "turn_id": 7,
+   "speaker": "agent",
+   "text": "I will raise a refund request for the duplicate charge now.",
+   "ts": "2026-09-29T17:36:07+00:00"
+  },
+  {
+   "turn_id": 8,
+   "speaker": "customer",
+   "text": "Fine, but I still want to cancel. I live at 326 Brigade Road and my phone is 95213 13640.",
+   "ts": "2026-09-29T17:36:16+00:00"
+  },
+  {
+   "turn_id": 9,
+   "speaker": "agent",
+   "text": "Any refund or credit is subject to approval and will take 7 to 10 business days to process. Regarding the cancellation, there is no early termination fee, and your final bill will arrive in the next billing cycle.",
+   "ts": "2026-09-29T17:36:36+00:00"
+  },
+  {
+   "turn_id": 10,
+   "speaker": "customer",
+   "text": "Okay. I also have an outstanding balance of twenty dollars that I want to pay now so there are no issues.",
+   "ts": "2026-09-29T17:36:55+00:00"
+  },
+  {
+   "turn_id": 11,
+   "speaker": "agent",
+   "text": "Provide the card details.",
+   "ts": "2026-09-29T17:37:19+00:00"
+  },
+  {
+   "turn_id": 12,
+   "speaker": "customer",
+   "text": "It is four one three seven two one five nine zero one zero nine two eight one nine.",
+   "ts": "2026-09-29T17:37:42+00:00"
+  },
+  {
+   "turn_id": 13,
+   "speaker": "agent",
+   "text": "Payment processed. I will now process the cancellation request for your account.",
+   "ts": "2026-09-29T17:37:51+00:00"
+  },
+  {
+   "turn_id": 14,
+   "speaker": "customer",
+   "text": "Alright, that's all I needed.",
+   "ts": "2026-09-29T17:37:58+00:00"
+  },
+  {
+   "turn_id": 15,
+   "speaker": "agent",
+   "text": "Is there anything else I can assist you with? I have requested the refund and processed your cancellation. Goodbye.",
+   "ts": "2026-09-29T17:38:16+00:00"
+  }
+ ]
+}
